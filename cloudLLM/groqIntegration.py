@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import PydanticOutputParser
 from outputParser import getParser
 
 load_dotenv()
@@ -15,5 +14,7 @@ llm = ChatGroq(temperature=0, model="llama3-70b-8192", api_key=apiSecret)
 
 chain = prompt | llm
 
-response = chain.invoke({"question": "What is Facebook", "format": getParser().get_format_instructions()})
+response = chain.invoke(
+    {"question": "What is Facebook", "format": getParser().get_format_instructions()}
+)
 print(response.content)
