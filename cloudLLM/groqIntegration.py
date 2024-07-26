@@ -18,6 +18,8 @@ chain = prompt | llm
 data = linkedIn.scrape_linkedin_profile(..., True)
 
 response = chain.invoke(
-    {"question": "Tell me something about", "data": data, "format": getParser().get_format_instructions()}
+    {"question": "Did he work in TCS, if yes how long", "data": data, "format": getParser().get_format_instructions()}
 )
 print(response.content)
+
+__all__ = [llm]
