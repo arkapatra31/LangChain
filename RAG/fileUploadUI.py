@@ -1,6 +1,7 @@
 import streamlit as st
 import PyPDF2
 
+
 def extract_text_from_pdf(file):
     reader = PyPDF2.PdfReader(file)
     text = ""
@@ -8,6 +9,7 @@ def extract_text_from_pdf(file):
         page = reader.pages[page_num]
         text += page.extract_text()
     return text
+
 
 # Title of the Streamlit app
 st.title("PDF Text Extractor and Question Input")
