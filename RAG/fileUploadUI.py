@@ -31,4 +31,5 @@ if uploaded_file is not None:
     # Display user question
     if user_question:
         st.subheader("Your Question")
-        st.write(user_question)
+        from RAG.qna import generate_response
+        st.write(generate_response(question=user_question))
