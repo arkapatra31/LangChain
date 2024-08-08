@@ -22,6 +22,15 @@
                 <li>Pinecone as Vector DB</li>
             </th>
         </tr>
+        <tr>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.1">1.0.1</a></th>
+            <th>
+                <li>ReAct Agents</li>
+                <li>Tools</li>
+                <li>Pydantic Output Parser</li>
+                <li>Agent Executors</li>
+            </th>
+        </tr>
     </table>
 </div>
 
