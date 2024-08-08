@@ -38,4 +38,4 @@ def scrape_linkedin_profile(linkedInProfileURL: str, mock: bool):
 
 if __name__ == "__main__":
     response = scrape_linkedin_profile('https://www.linkedin.com/in/arkapatra31/', True)
-    print(response)
+    #print(response)

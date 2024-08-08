@@ -1,14 +1,21 @@
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain_core.pydantic_v1 import BaseModel, Field
+from typing import List
 
 
 class OutputParserForQuestion(BaseModel):
     question: str = Field(..., description="This is the input question")
     answer: str = Field(..., description="Here goes the answer to the question")
+    facts: List[str] = Field(..., description="Occupation Details")
+
+    # def get_parser(self):
+    #     return {
+    #         "question": self.question,
+    #         "answer": self.answer,
+    #         "facts": self.facts
+    #     }
 
 
-def getParser():
-    return PydanticOutputParser(pydantic_object=OutputParserForQuestion)
+output_parser = PydanticOutputParser(pydantic_object=OutputParserForQuestion)
 
-
-__all__ = [getParser]
+__all__ = [output_parser]
