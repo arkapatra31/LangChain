@@ -23,7 +23,7 @@
             </th>
         </tr>
         <tr>
-            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.1">1.0.1</a></th>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.3">1.0.1</a></th>
             <th>
                 <li>ReAct Agents</li>
                 <li>Tools</li>
