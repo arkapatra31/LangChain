@@ -169,3 +169,5 @@ docs
 Scripts
 Include
 .idea/
+/etc/
+/share/
