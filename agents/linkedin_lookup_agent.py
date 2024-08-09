@@ -13,7 +13,7 @@ apiSecret = os.getenv("GROQ_API_SECRET")
 
 def lookup(name: str):
     template = """Given the full name {name_of_person} I want you to get me some information about their LinkedIn profile.
-    Your answer should be detailed and in pointers"""
+    Your answer should be specific, detailed and in pointers"""
 
     llm = ChatGroq(temperature=0.1, model="llama3-70b-8192", api_key=apiSecret)
 
@@ -25,7 +25,7 @@ def lookup(name: str):
         Tool(
             name="Crawl Google for linkedin profile page",
             func=get_profile_tavily,
-            description="Useful for when you need to get LinkedIn Profile Data"
+            description="Useful for when you need to get LinkedIn Profile Information"
         )
     ]
 
@@ -50,4 +50,4 @@ def lookup(name: str):
 
 
 if __name__ == '__main__':
-    lookup(name="")
+    lookup(name="Prithamou Chaudhuri Accenture")

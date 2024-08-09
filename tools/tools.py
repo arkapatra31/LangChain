@@ -4,7 +4,7 @@ import json
 
 def get_profile_tavily(name: str):
     try:
-        """Searches for LinkedIn or Twitter Profile Page."""
+        """Searches for LinkedIn or Twitter Profile Information."""
         search = TavilySearchResults()
         res = search.run(f"{name}")
         print(json.dumps(res, indent=4))
