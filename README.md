@@ -7,8 +7,8 @@
     <h4>Table of Contents</h4>
     <table>
         <tr>
-            <th bgcolor="b3e1f5"><font size="4">Release Version</font></th>
-            <th bgcolor="b3e1f5"><font size="4">Feature Implementation</font></th>
+            <th><font size="4" color="b3e1f5">Release Version</font></th>
+            <th><font size="4" color="b3e1f5">Feature Implementation</font></th>
         </tr>
         <tr>
             <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.0">1.0.0</a></th>
