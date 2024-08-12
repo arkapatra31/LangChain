@@ -13,9 +13,9 @@ apiSecret = os.getenv("GROQ_API_SECRET")
 
 def lookup(name: str):
     template = """Given the full name {name_of_person} I want you to get me some information about their LinkedIn profile.
-    Your answer should be specific, detailed and in pointers"""
+    Your answer should be specific, detailed and in JSON format"""
 
-    llm = ChatGroq(temperature=0.1, model="llama3-70b-8192", api_key=apiSecret)
+    llm = ChatGroq(temperature=0, model="llama3-70b-8192", api_key=apiSecret)
 
     # Initialise Template
     prompt_template = PromptTemplate(template=template, input_variables=["name_of_person"])
