@@ -22,7 +22,7 @@ chain = prompt | llm | output_parser
 
 data = linkedIn.scrape_linkedin_profile(..., True)
 response = chain.invoke(
-    {"question": "Arka Patra", "data": data}
+    {"question": "", "data": data}
 )
 print(response)
 
