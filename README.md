@@ -2,6 +2,18 @@
 
 <body>
 <header>Repo for maintaining code implementation related to LangChain</header>
+Note:- 
+<li>
+      Install the dependencies from requirements.txt using the below command:- <br>
+      <b><i>pip install -r requirements.txt</i></b><br>
+      To know more about requirements.txt visit 
+      <a href="https://medium.com/@sim30217/pip-freeze-requirements-txt-993eb433ab0b">
+        <font size = "1" color="b3e1f5">pip freeze > requirements.txt</font>
+      </a>
+</li>
+<li>
+      To create venv execute <b><u>python -m venv .venv</u></b>
+</li>
 
 <div>
     <h4>Table of Contents</h4>
@@ -38,6 +50,12 @@
                 <li>Re-Using ReAct Agent</li>
                 <li>API response from Agent Response</li>
                 <li>Agent Executors</li>
+            </th>
+        </tr>
+        <tr>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.5">1.0.5</a></th>
+            <th>
+                <li>LangSmith Tracing</li>
             </th>
         </tr>
     </table>

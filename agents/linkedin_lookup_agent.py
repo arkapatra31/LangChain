@@ -50,4 +50,4 @@ def lookup(name: str):
 
 
 if __name__ == '__main__':
-    lookup(name="")
+    lookup(name="Harrison Chase")
