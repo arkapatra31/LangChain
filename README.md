@@ -55,7 +55,7 @@ Note:-
         <tr>
             <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.5">1.0.5</a></th>
             <th>
-                LangSmith Tracing
+                LangSmith Tracing<br>
                 <img src="/assets/LangSmith_Tracing.png" width="350" title="hover text">
             </th>
         </tr>
