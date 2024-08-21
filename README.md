@@ -15,7 +15,7 @@ Note:-
       To create venv execute <b><u>python -m venv .venv</u></b>
 </li>
 
-<div>
+<div align="center">
     <h4>Table of Contents</h4>
     <table>
         <tr>
@@ -55,7 +55,8 @@ Note:-
         <tr>
             <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.5">1.0.5</a></th>
             <th>
-                <li>LangSmith Tracing</li>
+                LangSmith Tracing
+                <img src="/assets/LangSmith_Tracing.png" width="350" title="hover text">
             </th>
         </tr>
     </table>
