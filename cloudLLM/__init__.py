@@ -1,4 +1,6 @@
-from cloudLLM.groqIntegration import llm
+#from cloudLLM.groqIntegration import llm
+from cloudLLM.GroqLLM import groq_llm
 __all__ = [
-    llm
+    #llm,
+    groq_llm
 ]
