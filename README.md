@@ -60,6 +60,17 @@ Note:-
                 <img src="/assets/LangSmith_Tracing.png" width="350" title="hover text">
             </th>
         </tr>
+        <tr>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.6">1.0.6</a></th>
+            <th>
+                <li>Build ReAct Agent Executor from Scratch</li>
+                <li>Tools defining for Agent</li>
+                <li>ReAct Prompting</li>
+                <li>LLM Reasoning Engine</li>
+                <li>Output Parsing</li>
+                <li>Tool Execution</li>
+            </th>
+        </tr>
     </table>
 </div>
 
