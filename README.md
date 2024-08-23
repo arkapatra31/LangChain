@@ -56,8 +56,7 @@ Note:-
         <tr>
             <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.5">1.0.5</a></th>
             <th>
-                LangSmith Tracing<br>
-                <img src="/assets/LangSmith_Tracing.png" width="350" title="hover text">
+                <li>LangSmith Tracing</li>                
             </th>
         </tr>
         <tr>
@@ -69,9 +68,19 @@ Note:-
                 <li>LLM Reasoning Engine</li>
                 <li>Output Parsing</li>
                 <li>Tool Execution</li>
+                <li>Handling Agent Action</li>
+                <li>Setting up Agent Finish</li>
+                <li>LLM Callback</li>
             </th>
         </tr>
     </table>
+<br>
 </div>
-
+<br>
+<font color="#bde356"><b>LangSmith Tracing</b></font><br>
+<img src="/assets/LangSmith_Tracing.png" width="500" title="LangSmith Tracing">
+<br><br>
+<font color="#bde356"><b>Agent Workflow</b></font><br>
+<img src="/assets/ReActAgentExecutionWorkflow.drawio.png" style='border:3px solid #f2d096' width="500px" title="Agent Workflow"/>
+<br><br>
 </body>
