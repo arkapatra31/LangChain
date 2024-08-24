@@ -2,21 +2,14 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 from cloudLLM import groq_llm
+from langchain_community.embeddings import OllamaEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from RAG_Deep_Dive.utils.chunkifyData import convert_text_to_chunks
+from RAG_Deep_Dive.utils.pdfToText import extract_text_from_pdf
 
 load_dotenv()
 pinecone_api_key = os.getenv('PINECONE_API_KEY')
 pinecone_index = os.getenv('PINECONE_INDEX_NAME')
-
-
-def extract_text_from_pdf(file):
-    reader = PyPDF2.PdfReader(file)
-    text = ""
-    for page_num in range(len(reader.pages)):
-        page = reader.pages[page_num]
-        text += page.extract_text()
-    return text
 
 
 if __name__ == "__main__":
