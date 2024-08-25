@@ -171,3 +171,4 @@ Include
 .idea/
 /etc/
 /share/
+FAISS_INDEX/
