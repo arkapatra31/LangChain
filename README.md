@@ -73,6 +73,20 @@ Note:-
                 <li>LLM Callback</li>
             </th>
         </tr>
+        <tr>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.7">1.0.7</a></th>
+            <th>
+                <li>Uploading and Reading PDF Data</li>
+                <li>Chunking of PDF Data to list of Documents / Text</li>
+                <li>Implementation of both predefined and custom chat prompts</li>
+                <li>Pinecone Vector Store integration</li>
+                <li>FAISS Local Vector Store Integration</li>
+                <li>FAISS Vector saving local copy</li>
+                <li>Retrieval from saved local FAISS</li>
+                <li>Retrieval Chain implementation</li>
+                <li>Implementation of Runnable Passthrough</li>
+            </th>
+        </tr>
     </table>
 <br>
 <font color="#bde356"><b>LangSmith Tracing</b></font><br>
