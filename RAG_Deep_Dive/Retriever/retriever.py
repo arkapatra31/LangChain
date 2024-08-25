@@ -29,7 +29,7 @@ if user_question:
 
     elif user_choice == "3":
         # Invoke Retrieval Chain using FAISS Local Vector Store
-        result = faiss_retrieval_chain.invoke({"input": user_question})
+        result = faiss_retrieval_chain.invoke({"input": user_question});
         st.write(result)
 
     else:

@@ -13,7 +13,7 @@ from RAG_Deep_Dive.utils.pdfToText import extract_text_from_pdf
 load_dotenv()
 pinecone_api_key = os.getenv('PINECONE_API_KEY')
 pinecone_index = os.getenv('PINECONE_INDEX_NAME')
-faiss_local_index = os.getenv("FAISS_LOCAL_INDEX_CREATION")
+faiss_local_index = os.getenv("FAISS_LOCAL_INDEX_PATH")
 
 if __name__ == "__main__":
     # Use Streamlit to create a minimalistic UI for the file uploading
