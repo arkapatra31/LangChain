@@ -14,5 +14,5 @@ llm = Ollama(
 
 chain = prompt | llm
 
-answer = chain.invoke({"question":"facebook"})
+answer = chain.invoke({"question":"Who is Elon Musk"})
 print(answer)
