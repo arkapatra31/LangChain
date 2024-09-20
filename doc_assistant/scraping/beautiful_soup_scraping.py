@@ -11,7 +11,7 @@ import urllib
 url = "https://api.python.langchain.com/en/latest/langchain_api_reference.html"
 
 # The directory to store files in
-output_dir = "../../langchain-docs-test/"
+output_dir = "../../langchain-docs"
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)

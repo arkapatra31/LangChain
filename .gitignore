@@ -172,4 +172,3 @@ Include
 /etc/
 /share/
 FAISS_INDEX/
-/langchain-docs/
