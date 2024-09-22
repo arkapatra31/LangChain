@@ -87,6 +87,21 @@ Note:-
                 <li>Implementation of Runnable Passthrough</li>
             </th>
         </tr>
+        <tr>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.8">1.0.8</a></th>
+            <th>
+                <li>Beautiful Soup Integration to manually scrape doc URLs</li>
+                <li>Using OpenAIEmbeddings for text-embedding-3-small model</li>
+                <li>Using RecursiveUrlLoader lib from Langchain to read docs from URL</li>
+                <li>Splitting and chunking data</li>
+                <li>Initialising the vector store using split documents and embeddings</li>
+                <li>Chat Retrieval QA Chain Creation</li>
+                <li>Streamlit Chat Components in UI/li>
+                <li>Chat History / Context Addition to ChatLLM</li>
+                <li>Using Rephrase Prompt with History Aware Retriever to hold Chat History</li>
+                <li>Using FireCrawl to scrape and crawl websites and index them to Pinecone index</li>
+            </th>
+        </tr>
     </table>
 <br>
 <font color="#bde356"><b>LangSmith Tracing</b></font><br>
