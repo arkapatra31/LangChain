@@ -1,6 +1,6 @@
 <center>
 <h1><font color="#bde356"><b>LangChain</b></font><br></h1>
-<img src="/assets/langchain-repo.webp" width="500" title="LangSmith Tracing">
+<img src="/assets/langchain-repo.webp" width="600" title="LangSmith Tracing">
 <br><br>
 </center>
 <body>
