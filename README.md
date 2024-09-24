@@ -1,5 +1,8 @@
-<h1>LangChain</h1>
-
+<center>
+<h1><font color="#bde356"><b>LangChain</b></font><br></h1>
+<img src="/assets/langchain-repo.webp" width="500" title="LangSmith Tracing">
+<br><br>
+</center>
 <body>
 <header>Repo for maintaining code implementation related to LangChain</header>
 <br>
@@ -100,6 +103,20 @@ Note:-
                 <li>Chat History / Context Addition to ChatLLM</li>
                 <li>Using Rephrase Prompt with History Aware Retriever to hold Chat History</li>
                 <li>Using FireCrawl to scrape and crawl websites and index them to Pinecone index</li>
+            </th>
+        </tr>
+        <tr>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.0.9">1.0.9</a></th>
+            <th>
+                <li>Understanding of Langchain Experimental Tools PKG</li>
+                <li>Using the PythonREPL tool from Langchain</li>
+                <li>Using the tool to write Python code</li>
+                <li>Saving the reponse generated from the code</li>
+                <li>Creating a CSV Agent to answer questions related to CSV file</li>
+                <li>Creating a router agent to switch out to different agents based on the input prompt</li>
+                <li>Create a Tool Calling Agent/li>
+                <li>Bind Tools directly to a LLM</li>
+                <li>Create Tool Calling Agent on 2 LLM Providers - OpenAI and Groq</li>
             </th>
         </tr>
     </table>
