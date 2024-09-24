@@ -172,3 +172,4 @@ Include
 /etc/
 /share/
 FAISS_INDEX/
+/code_interpreter/generated-qr-codes/
