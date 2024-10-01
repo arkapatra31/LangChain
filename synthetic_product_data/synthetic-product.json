@@ -1,0 +1,500 @@
+{
+  "productCode": "4852",
+  "productName": "Flibberjibbet-Extraordinary-Citrus-Infusion",
+  "productLine": "Beverages",
+  "productScale": "01:12",
+  "productVendor": "Flibber Inc.",
+  "productDescription": "A unique blend of citrus fruits and exotic spices for an unforgettable taste.",
+  "quantityInStock": 87,
+  "buyPrice": 12.99
+}
+{
+  "productCode": "6583",
+  "productName": "Wobble-Noodle-Quantum-Delight",
+  "productLine": "Snacks & Treats",
+  "productScale": "01:09",
+  "productVendor": "Wobble Inc.",
+  "productDescription": "A surreal snacking experience with quantum-infused noodles and delightful flavors.",
+  "quantityInStock": 120,
+  "buyPrice": 8.49
+}
+{
+  "productCode": "7394",
+  "productName": "Zeble-Zap-Galactic-Fusion",
+  "productLine": "Cosmic Snacks",
+  "productScale": "01:15",
+  "productVendor": "Galactic Treats",
+  "productDescription": "A cosmic blend of snacks from across the universe, designed for interstellar munching.",
+  "quantityInStock": 75,
+  "buyPrice": 19.99
+}
+{
+  "productCode": "4728",
+  "productName": "Snufflebum-Berry-Whirlwind",
+  "productLine": "Unusual Delicacies",
+  "productScale": "01:08",
+  "productVendor": "Bizarre Foods Co.",
+  "productDescription": "A whirlwind of unexpected berry flavors that will send your taste buds into a frenzy.",
+  "quantityInStock": 42,
+  "buyPrice": 15.75
+}
+{
+  "productCode": "8472",
+  "productName": "Glitter-Splash-Unicorn-Smoothie",
+  "productLine": "Dreamy Beverages",
+  "productScale": "01:12",
+  "productVendor": "Fantasy Drinks Ltd.",
+  "productDescription": "An enchanting blend of flavors that spark joy and a touch of unicorn magic in every sip.",
+  "quantityInStock": 90,
+  "buyPrice": 12.99
+}
+{
+  "productCode": "5931",
+  "productName": "Glimmering-Moon-Whiskers-Soup",
+  "productLine": "Celestial Cuisine",
+  "productScale": "01:10",
+  "productVendor": "Starry Kitchen",
+  "productDescription": "A whimsical concoction of flavors inspired by the essence of moonlight and feline grace, perfect for the adventurous palate.",
+  "quantityInStock": 58,
+  "buyPrice": 22.5
+}
+{
+  "productCode": "9263",
+  "productName": "Bubble-Wrap-Collage-Capture",
+  "productLine": "Eclectic Art Supplies",
+  "productScale": "01:04",
+  "productVendor": "Creative Minds Co.",
+  "productDescription": "An innovative collection of bubble wrap that allows you to create art pieces with a satisfying pop, perfect for tactile expressions and unique textures.",
+  "quantityInStock": 33,
+  "buyPrice": 18.25
+}
+{
+  "productCode": "4720",
+  "productName": "Neon-Biscuit-Scented-Mist",
+  "productLine": "Eccentric Fragrances",
+  "productScale": "01:08",
+  "productVendor": "Odor Innovations Inc.",
+  "productDescription": "A bold and quirky fragrance mist that captures the essence of freshly baked biscuits with a vibrant neon twist, perfect for those who dare to be different.",
+  "quantityInStock": 77,
+  "buyPrice": 15.75
+}
+{
+  "productCode": "1812",
+  "productName": "Twilight-Penguin-Corral",
+  "productLine": "Fantastical Habitats",
+  "productScale": "01:12",
+  "productVendor": "Waddle Wonders Ltd.",
+  "productDescription": "A charming miniature scene featuring penguins enjoying a twilight gathering, complete with glittering snowflakes and whimsical ice sculptures, perfect for collectors of the extraordinary.",
+  "quantityInStock": 42,
+  "buyPrice": 27.5
+}
+{
+  "productCode": "3581",
+  "productName": "Zebra-Pasta-Maker",
+  "productLine": "Culinary Gadgets",
+  "productScale": "01:06",
+  "productVendor": "Gastronomy Creations Inc.",
+  "productDescription": "An eccentric kitchen tool that extrudes pasta in the shape of zebras, combining culinary art with playful design, ideal for making mealtime magical and fun.",
+  "quantityInStock": 50,
+  "buyPrice": 34.99
+}
+{
+  "productCode": "5943",
+  "productName": "Electric-Pumpkin-Accordion",
+  "productLine": "Musical Oddities",
+  "productScale": "01:10",
+  "productVendor": "Harvest Harmonies Co.",
+  "productDescription": "An innovative musical instrument that combines the sounds of a traditional accordion with the vibrant energy of Halloween, featuring pumpkin-shaped buttons for an interactive experience filled with festive tunes.",
+  "quantityInStock": 36,
+  "buyPrice": 59.99
+}
+{
+  "productCode": "4837",
+  "productName": "Cosmic-Cactus-Dreamcatcher",
+  "productLine": "Mystical Decor",
+  "productScale": "01:15",
+  "productVendor": "Whimsical Wonders Inc.",
+  "productDescription": "An enchanting dreamcatcher featuring a cosmic cactus design, adorned with glowing stars and vibrant feathers, designed to capture your dreams and transport you to a universe of magic and tranquility.",
+  "quantityInStock": 29,
+  "buyPrice": 24.75
+}
+{
+  "productCode": "8720",
+  "productName": "Whimsical-Glowing-Marmot",
+  "productLine": "Fantasy Gifts",
+  "productScale": "01:08",
+  "productVendor": "Creative Curiosities LLC",
+  "productDescription": "A quirky plush toy that lights up and mimics the sounds of a marmot in a whimsical forest, designed to bring a touch of enchantment and joy to any child�s playtime.",
+  "quantityInStock": 42,
+  "buyPrice": 22.5
+}
+{
+  "productCode": "7325",
+  "productName": "Galactic-Mango-Lantern",
+  "productLine": "Extraterrestrial Cuisine",
+  "productScale": "01:20",
+  "productVendor": "Interstellar Treats Co.",
+  "productDescription": "A vibrant, handheld lantern shaped like a mango from an alien planet, glowing in different colors and designed to brighten up your outdoor gatherings with an otherworldly flair.",
+  "quantityInStock": 50,
+  "buyPrice": 35.75
+}
+{
+  "productCode": "1987",
+  "productName": "Banana-Peanut-Butter-Dragonfly",
+  "productLine": "Whimsical Edibles",
+  "productScale": "01:12",
+  "productVendor": "Curiosity Kiosk",
+  "productDescription": "A deliciously bizarre snack featuring the unexpected combination of banana and peanut butter, shaped like a dragonfly, perfect for those who enjoy culinary adventures and whimsical treats.",
+  "quantityInStock": 37,
+  "buyPrice": 15.5
+}
+{
+  "productCode": "5631",
+  "productName": "Jellybean-Turtle-Temptation",
+  "productLine": "Gourmet Sweets",
+  "productScale": "01:15",
+  "productVendor": "Sugar Shelter Inc.",
+  "productDescription": "A delightful mix of jellybeans encased in a turtle-shaped shell, perfect for satisfying sweet cravings while enjoying a whimsical snack experience at any age.",
+  "quantityInStock": 28,
+  "buyPrice": 19.99
+}
+{
+  "productCode": "8472",
+  "productName": "Doodle-Pancake-Walrus",
+  "productLine": "Fantasy Foods",
+  "productScale": "01:10",
+  "productVendor": "Quirk & Co.",
+  "productDescription": "A whimsical pancake mix that forms into walrus shapes when cooked, perfect for playful breakfasts and family gatherings, bringing joy and laughter to every meal.",
+  "quantityInStock": 45,
+  "buyPrice": 22.5
+}
+{
+  "productCode": "7425",
+  "productName": "Fuzzy-Mango-Umbrella",
+  "productLine": "Tropical Delights",
+  "productScale": "01:20",
+  "productVendor": "Sunshine Treasures",
+  "productDescription": "A quirky and vibrant mango-flavored treat shaped like an umbrella, perfect for adding a splash of color and flavor to summer picnics and beach outings.",
+  "quantityInStock": 50,
+  "buyPrice": 12.75
+}
+{
+  "productCode": "4820",
+  "productName": "Squeaky-Pineapple-Dragonfly",
+  "productLine": "Whimsical Bites",
+  "productScale": "01:12",
+  "productVendor": "Fantastical Flavors LLC",
+  "productDescription": "A charming pineapple-flavored snack shaped like a dragonfly, designed to bring a smile to snack time and inspire whimsical imaginations during playdates and parties.",
+  "quantityInStock": 32,
+  "buyPrice": 15.99
+}
+{
+  "productCode": "9361",
+  "productName": "Nerdy-Biscuit-Whale",
+  "productLine": "Oceanic Treats",
+  "productScale": "01:15",
+  "productVendor": "Quirky Confections",
+  "productDescription": "A delightful biscuit made in the shape of a whale, infused with a unique sea salt and caramel flavor, perfect for ocean enthusiasts and snack lovers alike, bringing a splash of fun to tea time.",
+  "quantityInStock": 62,
+  "buyPrice": 18.99
+}
+{
+  "productCode": "2547",
+  "productName": "Cheesy-Sloth-Taiyaki",
+  "productLine": "Exotic Snacks",
+  "productScale": "01:18",
+  "productVendor": "Culinary Creatives Inc.",
+  "productDescription": "A unique take on the traditional taiyaki, this dessert features a cheesy sloth character filled with sweet red bean paste, giving you a taste experience that's both delightful and unexpectedly savory-sweet, perfect for adventurous eaters.",
+  "quantityInStock": 45,
+  "buyPrice": 9.5
+}
+{
+  "productCode": "7392",
+  "productName": "Glittery-Gorilla-Gumdrop",
+  "productLine": "Jungle Munchies",
+  "productScale": "01:25",
+  "productVendor": "Sugary Safari Ltd.",
+  "productDescription": "A vibrant gumdrop shaped like a gorilla, bursting with a tropical punch flavor and infused with edible glitter, making it a perfect treat for jungle-themed parties or for those who just want to add a sparkle to their snack time.",
+  "quantityInStock": 27,
+  "buyPrice": 12.75
+}
+{
+  "productCode": "4832",
+  "productName": "Fuzzy-Penguin-Pesto",
+  "productLine": "Arctic Delights",
+  "productScale": "01:12",
+  "productVendor": "Chill Treats Co.",
+  "productDescription": "A whimsical pesto dip presented in a cute penguin-shaped container, this vibrant green sauce combines fresh basil, nuts, and a hint of lemon, perfect for enhancing your favorite snacks or pasta dishes while adding a playful touch to your dining experience.",
+  "quantityInStock": 33,
+  "buyPrice": 14.99
+}
+{
+  "productCode": "8653",
+  "productName": "Wobbly-Monster-Muffin",
+  "productLine": "Funky Treats",
+  "productScale": "01:20",
+  "productVendor": "Bizarre Bakes Inc.",
+  "productDescription": "A jiggly muffin shaped like a friendly monster, bursting with a blend of blueberry and lime flavors, topped with spooky googly eyes. Perfect for Halloween parties or for adding a touch of whimsy to your breakfast routine.",
+  "quantityInStock": 50,
+  "buyPrice": 8.99
+}
+{
+  "productCode": "6712",
+  "productName": "Rotund-Rhino-Ravioli",
+  "productLine": "Savory Safari Bites",
+  "productScale": "01:15",
+  "productVendor": "Pasta Paradise Inc.",
+  "productDescription": "Delightfully plump ravioli shaped like a playful rhinoceros, filled with a rich blend of creamy ricotta and zesty sun-dried tomatoes. This unique pasta dish adds a fun twist to your dining table, making it ideal for family gatherings or adventurous foodies.",
+  "quantityInStock": 22,
+  "buyPrice": 9.49
+}
+{
+  "productCode": "1924",
+  "productName": "Spluggy-Squid-Salad",
+  "productLine": "Oceanic Oddities",
+  "productScale": "01:10",
+  "productVendor": "Marine Morsels Ltd.",
+  "productDescription": "An eccentric salad featuring tender squid rings marinated in a zesty lime dressing, mixed with colorful bell peppers and a blend of seaside herbs. This distinctive dish brings a splash of the ocean to your table, enticing even the most finicky eaters with its playful presentation and bold flavors.",
+  "quantityInStock": 19,
+  "buyPrice": 12.99
+}
+{
+  "productCode": "8764",
+  "productName": "Quirky-Quokka-Quiche",
+  "productLine": "Cheesy Wonders",
+  "productScale": "01:18",
+  "productVendor": "Whimsical Bakes Co.",
+  "productDescription": "A delightful quiche shaped like a cheerful quokka, packed with a savory blend of cheeses, saut�ed onions, and fresh herbs. This quirky dish not only serves as a conversation starter at any brunch but also delights the palate with its creamy texture and rich flavor profile, making it a must-try for cheese lovers.",
+  "quantityInStock": 37,
+  "buyPrice": 11.49
+}
+{
+  "productCode": "5432",
+  "productName": "Giggly-Giraffe-Gumbo",
+  "productLine": "Savory Safari Bites",
+  "productScale": "01:12",
+  "productVendor": "Cajun Delights Inc.",
+  "productDescription": "A whimsical gumbo featuring tender morsels of meat and vegetables, all simmered to perfection with a splash of spice and served in a giraffe-shaped bowl. This fun and flavorful dish brings a taste of the bayou to your dining experience, making it a delightful choice for family meals or adventurous eaters.",
+  "quantityInStock": 15,
+  "buyPrice": 14.99
+}
+{
+  "productCode": "2378",
+  "productName": "Zany-Zebra-Zucchini",
+  "productLine": "Peculiar Plates",
+  "productScale": "01:14",
+  "productVendor": "Eccentric Eats Corp.",
+  "productDescription": "A playful dish featuring spiralized zucchini shaped like a zany zebra, coated in a tangy pesto made from sun-dried tomatoes and walnuts. This vibrant dish not only pleases the eyes with its whimsical presentation but also tantalizes the taste buds with its fresh and exciting flavors, making it an ideal choice for a light lunch or a fun side at dinner parties.",
+  "quantityInStock": 25,
+  "buyPrice": 9.99
+}
+{
+  "productCode": "9823",
+  "productName": "Bumbling-Bee-Bagels",
+  "productLine": "Honey Hive Delights",
+  "productScale": "01:10",
+  "productVendor": "Buzz Bakery",
+  "productDescription": "These delightful bagels are shaped like little bumbling bees, featuring a sweet honey glaze that gives them a unique twist. Each bagel is stuffed with a creamy cheese filling and topped with sesame seeds, creating a fun and tasty breakfast option. Perfect for those who love a little whimsy with their morning routine, these bagels are sure to be a hit at brunch gatherings.",
+  "quantityInStock": 32,
+  "buyPrice": 8.79
+}
+{
+  "productCode": "8471",
+  "productName": "Silly-Squid-Sushi",
+  "productLine": "Underwater Delicacies",
+  "productScale": "01:08",
+  "productVendor": "Oceanic Bites Ltd.",
+  "productDescription": "Dive into a fun culinary adventure with these sushi rolls shaped like playful squids. Filled with fresh seafood, crisp vegetables, and a hint of wasabi, they offer a delightful burst of flavor in every bite. The vibrant colors and whimsical presentation make these sushi rolls a fantastic choice for parties or a family meal, ensuring both kids and adults will enjoy.",
+  "quantityInStock": 20,
+  "buyPrice": 12.49
+}
+{
+  "productCode": "5832",
+  "productName": "Quirky-Cactus-Cupcakes",
+  "productLine": "Desert Delights",
+  "productScale": "01:12",
+  "productVendor": "Prickly Pastries Co.",
+  "productDescription": "Indulge in these visually stunning cupcakes designed to resemble whimsical cacti. Each cupcake is topped with vibrant green frosting and adorned with edible blossoms, offering a delightful visual feast. The flavors are as exciting as the presentation, packed with hints of lime and coconut that will transport your taste buds to a sunny desert retreat. Perfect for themed parties or as a playful treat for any occasion.",
+  "quantityInStock": 15,
+  "buyPrice": 10.99
+}
+{
+  "productCode": "1928",
+  "productName": "Whimsical-Wombat-Waffles",
+  "productLine": "Breakfast Bliss",
+  "productScale": "01:08",
+  "productVendor": "Forest Eats Co.",
+  "productDescription": "Start your day with a smile by indulging in these charming waffles shaped like playful wombats. Light and fluffy, each waffle is infused with a hint of maple syrup and sprinkled with delightful chocolate chips for an extra treat. Perfect for family breakfasts or a fun brunch with friends, these whimsical waffles are bound to bring joy to your morning routine.",
+  "quantityInStock": 25,
+  "buyPrice": 7.49
+}
+{
+  "productCode": "7643",
+  "productName": "Eccentric-Echidna-Eclairs",
+  "productLine": "Gourmet Pastries",
+  "productScale": "01:10",
+  "productVendor": "Quirky Treats Ltd.",
+  "productDescription": "Experience a delightful twist on a classic dessert with these eclairs styled after the adorable echidna. Filled with rich chocolate cream and topped with a glossy chocolate glaze, each eclair offers an indulgent bite that surprises the senses. Perfect for special occasions or an extravagant treat, these whimsical eclairs will capture the hearts (and taste buds) of all who try them.",
+  "quantityInStock": 18,
+  "buyPrice": 15.99
+}
+{
+  "productCode": "8456",
+  "productName": "Funky-Fish-Fondue",
+  "productLine": "Seafood Surprises",
+  "productScale": "01:06",
+  "productVendor": "Aquatic Delights Inc.",
+  "productDescription": "Dive into a unique dining experience with this fondue set featuring playful fish-shaped dippers. Each pot of rich, creamy cheese is paired with an assortment of seafood skewers and vegetables, promising a fusion of flavors that will tantalize your taste buds. Ideal for gatherings or a special night in, this funky fish fondue brings a splash of fun to your table.",
+  "quantityInStock": 22,
+  "buyPrice": 29.99
+}
+{
+  "productCode": "5637",
+  "productName": "Quirky-Cactus-Cookies",
+  "productLine": "Desert Delights",
+  "productScale": "01:04",
+  "productVendor": "Cacti Confections LLC",
+  "productDescription": "Bite into the enchanting flavors of the desert with these quirky cactus-shaped cookies. Infused with hints of prickly pear and topped with vibrant icing, each cookie is a delightful blend of sweetness and fun. Perfect for themed parties or a unique snack, these cookies promise to be the highlight of any gathering.",
+  "quantityInStock": 30,
+  "buyPrice": 12.49
+}
+{
+  "productCode": "7892",
+  "productName": "Zany-Zebra-Zucchini-Bread",
+  "productLine": "Baking Wonders",
+  "productScale": "01:05",
+  "productVendor": "Bizarre Bakes Co.",
+  "productDescription": "Delight in the unexpected with this zesty zucchini bread featuring a playful zebra stripe design. Made with fresh zucchini and a hint of cinnamon, each slice offers a moist and flavorful experience that�s both unique and satisfying. Perfect for brunch or a quirky snack, this zucchini bread is sure to be a conversation starter at any gathering.",
+  "quantityInStock": 25,
+  "buyPrice": 9.99
+}
+{
+  "productCode": "4210",
+  "productName": "Whimsical-Walrus-Waffles",
+  "productLine": "Breakfast Blunders",
+  "productScale": "01:08",
+  "productVendor": "Marine Mornings Inc.",
+  "productDescription": "Start your day with a delightful twist! These whimsical walrus-shaped waffles are not only adorable but also delicious, made with a fluffy vanilla batter and served with a side of maple syrup. Perfect for kids' breakfast or a fun brunch with friends, these waffles are sure to bring smiles to the table.",
+  "quantityInStock": 18,
+  "buyPrice": 15.75
+}
+{
+  "productCode": "9524",
+  "productName": "Funky-Fish-Flan",
+  "productLine": "Seafood Sweets",
+  "productScale": "01:03",
+  "productVendor": "Aquatic Treats Co.",
+  "productDescription": "Dive into this one-of-a-kind funky fish-shaped flan that combines the creamy delight of traditional flan with a splash of ocean-inspired flavors. Infused with hints of coconut and lime, this dessert is a whimsical treat for those looking to add an unusual twist to their dessert table. Perfect for summer barbecues or any gathering that embraces the sea, this flan is sure to impress.",
+  "quantityInStock": 22,
+  "buyPrice": 10.99
+}
+{
+  "productCode": "5823",
+  "productName": "Eccentric-Elephant-Eggnog",
+  "productLine": "Holiday Delights",
+  "productScale": "01:06",
+  "productVendor": "Festive Sips Co.",
+  "productDescription": "Embrace the holiday spirit with this eccentric elephant-themed eggnog, crafted with rich cream, spices, and a hint of nutmeg. Each sip delivers a creamy, decadent experience that dances on your taste buds, making it the perfect companion for winter gatherings or festive celebrations. Serve chilled and watch the smiles unfold as this playful drink becomes the star of your holiday table.",
+  "quantityInStock": 30,
+  "buyPrice": 12.49
+}
+{
+  "productCode": "7361",
+  "productName": "Whirling-Wombat-Watermelon",
+  "productLine": "Fruity Fantasies",
+  "productScale": "01:05",
+  "productVendor": "Tropical Treats Ltd.",
+  "productDescription": "Experience the refreshing burst of summer with our whirling wombat-shaped watermelon delights! Each piece is intricately crafted from real watermelon, juicy and sweet, offering a delightful snack that captures the essence of sunny picnics. Perfect for parties or as a light snack, these whimsical treats are sure to be the highlight of any gathering.",
+  "quantityInStock": 25,
+  "buyPrice": 7.99
+}
+{
+  "productCode": "8457",
+  "productName": "Quirky-Quokka-Quiche",
+  "productLine": "Savory Surprises",
+  "productScale": "01:04",
+  "productVendor": "Peculiar Pies Inc.",
+  "productDescription": "Indulge in a slice of our quirky quokka quiche, filled with delightful summer vegetables and a creamy cheese blend that dances on your palate. This charming dish is presented in a playful quokka shape, perfect for sharing at brunches or picnics. Enhance your culinary adventures with a dish that�s not just tasty, but also a delightful conversation starter for any gathering!",
+  "quantityInStock": 18,
+  "buyPrice": 9.99
+}
+{
+  "productCode": "9124",
+  "productName": "Serpentine-Salamander-Sorbet",
+  "productLine": "Chilly Chill-outs",
+  "productScale": "01:03",
+  "productVendor": "Frosty Treats Co.",
+  "productDescription": "Dive into a world of cool indulgence with our serpentine salamander sorbet! This uniquely themed frozen treat is crafted from a medley of tropical fruits and infused with a hint of mint, creating a refreshing experience that wriggles delightfully on your palate. Perfect for hot summer days or as a playful dessert at any gathering, this vibrant sorbet promises to enchant your taste buds with every scoop.",
+  "quantityInStock": 22,
+  "buyPrice": 8.49
+}
+{
+  "productCode": "2164",
+  "productName": "Galactic-Giraffe-Gumbo",
+  "productLine": "Interstellar Eats",
+  "productScale": "01:02",
+  "productVendor": "Cosmic Cuisine Corp.",
+  "productDescription": "Travel through space and time with our galactic giraffe gumbo! This hearty dish features a cosmic blend of spices, succulent shrimp, and vibrant vegetables, all simmered to perfection. Each bowl is a journey unto itself, evoking flavors from far-off galaxies. Ideal for adventurous diners looking to spice up their meal, this whimsical gumbo is a hearty option for gatherings or a cozy night in.",
+  "quantityInStock": 15,
+  "buyPrice": 12.99
+}
+{
+  "productCode": "7318",
+  "productName": "Whimsical-Walrus-Waffles",
+  "productLine": "Breakfast Wonders",
+  "productScale": "01:05",
+  "productVendor": "Bizarre Breakfast Co.",
+  "productDescription": "Start your day with a stack of our whimsical walrus waffles! These fluffy delights are shaped like playful walruses and come topped with a luscious maple syrup and fresh berries. Designed to bring joy to your breakfast table, each bite delivers a warm, comforting flavor that makes mornings a bit more magical. Perfect for family breakfasts or a fun brunch with friends, these waffles are not just a meal, but a delightful experience!",
+  "quantityInStock": 25,
+  "buyPrice": 10.49
+}
+{
+  "productCode": "4382",
+  "productName": "Zany-Zucchini-Zamboni",
+  "productLine": "Vegetable Ventures",
+  "productScale": "01:04",
+  "productVendor": "Crazy Cuisine Inc.",
+  "productDescription": "Experience the unexpected with our zany zucchini zamboni! This whimsical dish features spiralized zucchini perfectly saut�ed and tossed with a blend of zesty herbs and spices, creating a fun and flavorful meal that glides smoothly onto your plate. Ideal for health-conscious diners and those looking for a playful twist on vegetables, this dish is a delightful way to brighten up any table, making it perfect for family dinners or vibrant gatherings.",
+  "quantityInStock": 30,
+  "buyPrice": 9.99
+}
+{
+  "productCode": "4820",
+  "productName": "Lunar-Lobster-Lollipops",
+  "productLine": "Celestial Snacks",
+  "productScale": "01:03",
+  "productVendor": "Stellar Treats Inc.",
+  "productDescription": "Indulge in the sweet and savory delight of our lunar lobster lollipops! These unique treats combine tender lobster meat with a blend of mouthwatering spices, all coated in a crispy candy shell. Perfect for those with a taste for adventure, these lollipops are sure to wow your guests at parties or make a quirky addition to any meal. Experience a flavor explosion that�s out of this world, and grab one before they disappear into the cosmos!",
+  "quantityInStock": 20,
+  "buyPrice": 14.95
+}
+{
+  "productCode": "6981",
+  "productName": "Quantum-Quokka-Quiche",
+  "productLine": "Mystical Munchies",
+  "productScale": "01:06",
+  "productVendor": "Curious Culinary Co.",
+  "productDescription": "Delight in the charming flavors of our quantum quokka quiche! This unique savory dish features a creamy filling enriched with an assortment of fresh vegetables and zesty quokka cheese, all encased in a flaky pastry crust. It�s a whimsical take on classic quiche that offers both comforting taste and playful presentation, making it an unforgettable addition to any brunch or gathering. Perfect for those who enjoy a little adventure with their meals, our quiche brings a burst of creativity to your dining experience!",
+  "quantityInStock": 15,
+  "buyPrice": 12.75
+}
+{
+  "productCode": "7593",
+  "productName": "Funky-Fish-Fondue",
+  "productLine": "Aquatic Appetizers",
+  "productScale": "01:05",
+  "productVendor": "Oceanic Treats Ltd.",
+  "productDescription": "Dive into the delightful world of our funky fish fondue! This unique dish features an array of fresh, sustainably sourced fish, delicately seasoned and served in a creamy, flavor-packed cheese blend. Perfect for sharing, this whimsical fondue experience transforms your ordinary meal into an adventurous aquatic feast. Ideal for gatherings or romantic dinners, dip your favorite veggies or bread into this luxurious seafood sensation and let the fun begin!",
+  "quantityInStock": 25,
+  "buyPrice": 18.99
+}
+{
+  "productCode": "8327",
+  "productName": "Galactic-Giraffe-Gumbo",
+  "productLine": "Exotic Eats",
+  "productScale": "01:08",
+  "productVendor": "Interstellar Culinary Creations",
+  "productDescription": "Embark on a culinary adventure with our galactic giraffe gumbo! This one-of-a-kind dish fuses rich, spicy flavors with tender chunks of giraffe-inspired meat, complemented by a medley of fresh vegetables and aromatic spices. Served over a bed of fluffy rice, this whimsical stew offers a delightful twist on traditional gumbo that will transport your taste buds to another dimension. Gather your friends and family for a truly unforgettable dining experience that celebrates the flavors of the universe!",
+  "quantityInStock": 30,
+  "buyPrice": 22.99
+}
