@@ -25,35 +25,36 @@ if __name__ == "__main__":
     """)
 
     st.title("Upload Documents to be embedded")
-    uploaded_file = st.file_uploader("Upload a PDF file", type="pdf")
+    uploaded_files = st.file_uploader("Upload a PDF file", type="pdf", accept_multiple_files=True)
 
-    if uploaded_file is not None:
-        # Extract text from the uploaded PDF
-        text = extract_text_from_pdf(uploaded_file)
+    if uploaded_files is not None:
+        for uploaded_file in uploaded_files:
+            # Extract text from the uploaded PDF
+            text = extract_text_from_pdf(uploaded_file)
 
-        # Convert text to chunks
-        chunks = convert_text_to_chunks(text)
+            # Convert text to chunks
+            chunks = convert_text_to_chunks(text)
 
-        # Create embeddings
-        embeddings = OllamaEmbeddings(model="llama3:latest")
+            # Create embeddings
+            embeddings = OllamaEmbeddings(model="llama3:latest")
 
-        # Instantiate LLM
-        llm = groq_llm
+            # Instantiate LLM
+            llm = groq_llm
 
-        vector_store: Any
-        if target_vector_store == "1":
-            # Initialise and load embedded documents to Pinecone Vector Store
-            vector_store: PineconeVectorStore = PineconeVectorStore.from_texts(
-                texts=chunks, index_name=pinecone_index,
-                embedding=embeddings)
-        elif target_vector_store == "2":
-            # Initialise and load embedded documents to FAISS Local Vector Store
-            vector_store = FAISS.from_texts(texts=chunks, embedding=embeddings)
-            vector_store.save_local(faiss_local_index)
-        else:
-            raise ValueError("Invalid Selection")
+            vector_store: Any
+            if target_vector_store == "1":
+                # Initialise and load embedded documents to Pinecone Vector Store
+                vector_store: PineconeVectorStore = PineconeVectorStore.from_texts(
+                    texts=chunks, index_name=pinecone_index,
+                    embedding=embeddings)
+            elif target_vector_store == "2":
+                # Initialise and load embedded documents to FAISS Local Vector Store
+                vector_store = FAISS.from_texts(texts=chunks, embedding=embeddings)
+                vector_store.save_local(faiss_local_index)
+            else:
+                raise ValueError("Invalid Selection")
 
-        if isinstance(vector_store, PineconeVectorStore):
-            st.write("Pinecone Vector Store Created")
-        else:
-            st.write("FAISS Local Vector Store Created")
+            if isinstance(vector_store, PineconeVectorStore):
+                st.write("Pinecone Vector Store Created")
+            else:
+                st.write("FAISS Local Vector Store Created")
