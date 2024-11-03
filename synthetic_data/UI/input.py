@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 from dotenv import load_dotenv
-from synthetic_product_data import get_dataframe_columns
+from synthetic_data import get_dataframe_columns
 import pandas as pd
 
 load_dotenv()

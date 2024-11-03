@@ -11,7 +11,7 @@ from langchain_experimental.tabular_synthetic_data.prompts import (
 )
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel
-from synthetic_product_data.data_model.products import ProductDataModel
+from synthetic_data.data_model.products import ProductDataModel
 from dotenv import load_dotenv
 
 load_dotenv()

@@ -35,17 +35,3 @@ def get_dataframe_columns(input_details, number_of):
     columns = response.content.split('\n')
 
     return columns
-
-
-
-# # Example input details
-# input_details = "Customer Details"
-#
-# # Get columns from ChatOpenAI
-# columns = get_dataframe_columns(input_details, 10)
-#
-# # Create an empty DataFrame with the specified columns
-# df = pd.DataFrame(columns=columns)
-# df.to_csv(path_or_buf="data.csv", index=False)
-#
-# print("DataFrame columns:", df.columns.tolist())
