@@ -21,6 +21,7 @@ if 'df' not in st.session_state:
 domain = st.text_input("Enter domain of data you are looking for")
 number_of = st.number_input("Enter the number of columns:", min_value=1, step=1)
 
+# Button to generate columns
 if st.button("Generate Columns"):
     if domain and number_of:
         # Generate columns based on user input
@@ -28,19 +29,29 @@ if st.button("Generate Columns"):
         st.session_state.df = pd.DataFrame(columns=columns)  # Store DataFrame in session state
         st.success("Dataframe columns generated successfully.")
 
-# Display the DataFrame and its columns if already generated
+# Show the generated DataFrame
 if st.session_state.df.empty:
-    # st.write("### Current DataFrame:")
-    # st.dataframe(st.session_state.df)
-
     for column in st.session_state.df.columns:
         col1, col2, col3 = st.columns([1, 1, 1])
 
         # Show column name
         col1.write(f"**{column}**")
-        # Show dropdown for data type
-        data_type = col2.selectbox("Data Type", ["string", "int"], key=f"data_type_{column}")
-        st.session_state.data_type[column] = data_type
+
+        if column not in st.session_state.data_type:
+            # Set default data type for the column
+            st.session_state.data_type[column] = "string"
+
+        # Selectbox to choose data type for the column
+        col_type = col2.selectbox(
+            f"Select data type for {column}",
+            ["string", "int"],
+            key=f"type_{column}",
+            index=["string", "int"].index(st.session_state.data_type[column])
+        )
+
+        # Update the data type in session state
+        st.session_state.df[column] = st.session_state.df[column].astype(col_type)
+        st.session_state.data_type[column] = col_type
 
         # Add a checkbox for removing the column
         remove = col3.checkbox("Remove", key=f"remove_{column}", value=column in st.session_state.columns_to_remove)
@@ -59,6 +70,17 @@ if st.session_state.df.empty:
         st.session_state.columns_to_remove = []
         st.write("Finalised DataFrame:")
         st.dataframe(st.session_state.df)
+        # if not os.path.exists("../data"):
+        #     os.mkdir("../data")
+        #st.session_state.df.to_csv(f"""../data/{domain}.csv""", index=False, mode='w')
+        configuration = st.session_state.data_type
+        final_columns = st.session_state.df.columns.tolist()
         if not os.path.exists("../data"):
             os.mkdir("../data")
-        st.session_state.df.to_csv(f"""../data/{domain}.csv""", index=False, mode='w')
+        with open(f"../data/{domain}.json", "w") as f:
+            f.write("{")
+            for column in final_columns:
+                f.write(f'"{column}": "{configuration[column]}",')
+            f.write("}")
+        f.close()
+
