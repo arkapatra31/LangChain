@@ -114,7 +114,7 @@ Note:-
                 <li>Saving the reponse generated from the code</li>
                 <li>Creating a CSV Agent to answer questions related to CSV file</li>
                 <li>Creating a router agent to switch out to different agents based on the input prompt</li>
-                <li>Create a Tool Calling Agent/li>
+                <li>Create a Tool Calling Agent</li>
                 <li>Bind Tools directly to a LLM</li>
                 <li>Create Tool Calling Agent on 2 LLM Providers - OpenAI and Groq</li>
             </th>
