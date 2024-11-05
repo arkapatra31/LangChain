@@ -142,10 +142,7 @@ Note:-
 <font color="#bde356"><b>Agent Workflow</b></font><br>
 <img src="/assets/ReActAgentExecutionWorkflow.drawio.png" style='border:3px solid #f2d096' width="500px" title="Agent Workflow"/>
 <br><br>
-<video width="640" height="360" controls>
-  <source src="/assets/Synthetic-Data/Synthetic_Config&Data_Generator.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Uploading Synthetic_Config&Data_Generator.gif…]()
 <br><br>
 </div>
 </body>
