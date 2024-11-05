@@ -142,8 +142,6 @@ Note:-
 <font color="#bde356"><b>Agent Workflow</b></font><br>
 <img src="/assets/ReActAgentExecutionWorkflow.drawio.png" style='border:3px solid #f2d096' width="500px" title="Agent Workflow"/>
 <br><br>
-![Synthetic_Config Data_Generator](https://github.com/user-attachments/assets/b2ad41fb-1fe0-4917-9d14-8f19797f9eba)
-
 <br><br>
 </div>
 </body>
