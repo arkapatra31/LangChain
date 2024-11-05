@@ -83,10 +83,10 @@ if st.session_state.df.empty:
         configuration = st.session_state.data_type
         final_columns = st.session_state.df.columns.tolist()
         example_data = st.session_state.example_data
-        if not os.path.exists("../data"):
-            os.mkdir("../data")
+        if not os.path.exists("../config"):
+            os.mkdir("../config")
         # Save data type and example_data against the columns in a JSON format to a single configuration to a file
-        with open(f"../data/{domain}_config.json", "w") as f:
+        with open(f"../config/{domain}_config.json", "w") as f:
             f.write('{')
             for column in final_columns:
                 #Split the example data by comma and strip whitespaces
@@ -96,4 +96,4 @@ if st.session_state.df.empty:
                     f.write(", ")
             f.write('}')
         f.close()
-        st.success(f"Data saved to ../data/{domain}_config.json")
+        st.success(f"Data saved to ../config/{domain}_config.json")
