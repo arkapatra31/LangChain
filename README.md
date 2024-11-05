@@ -1,4 +1,4 @@
-![Synthetic_Config Data_Generator](https://github.com/user-attachments/assets/46fa7e99-2c05-4ac6-9a14-f27aba28f83a)<center>
+<center>
 <h1><font color="#bde356"><b>LangChain</b></font><br></h1>
 <img src="/assets/langchain-repo.webp" width="600" title="LangSmith Tracing">
 <br><br>
@@ -142,7 +142,7 @@ Note:-
 <font color="#bde356"><b>Agent Workflow</b></font><br>
 <img src="/assets/ReActAgentExecutionWorkflow.drawio.png" style='border:3px solid #f2d096' width="500px" title="Agent Workflow"/>
 <br><br>
-![Uploading Synthetic_Config&Data_Generator.gif…]()
+![Synthetic_Config Data_Generator](https://github.com/user-attachments/assets/46fa7e99-2c05-4ac6-9a14-f27aba28f83a)
 <br><br>
 </div>
 </body>
