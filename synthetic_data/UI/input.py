@@ -7,7 +7,7 @@ import pandas as pd
 load_dotenv()
 
 # Streamlit UI
-st.title("Generate Synthetic Data")
+st.title("Generate Records Configuration")
 
 # Initialize session state to preserve data across reruns
 if 'columns_to_remove' not in st.session_state:

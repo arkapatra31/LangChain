@@ -1,0 +1,1 @@
+{"product_id  ": {"data_type": "int", "example_data": "['5589555']"}, "product_name  ": {"data_type": "string", "example_data": "[]"}, "category_id  ": {"data_type": "string", "example_data": "[]"}, "price  ": {"data_type": "string", "example_data": "[]"}, "stock_quantity  ": {"data_type": "string", "example_data": "[]"}}

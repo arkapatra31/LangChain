@@ -1,0 +1,11 @@
+product_id  ,product_name  ,category_id  ,price  ,stock_quantity  
+1000001,Wireless Mouse,Electronics,"""25.99""","""150"""
+1000002,Mechanical Keyboard,Electronics,"""75.00""","""80"""
+1000003,HDMI Cable,Accessories,"""15.49""","""200"""
+1000004,Office Chair,Furniture,"""199.99""","""50"""
+1000005,Smartphone Stand,Accessories,"""19.99""","""120"""
+1000006,Laptop Backpack,Accessories,"""49.99""","""60"""
+1000007,USB-C Hub,Accessories,"""29.99""","""90"""
+1000008,Wireless Headphones,Electronics,"""89.99""","""70"""
+1000009,LED Monitor,Electronics,"""199.99""","""30"""
+1000010,Desk Organizer,Office Supplies,"""39.99""","""110"""

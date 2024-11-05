@@ -5,7 +5,7 @@ import pandas as pd
 from synthetic_data import read_dataframe_and_generate_data
 
 # Streamlit UI
-st.title("Generate DataFrame from Configuration")
+st.title("Generate Records from Configuration")
 
 # File uploader to accept JSON configuration file
 uploaded_file = st.file_uploader("Upload JSON Configuration File", type="json")

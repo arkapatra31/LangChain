@@ -119,6 +119,21 @@ Note:-
                 <li>Create Tool Calling Agent on 2 LLM Providers - OpenAI and Groq</li>
             </th>
         </tr>
+        <tr>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.1.0">1.1.0</a></th>
+            <th>
+                <li>Dynamic record config generation using LLM</li>
+                <li>Ability to change column data type, remove and associate reference value</li>
+                <li>Sanitize and convert raw order data to DataFrame</li>
+                <li>Read raw order data from a string and load it into a pandas DataFrame.</li>
+                <li>Strip leading/trailing whitespace from column names.</li>
+                <li>Ensure data consistency and handle missing/malformed data.</li>
+                <li>Convert column data types to the appropriate format.</li>
+                <li>Generate and save config files in json</li>
+                <li>Read config files and apply them to raw order data</li>
+                <li>Generate and save generated dataframe into CSV file</li>
+            </th>
+        </tr>
     </table>
 <br>
 <font color="#bde356"><b>LangSmith Tracing</b></font><br>
@@ -126,6 +141,11 @@ Note:-
 <br><br>
 <font color="#bde356"><b>Agent Workflow</b></font><br>
 <img src="/assets/ReActAgentExecutionWorkflow.drawio.png" style='border:3px solid #f2d096' width="500px" title="Agent Workflow"/>
+<br><br>
+<video width="640" height="360" controls>
+  <source src="/assets/Synthetic-Data/Synthetic_Config&Data_Generator.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 <br><br>
 </div>
 </body>
