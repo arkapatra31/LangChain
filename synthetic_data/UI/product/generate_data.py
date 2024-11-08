@@ -51,9 +51,9 @@ if uploaded_file is not None:
 
     # Save the DataFrame to a CSV file
     # Check if the generated_data directory exists
-    if not os.path.exists("../generated_data"):
-        os.mkdir("../generated_data")
-    csv_file_path = f"../generated_data/{file_name}_data.csv"
+    if not os.path.exists("../../data/products"):
+        os.makedirs("../../data/products")
+    csv_file_path = f"../../data/products/{file_name}_data.csv"
     df.to_csv(csv_file_path, index=False)
-    st.success(f"Data saved to {csv_file_path}")
+    st.success(f"Data saved as {csv_file_path}")
     #st.dataframe(df)

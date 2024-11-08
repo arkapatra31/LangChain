@@ -10,7 +10,7 @@ The data type for each column is as follows:
 The example data for each column is as follows:
 {example_data}
 Don't include example data in the generated records but understand and learn from the example data.
-Only return the content of the generated records.
+Only return the content of the generated records and also don't use comma in values.
 Also make sure that the generated records belongs to or are associated to {flavour}.
 """
 prompt_template = PromptTemplate(template=template, input_variables=["number", "columns", "data_types", "example_data", "flavour"])

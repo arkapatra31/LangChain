@@ -1,5 +1,9 @@
 from synthetic_data.OpenAI_LLM.openai_llm import llm
-from synthetic_data.services.generate_and_modify import get_dataframe_columns
-from synthetic_data.services.generate_dataset import read_dataframe_and_generate_data
+from synthetic_data.services.product.generate_and_modify import get_dataframe_columns
+from synthetic_data.services.product.generate_dataset import read_dataframe_and_generate_data
+from synthetic_data.services.customer.generate_Address_for_EU import generate_address_for_EU
+from synthetic_data.services.customer.generate_Address_for_US import generate_address_for_US
+from synthetic_data.services.orders.generate_order import generate_orders
 
-__all__ = [llm, get_dataframe_columns, read_dataframe_and_generate_data]
+__all__ = [llm, get_dataframe_columns, read_dataframe_and_generate_data, generate_address_for_EU,
+               generate_address_for_US, generate_orders]
