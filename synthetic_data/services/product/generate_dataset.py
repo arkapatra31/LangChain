@@ -9,14 +9,14 @@ The data type for each column is as follows:
 {data_types}
 The example data for each column is as follows:
 {example_data}
-Try to generate the records based on the example data provided but do not copy the example data directly.
-Remember reference data should be used only for reference and not for generating the records.
-Only return the content of the generated records.
+Don't include example data in the generated records but understand and learn from the example data.
+Only return the content of the generated records and also don't use comma in values.
+Also make sure that the generated records belongs to or are associated to {flavour}.
 """
-prompt_template = PromptTemplate(template=template, input_variables=["number", "columns", "data_types", "example_data"])
+prompt_template = PromptTemplate(template=template, input_variables=["number", "columns", "data_types", "example_data", "flavour"])
 
 
-def read_dataframe_and_generate_data(config, number_of_records):
+def read_dataframe_and_generate_data(config, number_of_records, flavour):
     # Create a chain of operations
     chain = prompt_template | llm
 
@@ -31,7 +31,8 @@ def read_dataframe_and_generate_data(config, number_of_records):
             "number": number_of_records,
             "columns": columns,
             "data_types": data_types,
-            "example_data": example_data
+            "example_data": example_data,
+            "flavour": flavour
         }
     )
 
