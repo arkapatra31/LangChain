@@ -9,6 +9,7 @@ The data type for each column is as follows:
 {data_types}
 The example data for each column is as follows:
 {example_data}
+Always include description for each record which is a unique string and the length of the description should be between 100 and 200.
 Don't include example data in the generated records but understand and learn from the example data.
 Only return the content of the generated records and also don't use comma in values.
 Also make sure that the generated records belongs to or are associated to {flavour}.
@@ -35,7 +36,6 @@ def read_dataframe_and_generate_data(config, number_of_records, flavour):
             "flavour": flavour
         }
     )
-
     return response
 
 

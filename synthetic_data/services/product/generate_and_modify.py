@@ -3,16 +3,19 @@ from langchain_openai import ChatOpenAI
 import pandas as pd
 from langchain.prompts import PromptTemplate
 from synthetic_data.OpenAI_LLM.openai_llm import llm
+#from cloudLLM import groq_llm as llm
 
 load_dotenv()
 
 # Define the prompt template
 template = """
 I want {number_of} columns specific to {domain}.
+Always create a description column which is a string.
 Answer should be precise and should contain only the list of column names and no need to provide numberings.
 Also column names should be in lower case and should not have space in between them.
 Also make sure that there is one column which can be used as primary key and also other columns which can act
 as a foreign key to this table.
+Return only the list of applicable columns.
 """
 
 # Create a PromptTemplate object
