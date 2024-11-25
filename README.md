@@ -132,6 +132,8 @@ Note:-
                 <li>Generate and save config files in json</li>
                 <li>Read config files and apply them to raw order data</li>
                 <li>Generate and save generated dataframe into CSV file</li>
+                <li>Generate Order Line Item Details</li>
+                <li>Adding option for the service with added validation of each columns</li>
             </th>
         </tr>
     </table>
