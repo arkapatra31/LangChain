@@ -5,10 +5,11 @@ import os
 from synthetic_data import generate_address_for_EU, generate_address_for_US, read_dataframe_and_generate_data
 from synthetic_data.customer_generation.main import generate_customers
 from synthetic_data.order_generation.main import generate_order_data
+from synthetic_data.order_line_item_generation.main import generate_order_line_items_data
 
 st.title("Data Generator")
 
-domain = st.selectbox("Select domain from the following", ["Product", "Customer", "Order"], key="domain")
+domain = st.selectbox("Select domain from the following", ["Product", "Customer", "Order", "OrderDetails"], key="domain")
 
 if domain == "Product":
     # Take the number of records to generate
@@ -93,7 +94,7 @@ elif (domain == "Order"):
     external_csv_usage = st.checkbox("Use any dependent CSV for records creation ?", value=False)
 
     if external_csv_usage:
-        # File uploader to accept JSON configuration file
+        # File uploader to accept CSV configuration file
         uploaded_file = st.file_uploader("Upload the dependent CSV files", type="csv", accept_multiple_files=True)
 
         # Check if file is uploaded or not
@@ -110,3 +111,47 @@ elif (domain == "Order"):
             if order_df is not None:
                 st.success("Order data generated successfully")
                 st.dataframe(order_df)
+
+elif (domain == "OrderDetails"):
+
+    # Take the number of records to generate
+    number_of_records = st.number_input("Enter the number of records to generate", min_value=1, max_value=1000, step=1)
+
+    # Take input to check if records needs some external CSV file or not
+    external_csv_usage = st.checkbox("Use any dependent CSV for records creation ?", value=False)
+
+    # Check if the number of records in order file is not equal to the number of records to generate
+    record_mismatch: bool = False
+
+    if external_csv_usage:
+        # File uploader to accept CSV configuration file
+        uploaded_file = st.file_uploader("Upload the dependent CSV files", type="csv", accept_multiple_files=True)
+
+        # Check if file is uploaded or not
+        if uploaded_file is not None:
+            df_list = []
+            # Read the uploaded file
+            for file in uploaded_file:
+                # Read the uploaded file name
+                file_name = file.name.split("_")[0]
+                if 'orders' in file_name:
+                    order_df = pd.read_csv(file)
+                    # Check if the number of records in order file is not equal to the number of records to generate
+                    if len(order_df) != number_of_records:
+                        record_mismatch = True
+                        st.error("Number of records in order file should be equal to the number of records to generate")
+                        break
+                    else:
+                        df_list.append(order_df)
+                else:
+                    # Parse the CSV content and convert it to DataFrame
+                    df = pd.read_csv(file)
+                    df_list.append(df)
+
+        if not record_mismatch:
+            if st.button("Generate Order Line Items"):
+                order_line_df = generate_order_line_items_data(number_of_records, df_list)
+                if order_line_df is not None:
+                    st.success("Order Line Items data generated successfully")
+                    st.dataframe(order_line_df)
+
