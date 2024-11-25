@@ -12,21 +12,15 @@ def generate_orders(num_records, df_list):
 
     # Hold the column name holding the id in product dataframe
     product_column_name = ''
-    customer_column_name = ''
 
     for df in df_list:
-        #Read all the columns in the dataframe
-        columns = df.columns
-
-        # Iterate through the columns to find the column name holding the id in product dataframe
-        for column in columns:
-            column_name = column.lower()
-            if 'id' in column_name and 'customer' not in column_name:
-                product_df = df
-                product_column_name = column_name
-            elif 'customernumber' in column_name:
-                customer_df = df
-                customer_column_name = column_name
+        # Read the first column name of the dataframe
+        column_name = df.columns[0].lower()
+        if 'id' in column_name and 'customer' not in column_name:
+            product_df = df
+            product_column_name = column_name
+        elif 'customernumber' in column_name:
+            customer_df = df
 
 
 
@@ -34,7 +28,7 @@ def generate_orders(num_records, df_list):
         orders.append({
             'orderNumber': fake.unique.random_int(min=1000, max=9999),
             'orderDate': fake.date(),
-            #'productID': product_df[product_column_name].sample(random.randint(1,4)).values,
+            'productID': product_df[product_column_name].sample(random.randint(1,4)).values,
             'customerNumber': customer_df['customerNumber'].sample().values[0],
             'requiredDate': fake.date(),
             'shippedDate': fake.date(),
