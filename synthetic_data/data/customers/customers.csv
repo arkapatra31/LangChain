@@ -1,101 +1,101 @@
-customerNumber,customerName,contactLastName,contactFirstName,phone,addressLine1,addressLine2,city,state,postalCode,country,salesRepEmployeeNumber,creditLimit,LTV
-2333,Fleming-Conrad,Walters,Grant,729-433-8765x923,543 Alder Dr,Suite 15,Kansas City,MO,64101,United States,2028,9689.11,2161.79
-5032,Johnson-Smith,Shepard,Kelli,4376596841,123 Cedar St,,Atlanta,GA,30301,United States,4187,9064.83,9664.97
-1271,Jimenez Inc,Little,Bradley,+1-908-774-8263x517,852 Cedar Ave,,Las Vegas,NV,89101,United States,9178,2935.36,9443.79
-5175,Fuller Inc,Young,Sarah,(986)883-9995x02024,321 Birch Blvd,,Houston,TX,77001,United States,4396,7101.87,9267.9
-7008,"Perez, Rodriguez and Young",Keith,Sean,+1-745-403-3316,679 Dogwood Ln,,Indianapolis,IN,46201,United States,4316,8649.84,8274.78
-9691,Valenzuela-Garcia,Walters,Heather,(445)565-9083,159 Willow Ln,,Memphis,TN,38101,United States,7482,8977.75,5506.08
-7831,"Smith, Avila and Schultz",Taylor,David,705.449.7192,890 Chestnut Ave,,Fresno,CA,93701,United States,6998,4721.9,4036.06
-5379,"Robinson, Ray and Hernandez",Buckley,Jason,9054204695,679 Spruce Ln,,Santa Ana,CA,92701,United States,9328,9450.32,5322.01
-8973,Lee PLC,Short,Brent,+1-883-658-4631x2065,456 Maple Ave,Apt 9B,Miami,FL,33101,United States,5345,6205.77,5680.78
-2706,Stewart Inc,Carr,Laura,001-743-839-5682x351,456 Alder Ave,,Seattle,WA,98101,United States,9754,1971.61,3813.69
-9232,"Reynolds, Johnson and Case",Miller,Charles,868-611-3880x2174,951 Oak St,,Louisville,KY,40201,United States,8571,4464.81,6290.06
-3154,Wilson Ltd,Sparks,Dawn,001-628-366-4932x3497,654 Fir St,,Nashville,TN,37201,United States,5273,6970.41,6521.56
-4576,Hall-Pena,Nguyen,Jeffery,(536)835-8488x564,467 Cedar St,,Anaheim,CA,92801,United States,1856,7023.02,8381.41
-6353,Davis Inc,Gomez,Gabriela,910-893-4071x8152,890 Poplar Ave,Suite 20,Columbus,OH,43085,United States,1869,4480.05,1148.5
-3120,"Jackson, Anderson and Wood",Hernandez,Melissa,601-336-7534x0219,907 Oak St,,Sacramento,CA,94203,United States,4412,1834.91,1980.19
-1809,Perez Group,Rodriguez,Scott,387.732.6481x433,654 Elm St,Apt 4C,Phoenix,AZ,85001,United States,2194,8382.97,3870.31
-6273,Hunt Inc,Knox,Denise,001-770-557-5318x5793,679 Dogwood Ln,,Indianapolis,IN,46201,United States,8611,4161.19,1473.04
-7216,Lambert Inc,Foster,Allen,+1-550-973-3166,753 Birch Cir,Suite 4,Portland,OR,97201,United States,6963,6717.76,1663.15
-8292,Cook PLC,Howe,Wayne,236-781-2368,852 Maple Ave,,Cleveland,OH,44101,United States,3123,8515.69,6359.91
-4727,House-Lynn,Kim,Alex,6227952636,467 Cedar St,,Anaheim,CA,92801,United States,9092,5950.21,7092.85
-5969,Davidson-Gutierrez,Smith,Robert,726-264-2224x58962,123 Cedar St,,Atlanta,GA,30301,United States,4992,3888.42,8488.91
-5688,"Vang, Alvarez and Underwood",Ball,Melissa,552-607-8847x38845,543 Alder Dr,Suite 15,Kansas City,MO,64101,United States,1253,5368.8,8939.59
-7900,"Moore, Estes and Young",Cooke,Matthew,618.746.8427x93271,907 Walnut St,,Fort Worth,TX,76101,United States,9410,2690.34,4794.59
-3022,Wilson-Hunt,Sampson,Thomas,+1-595-655-0026x62151,543 Alder Dr,Suite 15,Kansas City,MO,64101,United States,8028,9686.77,4370.44
-5241,Stewart Group,Harding,Sara,955.898.4352,456 Maple Ave,Apt 9B,Miami,FL,33101,United States,9459,7941.12,7135.09
-5290,Knight PLC,Sanchez,William,(278)952-4889x7797,134 Redwood Dr,,Jacksonville,FL,32201,United States,4002,6650.95,3084.15
-1586,Crawford-Wilson,Myers,Ronald,852-226-9348x792,789 Pine Cir,,Raleigh,NC,27601,United States,4654,1647.8,1515.89
-9211,Curtis and Sons,Stephens,Sherri,813.343.7670x8341,134 Redwood Dr,,Jacksonville,FL,32201,United States,9666,9662.23,5268.16
-3465,"Valdez, Pratt and Tran",Harris,Natalie,5812205832,467 Spruce St,Apt 5,Albuquerque,NM,87101,United States,4723,6039.85,6119.8
-2014,Davis-Moyer,Dominguez,John,986.351.0345,467 Cedar St,,Anaheim,CA,92801,United States,5025,4130.35,4514.66
-1885,"Garcia, Banks and Martin",Richardson,Jessica,001-406-858-6531x272,987 Juniper Rd,,Boston,MA,2101,United States,4289,1267.1,1362.48
-9071,Cross LLC,Ray,Robert,+1-924-967-7613x118,159 Willow Ln,,Memphis,TN,38101,United States,9172,6093.66,4925.82
-3343,Hartman-Donovan,Hogan,Vincent,001-317-563-3116,951 Oak St,,Louisville,KY,40201,United States,3289,3222.42,7732.82
-5660,Roberts PLC,Juarez,Heather,250.941.8690,321 Spruce Dr,,Omaha,NE,68101,United States,7097,4885.04,5706.59
-7285,Green and Sons,Wells,Matthew,001-298-699-2956,679 Redwood Ln,Unit 2C,Tucson,AZ,85701,United States,1084,8224.52,6926.48
-3708,Larson Group,Ayala,Rachel,001-541-599-3951x343,987 Cedar Rd,,Philadelphia,PA,19101,United States,2233,9748.06,8987.11
-4153,Taylor Inc,Lara,Christopher,+1-893-264-4660x271,134 Redwood Dr,,Jacksonville,FL,32201,United States,7695,1531.47,6631.26
-4295,"Dunn, Jennings and Howard",Nelson,Daniel,(766)992-7250x86819,543 Beech Dr,Unit 6A,Charlotte,NC,28201,United States,1147,9384.15,9011.66
-4132,Rodriguez-Flores,Pugh,Joseph,+1-876-916-2328x0381,951 Oak St,,Louisville,KY,40201,United States,3984,5345.62,2366.69
-1980,Tanner LLC,Sampson,Bailey,001-498-567-2843x52233,789 Maple Dr,Apt 3B,Denver,CO,80201,United States,1593,1372.37,2425.52
-9185,Simmons PLC,Cisneros,William,001-277-849-7379x420,456 Maple Ave,Apt 9B,Miami,FL,33101,United States,6192,7260.76,7469.32
-9499,Smith-Castillo,Ramirez,Nicholas,3409728464,654 Fir St,,Nashville,TN,37201,United States,3553,8393.53,7665.17
-9421,Santiago Ltd,Gamble,Gabriela,691-864-6989x663,654 Redwood St,Unit 8,Colorado Springs,CO,80901,United States,4441,1163.61,6760.96
-4683,"Green, Jackson and White",Garrett,Robert,930.947.6424x536,789 Pine Dr,Unit 5B,Chicago,IL,60601,United States,7680,5921.03,2766.35
-8151,Garcia LLC,Hunter,John,+1-866-961-2993x6446,467 Spruce St,Apt 5,Albuquerque,NM,87101,United States,6647,2886.34,8601.18
-9766,"Vega, Walker and Duarte",Becker,Matthew,001-734-212-0628x60505,789 Maple Dr,Apt 3B,Denver,CO,80201,United States,7551,3323.82,5521.76
-1460,Woods-Kelley,Peterson,Christina,568.626.6867,951 Oak St,Apt 7A,Tampa,FL,33601,United States,7778,2526.39,7725.9
-7380,Braun-Baxter,Thompson,Mary,001-491-402-0401x3340,987 Juniper Rd,,Boston,MA,2101,United States,7763,4391.4,7430.36
-1959,Weber LLC,Mills,Marie,(596)326-2728x40620,467 Sycamore St,Apt 12,San Francisco,CA,94101,United States,7011,9427.18,6205.69
-4555,"Lane, Moss and Dominguez",Dickson,Lisa,001-876-652-6730,907 Oak St,,Sacramento,CA,94203,United States,7044,6093.26,4445.38
-9903,Townsend-Fisher,Gomez,Paul,001-419-534-9987,753 Chestnut Cir,,New Orleans,LA,70112,United States,6895,6529.08,4675.29
-3036,"Jordan, Cooper and Evans",Anthony,Pamela,(237)851-4964x55117,789 Pine Cir,,Raleigh,NC,27601,United States,7064,3225.46,3172.9
-4765,Grant and Sons,Garza,Matthew,998-204-8456,654 Redwood St,Unit 8,Colorado Springs,CO,80901,United States,3960,3352.7,9889.71
-4859,Fowler-Baker,Williams,Danielle,831-585-4064,987 Juniper Rd,,Boston,MA,2101,United States,2421,4713.59,4358.75
-6227,"Taylor, Wilson and Arnold",Branch,Anthony,+1-453-492-7051x1570,907 Walnut St,,Fort Worth,TX,76101,United States,1973,5838.01,4934.1
-9666,"Young, Frazier and Cook",Jones,Julie,3897195544,679 Dogwood Ln,,Indianapolis,IN,46201,United States,4851,2023.9,6993.89
-9788,Long-Brown,Villanueva,Daniel,(838)834-5433x7805,907 Oak St,,Sacramento,CA,94203,United States,5621,6553.55,8046.19
-4299,"Hall, Krause and Barnett",Evans,Paul,8955984719,907 Walnut St,,Fort Worth,TX,76101,United States,5887,8415.22,5207.47
-7877,Lucero Inc,Sanchez,Omar,001-435-383-1960x464,248 Maple Ct,,Baltimore,MD,21201,United States,6394,2182.31,2000.56
-8240,Phillips-Perez,Dunn,Rodney,+1-580-294-3622,123 Maple St,Apt 2,New York,NY,10001,United States,2144,3356.54,7173.12
-3536,"Hall, Stephens and Mccoy",Tucker,Michelle,727.834.5557,123 Maple St,Apt 2,New York,NY,10001,United States,2541,3386.14,9947.48
-1061,Stokes and Sons,Castillo,Andrew,371-255-9812,123 Chestnut St,,Detroit,MI,48201,United States,2182,4955.8,5357.78
-1252,Gutierrez-Peterson,Kim,Amber,7683802450,987 Cedar Rd,,Philadelphia,PA,19101,United States,1840,4669.09,6337.03
-4341,"Ramirez, Gomez and Miller",Hooper,Catherine,577.353.5507,123 Cedar St,,Atlanta,GA,30301,United States,8228,3390.61,7797.11
-9401,Stevenson Group,Walker,Pamela,881-605-7645x620,951 Oak St,,Louisville,KY,40201,United States,9403,6052.65,7248.56
-8793,May Inc,Beasley,Benjamin,(868)643-2932,679 Dogwood Ln,,Indianapolis,IN,46201,United States,3474,7786.9,3799.32
-4460,Castillo-Moss,West,Ricardo,340.360.7231,907 Oak St,,Sacramento,CA,94203,United States,7947,1014.5,5270.93
-7962,"Deleon, Erickson and Roth",Pierce,Justin,(978)420-1233x6418,679 Redwood Ln,Unit 2C,Tucson,AZ,85701,United States,7760,9658.51,2098.06
-4186,Hutchinson Inc,Lopez,John,958.775.8288x86825,134 Pine Dr,,Milwaukee,WI,53201,United States,1502,4051.94,4965.77
-7561,Johnson and Sons,Morris,Karen,570-633-9322,890 Poplar Ave,Suite 20,Columbus,OH,43085,United States,3517,7658.67,3962.25
-3834,Park and Sons,Green,Bradley,677-879-1799,123 Cedar St,,Atlanta,GA,30301,United States,4686,6140.61,7793.14
-1368,"Ballard, Williams and Lane",Miranda,Nancy,001-891-414-7674x4955,467 Cedar St,,Anaheim,CA,92801,United States,7416,7422.9,3935.67
-9018,White-Orozco,Ramirez,Mary,001-655-260-5974,789 Pine Cir,,Raleigh,NC,27601,United States,3465,6792.38,8720.46
-5283,Nelson LLC,Wilson,Raymond,001-733-240-0351x346,679 Spruce Ln,,Santa Ana,CA,92701,United States,6292,8038.57,8737.67
-2173,Blair Inc,Johnson,Stephanie,001-683-688-8421x981,134 Pine Dr,,Milwaukee,WI,53201,United States,4919,5465.98,8428.89
-3704,"Taylor, Carpenter and Patrick",Jones,Sherry,001-938-750-1640x14889,852 Cedar Ave,,Las Vegas,NV,89101,United States,9925,8355.22,6603.56
-7740,Lindsey-Brooks,Klein,Cynthia,+1-428-277-5459,321 Birch Blvd,,Houston,TX,77001,United States,6540,5554.29,9640.25
-9896,Norman Inc,Becker,David,(522)837-5741,654 Elm St,Apt 4C,Phoenix,AZ,85001,United States,9939,7682.58,8914.87
-7911,Gardner Ltd,Jones,Sheena,(747)449-0892x56876,456 Oak Ave,Suite 300,Los Angeles,CA,90001,United States,3322,2120.47,6244.74
-4302,"Hood, Sellers and Jenkins",Hall,Marcus,802.886.0519,753 Birch Cir,Suite 4,Portland,OR,97201,United States,6647,6596.67,8348.24
-1893,Ray-Fernandez,Gould,Maurice,937-763-4520x18241,907 Walnut St,,Fort Worth,TX,76101,United States,5679,9661.2,2798.87
-2524,Stone-West,Whitehead,Jonathon,388-495-3136x5226,987 Juniper Rd,,Boston,MA,2101,United States,7992,1883.26,1128.85
-1863,Bowen-Blackwell,Higgins,Jessica,628.368.1839x14550,852 Maple Ave,,Cleveland,OH,44101,United States,1228,3135.52,9512.44
-4717,Mann-Johnson,Brown,Meredith,+1-399-458-0953x878,456 Maple Ave,Apt 9B,Miami,FL,33101,United States,8941,2214.35,5571.31
-5897,"Patel, Miranda and Salas",Case,Matthew,(850)350-9009,543 Alder Dr,Suite 15,Kansas City,MO,64101,United States,3254,9299.67,1278.33
-5347,Floyd Ltd,Pena,Lisa,001-986-726-0942x9862,456 Alder Ave,,Seattle,WA,98101,United States,2674,6671.65,4765.83
-7139,Cooper-Calderon,Mcclain,Daniel,202.457.0425,159 Spruce Ln,,San Antonio,TX,78201,United States,1073,7318.37,5260.87
-9139,"Harrison, Mcclain and Schneider",Mendoza,Donna,489.903.3955,679 Redwood Ln,Unit 2C,Tucson,AZ,85701,United States,4403,7717.76,6026.31
-5331,"Joseph, Marshall and Lozano",Cox,Jason,(511)261-3227,987 Dogwood Rd,,Minneapolis,MN,55401,United States,4136,6525.57,5530.72
-9771,Vega Ltd,Lopez,Eric,(586)865-7557x24178,467 Sycamore St,Apt 12,San Francisco,CA,94101,United States,6689,4242.95,3060.18
-8424,Stevens LLC,Nichols,Jason,6382746808,987 Juniper Rd,,Boston,MA,2101,United States,9493,2386.64,6238.97
-9437,Miller-Harrison,Clark,Brandi,+1-505-734-8026x7155,123 Cedar St,,Atlanta,GA,30301,United States,4112,3545.04,4554.35
-2431,"Taylor, Matthews and Adams",Gonzalez,Erin,001-609-857-2895x39296,789 Pine Dr,Unit 5B,Chicago,IL,60601,United States,3456,4870.28,1088.13
-2246,"Jones, Griffith and Hays",Wright,Kaitlin,001-684-938-5538x13721,543 Alder Dr,Suite 15,Kansas City,MO,64101,United States,7242,2339.26,8649.96
-4020,Ray PLC,Ford,Jessica,3827211962,907 Oak St,,Sacramento,CA,94203,United States,2895,7514.23,2968.64
-3263,Davis-Ramirez,Powers,Tyrone,001-758-424-5228,753 Chestnut Cir,,New Orleans,LA,70112,United States,5303,6641.25,7802.91
-8562,Gonzales-Parker,Davis,Christopher,294-278-4266,987 Dogwood Rd,,Minneapolis,MN,55401,United States,2735,7399.04,1159.25
-7566,"Hernandez, Stone and Smith",Johnson,Craig,(930)824-1293,679 Dogwood Ln,,Indianapolis,IN,46201,United States,8956,3603.66,5758.85
-1073,"Ortiz, Wilson and Stone",Pham,Margaret,548.493.2091x0707,789 Maple Dr,Apt 3B,Denver,CO,80201,United States,6226,1141.99,5919.72
-5671,Adams-Brooks,Sweeney,Thomas,+1-369-900-2435x2733,467 Spruce St,Apt 5,Albuquerque,NM,87101,United States,1852,5812.47,9278.22
+customerNumber,customerName,contactLastName,contactFirstName,gender,phone,addressLine1,addressLine2,city,state,postalCode,country,salesRepEmployeeNumber,creditLimit,LTV
+9549,Ashley Scott,Scott,Ashley,Female,+1-926-294-9798x5489,987 Cedar Rd,,Philadelphia,PA,19101,United States,6417,5112.21,1012.64
+6263,Mark Gaines,Gaines,Mark,Male,640-615-5941,456 Oak Ave,Suite 300,Los Angeles,CA,90001,United States,7383,7429.49,6230.51
+5627,Joseph Steele,Steele,Joseph,Male,440-478-7554x450,123 Maple St,Apt 2,New York,NY,10001,United States,3648,3028.77,5848.17
+2846,Jacob Roberts,Roberts,Jacob,Male,(962)200-1910x68471,753 Willow Cir,Suite 10,San Diego,CA,92101,United States,6851,2523.47,7808.37
+8305,Vanessa Cooper,Cooper,Vanessa,Female,633.424.1314,467 Spruce St,Apt 5,Albuquerque,NM,87101,United States,2678,6110.95,7609.61
+5503,Wanda Taylor,Taylor,Wanda,Female,+1-413-389-3853,134 Redwood Dr,,Jacksonville,FL,32201,United States,3517,1770.69,2148.39
+7175,Melanie Ortiz,Ortiz,Melanie,Female,+1-577-451-9487x4245,679 Dogwood Ln,,Indianapolis,IN,46201,United States,9047,8884.43,1894.45
+7596,Johnathan Clark,Clark,Johnathan,Male,532-712-9623x4730,951 Oak St,Apt 7A,Tampa,FL,33601,United States,3740,1890.44,9177.97
+6388,Cynthia Buchanan,Buchanan,Cynthia,Female,433.427.6193x80502,321 Birch Blvd,,Houston,TX,77001,United States,4780,6011.75,5069.88
+5426,Shannon Mitchell,Mitchell,Shannon,Female,(522)619-2658x49330,679 Dogwood Ln,,Indianapolis,IN,46201,United States,6585,3330.22,5939.23
+5550,Nathaniel Pierce,Pierce,Nathaniel,Male,(585)686-5543,123 Chestnut St,,Detroit,MI,48201,United States,3315,5648.63,2380.72
+5685,Melissa Clark,Clark,Melissa,Female,441.419.0823x96906,543 Alder Dr,Suite 15,Kansas City,MO,64101,United States,7236,2205.67,7084.64
+3002,Stephanie Williams,Williams,Stephanie,Female,(806)455-4793x3711,987 Dogwood Rd,,Minneapolis,MN,55401,United States,3445,3639.34,9671.98
+9991,Isaac Moyer,Moyer,Isaac,Male,(406)804-0457x029,654 Elm St,Apt 4C,Phoenix,AZ,85001,United States,6016,2707.86,1556.77
+3220,Jason Mitchell,Mitchell,Jason,Male,339-233-5011,789 Pine Cir,,Raleigh,NC,27601,United States,1135,5816.27,9420.04
+7853,Edward Poole,Poole,Edward,Male,943.574.2073,789 Maple Dr,Apt 3B,Denver,CO,80201,United States,3386,5559.8,4725.69
+5817,Kimberly Thomas,Thomas,Kimberly,Female,+1-967-228-6300x563,789 Maple Dr,Apt 3B,Denver,CO,80201,United States,1383,8148.2,2359.28
+4139,Tyler Gill,Gill,Tyler,Male,253.891.7555x15285,654 Fir St,,Nashville,TN,37201,United States,7444,6551.0,9467.99
+3698,Thomas Singh,Singh,Thomas,Male,301-730-8945x57872,890 Poplar Ave,Suite 20,Columbus,OH,43085,United States,2404,1354.31,4617.66
+6724,Jennifer Rogers,Rogers,Jennifer,Female,502.216.4895x67780,159 Sycamore Ln,,Wichita,KS,67201,United States,6720,9841.41,7266.91
+7249,Brittany Armstrong,Armstrong,Brittany,Female,9473015162,543 Beech Dr,Unit 6A,Charlotte,NC,28201,United States,4440,9082.52,4249.54
+7232,Rachel Travis,Travis,Rachel,Female,246-925-3334x12191,679 Dogwood Ln,,Indianapolis,IN,46201,United States,9315,1954.86,8185.98
+4578,Don Thomas,Thomas,Don,Male,+1-397-823-8395x23191,789 Pine Dr,Unit 5B,Chicago,IL,60601,United States,3350,3641.47,3139.55
+4856,Sarah Johnston,Johnston,Sarah,Female,387-291-6855x882,248 Magnolia Ct,,Austin,TX,73301,United States,3820,8299.39,6786.85
+6787,Kimberly Roberts,Roberts,Kimberly,Female,001-726-874-8196,248 Maple Ct,,Baltimore,MD,21201,United States,8721,9766.3,9838.95
+6400,Christian Sanchez,Sanchez,Christian,Male,2816940551,321 Birch Blvd,,Houston,TX,77001,United States,7120,6354.06,1626.04
+2147,Erika Flores,Flores,Erika,Female,495-383-8830x025,951 Oak St,,Louisville,KY,40201,United States,8384,8068.62,2073.27
+8187,Chad Nguyen,Nguyen,Chad,Male,(785)477-2365x6722,987 Cedar Rd,,Philadelphia,PA,19101,United States,4744,9086.47,8710.04
+4628,Joseph Duncan,Duncan,Joseph,Male,811.872.4366x2672,951 Hickory St,Apt 7,San Jose,CA,95101,United States,4676,5266.12,3474.51
+3203,Paul Baker,Baker,Paul,Male,782.963.1027x1792,789 Pine Cir,,Raleigh,NC,27601,United States,1814,4500.74,2170.02
+6623,Michael Grant,Grant,Michael,Male,(266)484-8324x3285,321 Birch Blvd,,Houston,TX,77001,United States,1329,4916.76,6825.11
+1876,Allen Bell,Bell,Allen,Male,(761)483-8564,789 Pine Dr,Unit 5B,Chicago,IL,60601,United States,8775,5424.21,2750.88
+4695,Jacob Hurley,Hurley,Jacob,Male,(575)569-7607,907 Walnut St,,Fort Worth,TX,76101,United States,4518,1137.33,2478.08
+1722,Brooke Harris,Harris,Brooke,Female,5796846140,456 Maple Ave,Apt 9B,Miami,FL,33101,United States,9222,5348.91,4603.37
+3724,Jonathan Archer,Archer,Jonathan,Male,001-893-748-0108x3667,753 Willow Cir,Suite 10,San Diego,CA,92101,United States,4891,2253.38,5355.46
+3523,Ethan Mcfarland,Mcfarland,Ethan,Male,967-958-9074x492,456 Alder Ave,,Seattle,WA,98101,United States,4508,4186.32,3149.64
+1656,Rebecca Schwartz,Schwartz,Rebecca,Female,200-795-8784x40635,753 Chestnut Cir,,New Orleans,LA,70112,United States,8107,4194.67,6900.37
+8952,Andrea Fields,Fields,Andrea,Female,473-980-8244,456 Oak Ave,Suite 300,Los Angeles,CA,90001,United States,8117,6897.7,1074.69
+3035,Maria Erickson,Erickson,Maria,Female,(841)857-9698,907 Oak St,,Sacramento,CA,94203,United States,4647,1317.67,2207.55
+6761,Jerry Gentry,Gentry,Jerry,Male,267.417.0844x2070,654 Redwood St,Unit 8,Colorado Springs,CO,80901,United States,4435,8218.75,1582.03
+9590,Jorge Martinez,Martinez,Jorge,Male,290-616-7747,123 Cedar St,,Atlanta,GA,30301,United States,3838,4576.87,6558.71
+3207,Paige Farmer,Farmer,Paige,Female,713.662.2907,753 Birch Cir,Suite 4,Portland,OR,97201,United States,6528,5913.31,5129.4
+8395,David Marks,Marks,David,Male,(604)524-3623x76583,987 Juniper Rd,,Boston,MA,2101,United States,5936,3119.95,2244.22
+9908,Lisa Mcintosh,Mcintosh,Lisa,Female,(850)824-6690,679 Redwood Ln,Unit 2C,Tucson,AZ,85701,United States,8491,2038.39,2945.59
+7479,Michael Rivera,Rivera,Michael,Male,+1-787-735-7001x329,852 Palm Ave,,Dallas,TX,75201,United States,7854,2061.12,7994.44
+6968,Brian Shepherd,Shepherd,Brian,Male,001-736-675-9118,852 Maple Ave,,Cleveland,OH,44101,United States,6819,3876.9,2339.72
+7761,Paul Freeman,Freeman,Paul,Male,001-506-514-5969,456 Oak Ave,Suite 300,Los Angeles,CA,90001,United States,3958,7486.49,6016.79
+1494,Deanna Gonzales,Gonzales,Deanna,Female,(791)431-4005x534,753 Willow Cir,Suite 10,San Diego,CA,92101,United States,9113,4384.07,4121.14
+9693,Dalton Sexton,Sexton,Dalton,Male,001-942-328-3010x949,467 Sycamore St,Apt 12,San Francisco,CA,94101,United States,6997,7402.92,6957.77
+9708,Benjamin Arias,Arias,Benjamin,Male,001-293-629-4077x8596,753 Willow Cir,Suite 10,San Diego,CA,92101,United States,8655,2423.3,1441.15
+6362,Jerry Fernandez,Fernandez,Jerry,Male,955.360.9091x3393,134 Pine Ave,Suite 12,Bakersfield,CA,93301,United States,3885,1686.97,7228.46
+1280,Helen Rivera,Rivera,Helen,Female,746-209-4787x7025,321 Spruce Dr,,Omaha,NE,68101,United States,9087,3195.56,7998.05
+3785,Nicole Strickland,Strickland,Nicole,Female,001-715-827-6429x637,543 Alder Dr,Suite 15,Kansas City,MO,64101,United States,8797,6908.63,9116.25
+1964,Shannon Walsh,Walsh,Shannon,Female,579.332.3605,456 Maple Ave,Apt 9B,Miami,FL,33101,United States,7841,6208.89,2734.3
+2367,Amy Walton,Walton,Amy,Female,(984)907-3262,907 Walnut St,,Fort Worth,TX,76101,United States,7840,6826.77,4023.9
+6266,Stephanie Baldwin,Baldwin,Stephanie,Female,344.961.3390x04754,456 Alder Ave,,Seattle,WA,98101,United States,5895,9166.56,6205.18
+9560,Jonathan Delgado,Delgado,Jonathan,Male,4556824549,852 Cedar Ave,,Las Vegas,NV,89101,United States,4225,1874.21,5263.98
+8468,Jason Russell,Russell,Jason,Male,957-824-3170x85967,159 Sycamore Ln,,Wichita,KS,67201,United States,7108,5423.45,7738.54
+5851,Brandi Allen,Allen,Brandi,Female,001-953-918-2736x664,159 Sycamore Ln,,Wichita,KS,67201,United States,8423,4274.32,1837.21
+3792,Thomas Jimenez,Jimenez,Thomas,Male,+1-226-286-0333x9331,951 Oak St,,Louisville,KY,40201,United States,6008,2873.3,4387.39
+3876,Gregory Bennett,Bennett,Gregory,Male,+1-611-288-1005,679 Redwood Ln,Unit 2C,Tucson,AZ,85701,United States,1116,5857.22,4046.89
+6113,Darrell Chandler,Chandler,Darrell,Male,576-589-1103x039,456 Oak Ave,Suite 300,Los Angeles,CA,90001,United States,5138,5537.47,5422.8
+8854,Casey Nelson,Nelson,Casey,Female,+1-403-481-0727x5296,852 Maple Ave,,Cleveland,OH,44101,United States,6949,1628.2,4275.3
+4544,Rachael Nash,Nash,Rachael,Female,(558)522-4942x4493,654 Fir St,,Nashville,TN,37201,United States,8417,5372.52,5803.2
+7835,Scott Armstrong,Armstrong,Scott,Male,001-606-669-7570x7437,679 Spruce Ln,,Santa Ana,CA,92701,United States,6893,8189.57,2818.84
+2568,Sara Curry,Curry,Sara,Female,+1-497-573-5692,753 Birch Cir,Suite 4,Portland,OR,97201,United States,9762,2778.68,1804.45
+3213,Sean Cannon,Cannon,Sean,Male,(382)614-1527,123 Cedar St,,Atlanta,GA,30301,United States,6942,7410.7,1578.86
+9699,Jeffrey Smith,Smith,Jeffrey,Male,+1-699-836-2228x5694,679 Redwood Ln,Unit 2C,Tucson,AZ,85701,United States,3884,9394.61,2900.8
+1898,Dylan Nelson,Nelson,Dylan,Male,+1-352-465-0991x08604,987 Cedar Rd,,Philadelphia,PA,19101,United States,8400,4032.38,5340.28
+5787,Christopher Jones,Jones,Christopher,Male,7724793148,456 Oak Ave,Suite 300,Los Angeles,CA,90001,United States,6886,3979.62,6786.11
+6181,Jacob Davis,Davis,Jacob,Male,975-950-5184x933,248 Magnolia Ct,,Austin,TX,73301,United States,4933,8443.13,4129.9
+6336,Derek Barrera,Barrera,Derek,Male,9105140502,467 Sycamore St,Apt 12,San Francisco,CA,94101,United States,3301,9214.75,5675.21
+8656,Tyler Estrada,Estrada,Tyler,Male,590-217-6880x12767,907 Oak St,,Sacramento,CA,94203,United States,8830,8423.67,2268.51
+7283,John Peterson,Peterson,John,Male,+1-407-503-5040,248 Birch Blvd,,Arlington,TX,76001,United States,9511,4252.56,2557.5
+8616,Amanda Taylor,Taylor,Amanda,Female,(652)505-9750,134 Pine Ave,Suite 12,Bakersfield,CA,93301,United States,8943,9916.89,5379.44
+6141,Thomas Powers,Powers,Thomas,Male,001-382-547-4810x3430,852 Maple Ave,,Cleveland,OH,44101,United States,7766,1293.48,3645.41
+1011,Angel Cook,Cook,Angel,Female,354.310.1309x42301,159 Willow Ln,,Memphis,TN,38101,United States,7532,6731.13,1297.96
+6103,Amanda Spence,Spence,Amanda,Female,001-771-891-9803x2539,852 Maple Ave,,Cleveland,OH,44101,United States,1512,4563.76,7237.82
+2170,Katie Kramer,Kramer,Katie,Female,(441)825-2468x658,134 Redwood Dr,,Jacksonville,FL,32201,United States,3628,4799.85,5347.78
+6432,Mindy Wright,Wright,Mindy,Female,+1-377-443-6530x804,987 Dogwood Rd,,Minneapolis,MN,55401,United States,8090,2926.43,9825.63
+1282,Paul Hernandez,Hernandez,Paul,Male,+1-740-592-3249x6278,248 Birch Blvd,,Arlington,TX,76001,United States,2185,4242.74,8467.2
+4740,Joshua Savage,Savage,Joshua,Male,(759)749-6748x988,789 Pine Dr,Unit 5B,Chicago,IL,60601,United States,9696,1718.89,6980.58
+9977,Cynthia Wright,Wright,Cynthia,Female,(378)916-5098x228,753 Willow Cir,Suite 10,San Diego,CA,92101,United States,7927,4206.6,1552.11
+5629,Bryan Bartlett,Bartlett,Bryan,Male,810.570.4077,159 Spruce Ln,,San Antonio,TX,78201,United States,4912,5943.4,7592.58
+9282,Geoffrey Moses,Moses,Geoffrey,Male,209.367.1477,543 Alder Dr,Suite 15,Kansas City,MO,64101,United States,5111,6278.79,3561.02
+4122,Jack Hall,Hall,Jack,Male,374.610.9645x816,543 Alder Dr,Suite 15,Kansas City,MO,64101,United States,6677,4663.36,3754.69
+6171,Amy Walker,Walker,Amy,Female,(309)259-0308x316,248 Magnolia Ct,,Austin,TX,73301,United States,5337,3089.95,5050.46
+9385,Sue Schultz,Schultz,Sue,Female,(462)355-9598x67208,456 Maple Ave,Apt 9B,Miami,FL,33101,United States,6318,6640.04,1153.87
+7154,Katherine Doyle,Doyle,Katherine,Female,6486595844,987 Juniper Rd,,Boston,MA,2101,United States,6324,9698.25,2462.52
+6115,Jason West,West,Jason,Male,001-774-250-7599,456 Maple Ave,Apt 9B,Miami,FL,33101,United States,5602,3763.19,2297.34
+5010,Scott Lopez,Lopez,Scott,Male,+1-380-921-0576x3557,907 Walnut St,,Fort Worth,TX,76101,United States,5883,8503.51,4771.66
+6980,Pamela King,King,Pamela,Female,001-485-969-2597x83314,951 Hickory St,Apt 7,San Jose,CA,95101,United States,8681,9183.87,2265.84
+1314,Kelli Hays,Hays,Kelli,Female,(560)918-0064x721,789 Pine Cir,,Raleigh,NC,27601,United States,6508,3371.3,5684.26
+1895,Catherine Benjamin,Benjamin,Catherine,Female,+1-405-842-8012,753 Willow Cir,Suite 10,San Diego,CA,92101,United States,7808,9803.28,3691.2
+1963,Jeremy Russell,Russell,Jeremy,Male,6266107634,321 Spruce Dr,,Omaha,NE,68101,United States,3117,1203.07,9055.33
+5363,David Weiss,Weiss,David,Male,(436)552-7646,248 Magnolia Ct,,Austin,TX,73301,United States,8972,4314.86,9253.16
+3814,Noah Roberts,Roberts,Noah,Male,+1-565-293-3776x08948,789 Pine Dr,Unit 5B,Chicago,IL,60601,United States,3106,5584.86,8155.25
+6811,Sherry Mccoy,Mccoy,Sherry,Female,720-935-8490,753 Chestnut Cir,,New Orleans,LA,70112,United States,6402,4315.48,2047.82
+3941,Lorraine Thompson,Thompson,Lorraine,Female,355.443.7395x0382,123 Chestnut St,,Detroit,MI,48201,United States,1054,9996.73,9030.77
+9284,Matthew Rose,Rose,Matthew,Male,(848)771-0588,467 Sycamore St,Apt 12,San Francisco,CA,94101,United States,9824,2032.01,1215.27
