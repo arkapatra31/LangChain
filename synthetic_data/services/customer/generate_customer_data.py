@@ -25,12 +25,8 @@ def generate_customers_data(num_records):
                 "contactFirstName": firstName,
                 "gender": gender,
                 "phone": fake.phone_number(),
-                "addressLine1": country_details.get(
-                    "addressLine1"
-                ),  # fake.street_address(),
-                "addressLine2": country_details.get(
-                    "addressLine2"
-                ),  # fake.secondary_address(),
+                "addressLine1": country_details.get("addressLine1"),  # fake.street_address(),
+                "addressLine2": country_details.get("addressLine2"),  # fake.secondary_address(),
                 "city": country_details.get("city"),  # fake.city(),
                 "state": country_details.get("state"),  # fake.state(),
                 "postalCode": country_details.get("postalCode"),  # fake.zipcode(),
