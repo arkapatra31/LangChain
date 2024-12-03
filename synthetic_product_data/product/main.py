@@ -36,8 +36,7 @@ examples = [
         'productVendor': ["Mamaearth" ], 'productDescription': ["Mamaearth Redensyl Hairoil"],
         'quantityInStock': [232], 'buyPrice': [554.12]
         """
-    }
-    ,
+    },
     {
         "example": """
         'productCode': [3078], 'productName': ["Godrej-Protekt-Master-Blaster-Handwash"],
@@ -53,7 +52,7 @@ examples = [
         'productVendor': ["Mamaearth", ], 'productDescription': ["Mamaearth Bodywash"],
         'quantityInStock': [100], 'buyPrice': [299.56]
         """
-    }
+    },
 ]
 
 OPENAI_TEMPLATE = PromptTemplate(input_variables=["example"], template="{example}")
@@ -69,9 +68,7 @@ prompt_template = FewShotPromptTemplate(
 synthetic_data_generator = create_openai_data_generator(
     output_schema=ProductDataModel,
     llm=ChatOpenAI(
-        temperature=1,
-        model="gpt-4o-mini",
-        verbose=True
+        temperature=1, model="gpt-4o-mini", verbose=True
     ),  # You'll need to replace with your actual Language Model instance
     prompt=prompt_template,
 )
