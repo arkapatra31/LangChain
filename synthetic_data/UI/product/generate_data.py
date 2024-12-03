@@ -8,10 +8,14 @@ from synthetic_data import read_dataframe_and_generate_data
 st.title("Generate Records from Configuration")
 
 # Take the number of records to generate
-number_of_records = st.number_input("Enter the number of records to generate", min_value=1, max_value=100, step=1)
+number_of_records = st.number_input(
+    "Enter the number of records to generate", min_value=1, max_value=100, step=1
+)
 
 # Take input for the domain flavor
-flavor = st.text_input("Enter the domain flavor", value="", placeholder="Enter the domain flavor")
+flavor = st.text_input(
+    "Enter the domain flavor", value="", placeholder="Enter the domain flavor"
+)
 
 # File uploader to accept JSON configuration file
 uploaded_file = st.file_uploader("Upload JSON Configuration File", type="json")
@@ -33,7 +37,7 @@ if uploaded_file is not None:
 
     # Convert the content into a DataFrame
     data = [row.split(",") for row in content.split("\n") if row]
-    #Convert config keys into list
+    # Convert config keys into list
     columns = list(config.keys())
     df = pd.DataFrame(data, columns=columns)
 
@@ -56,4 +60,4 @@ if uploaded_file is not None:
     csv_file_path = f"../../data/products/{file_name}_data.csv"
     df.to_csv(csv_file_path, index=False)
     st.success(f"Data saved as {csv_file_path}")
-    #st.dataframe(df)
+    # st.dataframe(df)

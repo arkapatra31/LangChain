@@ -2,21 +2,35 @@ import streamlit as st
 import pandas as pd
 import json
 import os
-from synthetic_data import generate_address_for_EU, generate_address_for_US, read_dataframe_and_generate_data
+from synthetic_data import (
+    generate_address_for_EU,
+    generate_address_for_US,
+    read_dataframe_and_generate_data,
+)
 from synthetic_data.customer_generation.main import generate_customers
 from synthetic_data.order_generation.main import generate_order_data
-from synthetic_data.order_line_item_generation.main import generate_order_line_items_data
+from synthetic_data.order_line_item_generation.main import (
+    generate_order_line_items_data,
+)
 
 st.title("Data Generator")
 
-domain = st.selectbox("Select domain from the following", ["Product", "Customer", "Order", "OrderDetails"], key="domain")
+domain = st.selectbox(
+    "Select domain from the following",
+    ["Product", "Customer", "Order", "OrderDetails"],
+    key="domain",
+)
 
 if domain == "Product":
     # Take the number of records to generate
-    number_of_records = st.number_input("Enter the number of records to generate", min_value=1, max_value=100, step=1)
+    number_of_records = st.number_input(
+        "Enter the number of records to generate", min_value=1, max_value=100, step=1
+    )
 
     # Take input for the domain flavor
-    flavor = st.text_input("Enter the domain flavor", value="", placeholder="Enter the domain flavor")
+    flavor = st.text_input(
+        "Enter the domain flavor", value="", placeholder="Enter the domain flavor"
+    )
 
     # File uploader to accept JSON configuration file
     uploaded_file = st.file_uploader("Upload JSON Configuration File", type="json")
@@ -31,7 +45,9 @@ if domain == "Product":
 
         if st.button("Generate Product Data"):
             # Generate DataFrame based on the configuration
-            response = read_dataframe_and_generate_data(config, number_of_records, flavor)
+            response = read_dataframe_and_generate_data(
+                config, number_of_records, flavor
+            )
 
             # Extract the content from the response
             content = response.content
@@ -71,9 +87,13 @@ if domain == "Product":
 
 
 elif domain == "Customer":
-    customer_address = st.selectbox("Select address type", ["US", "EU"], key="address_type")
+    customer_address = st.selectbox(
+        "Select address type", ["US", "EU"], key="address_type"
+    )
 
-    number_of_records = st.number_input("Enter the number of records to generate", min_value=1, max_value=1000, step=1)
+    number_of_records = st.number_input(
+        "Enter the number of records to generate", min_value=1, max_value=1000, step=1
+    )
 
     if st.button("Generate Customer Data"):
         if customer_address == "US":
@@ -86,16 +106,22 @@ elif domain == "Customer":
             st.success("Customer data generated successfully")
             st.dataframe(customer_df)
 
-elif (domain == "Order"):
+elif domain == "Order":
     # Take the number of records to generate
-    number_of_records = st.number_input("Enter the number of records to generate", min_value=1, max_value=1000, step=1)
+    number_of_records = st.number_input(
+        "Enter the number of records to generate", min_value=1, max_value=1000, step=1
+    )
 
     # Take input to check if records needs some external CSV file or not
-    external_csv_usage = st.checkbox("Use any dependent CSV for records creation ?", value=False)
+    external_csv_usage = st.checkbox(
+        "Use any dependent CSV for records creation ?", value=False
+    )
 
     if external_csv_usage:
         # File uploader to accept CSV configuration file
-        uploaded_file = st.file_uploader("Upload the dependent CSV files", type="csv", accept_multiple_files=True)
+        uploaded_file = st.file_uploader(
+            "Upload the dependent CSV files", type="csv", accept_multiple_files=True
+        )
 
         # Check if file is uploaded or not
         if uploaded_file is not None:
@@ -112,20 +138,26 @@ elif (domain == "Order"):
                 st.success("Order data generated successfully")
                 st.dataframe(order_df)
 
-elif (domain == "OrderDetails"):
+elif domain == "OrderDetails":
 
     # Take the number of records to generate
-    number_of_records = st.number_input("Enter the number of records to generate", min_value=1, max_value=1000, step=1)
+    number_of_records = st.number_input(
+        "Enter the number of records to generate", min_value=1, max_value=1000, step=1
+    )
 
     # Take input to check if records needs some external CSV file or not
-    external_csv_usage = st.checkbox("Use any dependent CSV for records creation ?", value=False)
+    external_csv_usage = st.checkbox(
+        "Use any dependent CSV for records creation ?", value=False
+    )
 
     # Check if the number of records in order file is not equal to the number of records to generate
     record_mismatch: bool = False
 
     if external_csv_usage:
         # File uploader to accept CSV configuration file
-        uploaded_file = st.file_uploader("Upload the dependent CSV files", type="csv", accept_multiple_files=True)
+        uploaded_file = st.file_uploader(
+            "Upload the dependent CSV files", type="csv", accept_multiple_files=True
+        )
 
         # Check if file is uploaded or not
         if uploaded_file is not None:
@@ -134,12 +166,14 @@ elif (domain == "OrderDetails"):
             for file in uploaded_file:
                 # Read the uploaded file name
                 file_name = file.name.split("_")[0]
-                if 'orders' in file_name:
+                if "orders" in file_name:
                     order_df = pd.read_csv(file)
                     # Check if the number of records in order file is not equal to the number of records to generate
                     if len(order_df) != number_of_records:
                         record_mismatch = True
-                        st.error("Number of records in order file should be equal to the number of records to generate")
+                        st.error(
+                            "Number of records in order file should be equal to the number of records to generate"
+                        )
                         break
                     else:
                         df_list.append(order_df)
@@ -150,8 +184,9 @@ elif (domain == "OrderDetails"):
 
         if not record_mismatch:
             if st.button("Generate Order Line Items"):
-                order_line_df = generate_order_line_items_data(number_of_records, df_list)
+                order_line_df = generate_order_line_items_data(
+                    number_of_records, df_list
+                )
                 if order_line_df is not None:
                     st.success("Order Line Items data generated successfully")
                     st.dataframe(order_line_df)
-

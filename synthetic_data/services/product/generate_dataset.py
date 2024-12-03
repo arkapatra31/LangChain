@@ -14,7 +14,10 @@ Don't include example data in the generated records but understand and learn fro
 Only return the content of the generated records and also don't use comma in values.
 Also make sure that the generated records belongs to or are associated to {flavour}.
 """
-prompt_template = PromptTemplate(template=template, input_variables=["number", "columns", "data_types", "example_data", "flavour"])
+prompt_template = PromptTemplate(
+    template=template,
+    input_variables=["number", "columns", "data_types", "example_data", "flavour"],
+)
 
 
 def read_dataframe_and_generate_data(config, number_of_records, flavour):
@@ -33,7 +36,7 @@ def read_dataframe_and_generate_data(config, number_of_records, flavour):
             "columns": columns,
             "data_types": data_types,
             "example_data": example_data,
-            "flavour": flavour
+            "flavour": flavour,
         }
     )
     return response

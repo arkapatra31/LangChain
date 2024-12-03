@@ -5,6 +5,8 @@ import random
 from synthetic_data import generate_customers_data
 
 fake = Faker()
+
+
 def generate_customers(num_records):
     customer_df = generate_customers_data(num_records)
 

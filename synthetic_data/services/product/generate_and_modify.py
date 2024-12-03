@@ -3,7 +3,8 @@ from langchain_openai import ChatOpenAI
 import pandas as pd
 from langchain.prompts import PromptTemplate
 from synthetic_data.OpenAI_LLM.openai_llm import llm
-#from cloudLLM import groq_llm as llm
+
+# from cloudLLM import groq_llm as llm
 
 load_dotenv()
 
@@ -19,7 +20,9 @@ Return only the list of applicable columns.
 """
 
 # Create a PromptTemplate object
-prompt_template = PromptTemplate(template=template, input_variables=["number_of", "domain"])
+prompt_template = PromptTemplate(
+    template=template, input_variables=["number_of", "domain"]
+)
 
 
 def get_dataframe_columns(input_details, number_of):
@@ -27,14 +30,9 @@ def get_dataframe_columns(input_details, number_of):
     chain = prompt_template | llm
 
     # Invoke the chain with the input details
-    response = chain.invoke(
-        {
-            "number_of": number_of,
-            "domain": input_details
-        }
-    )
+    response = chain.invoke({"number_of": number_of, "domain": input_details})
 
     # Extract columns from the response
-    columns = response.content.split('\n')
+    columns = response.content.split("\n")
 
     return columns

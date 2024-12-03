@@ -3,7 +3,9 @@ import os
 from faker import Faker
 import random
 from synthetic_data import generate_orders
+
 fake = Faker()
+
 
 def generate_order_data(num_records, dataframes):
     orders = generate_orders(num_records, dataframes)

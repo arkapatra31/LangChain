@@ -9,29 +9,40 @@ countries_data = {
     "Germany": {
         "states": ["Bavaria", "Berlin", "Hamburg", "Hesse", "Saxony"],
         "cities": ["Munich", "Berlin", "Hamburg", "Frankfurt", "Leipzig"],
-        "postal_codes": ["80331", "10115", "20095", "60311", "04103"]
+        "postal_codes": ["80331", "10115", "20095", "60311", "04103"],
     },
     "France": {
-        "states": ["Île-de-France", "Provence-Alpes-Côte d'Azur", "Auvergne-Rhône-Alpes", "Occitanie",
-                   "Nouvelle-Aquitaine"],
+        "states": [
+            "Île-de-France",
+            "Provence-Alpes-Côte d'Azur",
+            "Auvergne-Rhône-Alpes",
+            "Occitanie",
+            "Nouvelle-Aquitaine",
+        ],
         "cities": ["Paris", "Marseille", "Lyon", "Toulouse", "Bordeaux"],
-        "postal_codes": ["75000", "13000", "69000", "31000", "33000"]
+        "postal_codes": ["75000", "13000", "69000", "31000", "33000"],
     },
     "Italy": {
         "states": ["Lazio", "Lombardy", "Campania", "Veneto", "Piedmont"],
         "cities": ["Rome", "Milan", "Naples", "Venice", "Turin"],
-        "postal_codes": ["00100", "20100", "80100", "30100", "10100"]
+        "postal_codes": ["00100", "20100", "80100", "30100", "10100"],
     },
     "Spain": {
         "states": ["Madrid", "Catalonia", "Andalusia", "Valencia", "Galicia"],
         "cities": ["Madrid", "Barcelona", "Seville", "Valencia", "A Coruña"],
-        "postal_codes": ["28001", "08001", "41001", "46001", "15001"]
+        "postal_codes": ["28001", "08001", "41001", "46001", "15001"],
     },
     "Netherlands": {
-        "states": ["North Holland", "South Holland", "Utrecht", "Gelderland", "Limburg"],
+        "states": [
+            "North Holland",
+            "South Holland",
+            "Utrecht",
+            "Gelderland",
+            "Limburg",
+        ],
         "cities": ["Amsterdam", "Rotterdam", "Utrecht", "Arnhem", "Maastricht"],
-        "postal_codes": ["1012", "3011", "3511", "6811", "6211"]
-    }
+        "postal_codes": ["1012", "3011", "3511", "6811", "6211"],
+    },
 }
 
 
@@ -57,11 +68,14 @@ def generate_address_for_EU():
         os.makedirs(directory)
 
     csv_file_path = os.path.join(directory, "country_data.csv")
-    with open(csv_file_path, mode='w', newline='') as file:
+    with open(csv_file_path, mode="w", newline="") as file:
         writer = csv.writer(file)
-        writer.writerow(["addressLine1", "addressLine2", "city", "state", "postalCode", "country"])
+        writer.writerow(
+            ["addressLine1", "addressLine2", "city", "state", "postalCode", "country"]
+        )
         writer.writerows(records)
     file.close()
+
 
 # # Generate 50 records
 # records = [generate_address() for _ in range(50)]

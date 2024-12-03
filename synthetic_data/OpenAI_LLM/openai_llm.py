@@ -8,6 +8,4 @@ load_dotenv()
 # Initialize ChatOpenAI
 llm = ChatOpenAI(temperature=0.5, model="gpt-4o-mini", verbose=True)
 
-__all__ =[
-    llm
-]
+__all__ = [llm]
