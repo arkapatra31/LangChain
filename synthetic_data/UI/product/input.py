@@ -6,6 +6,9 @@ import pandas as pd
 
 load_dotenv()
 
+# Set page configuration
+st.set_page_config(page_title="Data Generator", page_icon="📊", layout="centered")
+
 # Streamlit UI
 st.title("Generate Records Configuration")
 
@@ -79,7 +82,8 @@ if st.session_state.df.empty:
         )
         st.session_state.example_data[column] = example_data
 
-    # Button to apply modifications and update the DataFrame
+# Button to apply modifications and update the DataFrame
+if st.session_state.df.columns.tolist():
     if st.button("Apply Modifications"):
         # Drop the selected columns
         st.session_state.df.drop(
@@ -129,4 +133,3 @@ if st.session_state.df.empty:
                 file_name=f"{domain}_config.json",
                 mime="application/json"
             )
-
