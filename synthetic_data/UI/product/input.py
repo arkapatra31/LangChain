@@ -42,7 +42,6 @@ if st.session_state.df.empty:
 
         # Show column name
         col1.write(column)
-
         if column not in st.session_state.data_type:
             # Set default data type for the column
             st.session_state.data_type[column] = "string"
@@ -119,4 +118,15 @@ if st.session_state.df.empty:
                     f.write(", ")
             f.write("}")
         f.close()
+
         st.success(f"Data saved as {domain}_config.json")
+
+        # Add a download button for the JSON file
+        with open(f"../../config/{domain}_config.json", "r") as file:
+            st.download_button(
+                label="Download Configuration",
+                data=file,
+                file_name=f"{domain}_config.json",
+                mime="application/json"
+            )
+
