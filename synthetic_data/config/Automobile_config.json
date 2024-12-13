@@ -1,0 +1,42 @@
+{
+  "automobile_id  ": {
+    "data_type": "int",
+    "example_data": "[]"
+  },
+  "make  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "model  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "year  ": {
+    "data_type": "int",
+    "example_data": "[]"
+  },
+  "price  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "description  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "owner_id  ": {
+    "data_type": "int",
+    "example_data": "[]"
+  },
+  "engine_type  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "fuel_type  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "transmission_type  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  }
+}

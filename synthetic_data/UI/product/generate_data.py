@@ -50,6 +50,11 @@ if uploaded_file is not None:
     # Reset the index
     df.reset_index(drop=True, inplace=True)
 
+    # Also validate the each Dataframe values are having proper data type as per the configuration
+    for col in columns:
+        df[col] = df[col].astype(config[col]["data_type"])
+
+
     # Display the DataFrame
     st.dataframe(df)
 
