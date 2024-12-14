@@ -9,8 +9,13 @@ load_dotenv()
 # Set page configuration
 st.set_page_config(page_title="Template Generator", page_icon="📊", layout="centered")
 
+# Load custom CSS
+with open("../assets/input_styles.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
 # Streamlit UI
-st.title("Generate Records Configuration")
+st.markdown('<h1 class="glowing-title" data-text="Generate Template Configuration">Generate Template Configuration</h1>', unsafe_allow_html=True)
+
 
 # Initialize session state to preserve data across reruns
 if "columns_to_remove" not in st.session_state:
@@ -32,13 +37,14 @@ number_of = st.number_input(
 
 # Button to generate columns
 if st.button("Generate Columns"):
-    if domain and number_of:
-        # Generate columns based on user input
-        columns = get_dataframe_columns(domain, number_of)
-        st.session_state.df = pd.DataFrame(
-            columns=columns
-        )  # Store DataFrame in session state
-        st.success("Dataframe columns generated successfully.")
+    with st.spinner("Generating columns..."):
+        if domain and number_of:
+            # Generate columns based on user input
+            columns = get_dataframe_columns(domain, number_of)
+            st.session_state.df = pd.DataFrame(
+                columns=columns
+            )  # Store DataFrame in session state
+            st.success("Dataframe columns generated successfully.")
 
 # Show the generated DataFrame
 if st.session_state.df.empty:
@@ -99,12 +105,13 @@ def add_column():
             st.session_state.new_column["example"] = new_column_example
             submit = st.form_submit_button("Add Column")
             if submit:
-                if new_column:
-                    st.session_state.df[new_column] = new_column_type
-                    st.session_state.data_type[new_column] = new_column_type
-                    st.session_state.example_data[new_column] = new_column_example
-                    st.success(f"{new_column} added successfully.")
-                    st.rerun()
+                with st.spinner("Adding column..."):
+                    if new_column:
+                        st.session_state.df[new_column] = new_column_type
+                        st.session_state.data_type[new_column] = new_column_type
+                        st.session_state.example_data[new_column] = new_column_example
+                        st.success(f"{new_column} added successfully.")
+                        st.rerun()
 
 if st.session_state.df.columns.tolist():
     # Create a form to take input for column name, datatype from dropdown and example data
@@ -114,51 +121,52 @@ if st.session_state.df.columns.tolist():
 # Button to apply modifications and update the DataFrame
 if st.session_state.df.columns.tolist():
     if st.button("Apply Modifications"):
-        # Drop the selected columns
-        st.session_state.df.drop(
-            columns=st.session_state.columns_to_remove, inplace=True
-        )
-        # Reset the columns_to_remove list after update
-        st.session_state.columns_to_remove = []
-        st.write("Finalised DataFrame:")
-        st.dataframe(st.session_state.df)
-        # if not os.path.exists("../data"):
-        #     os.mkdir("../data")
-        # st.session_state.df.to_csv(f"""../data/{domain}.csv""", index=False, mode='w')
-        configuration = st.session_state.data_type
-        final_columns = st.session_state.df.columns.tolist()
-        example_data = st.session_state.example_data
-        if not os.path.exists("../../config"):
-            os.mkdir("../../config")
-        # Save data type and example_data against the columns in a JSON format to a single configuration to a file
-        with open(f"../../config/{domain}_config.json", "w") as f:
-            f.write("{")
-            for column in final_columns:
-                # Split the example data by comma and strip whitespaces
-                examples = (
-                    [
-                        example.strip()
-                        for example in example_data[column].split(",")
-                        if example
-                    ]
-                    if example_data[column]
-                    else []
-                )
-                f.write(
-                    f'"{column}": {{"data_type": "{configuration[column]}", "example_data": "{examples}"}}'
-                )
-                if column != final_columns[-1]:
-                    f.write(", ")
-            f.write("}")
-        f.close()
-
-        st.success(f"Data saved as {domain}_config.json")
-
-        # Add a download button for the JSON file
-        with open(f"../../config/{domain}_config.json", "r") as file:
-            st.download_button(
-                label="Download Configuration",
-                data=file,
-                file_name=f"{domain}_config.json",
-                mime="application/json"
+        with st.spinner("Applying modifications..."):
+            # Drop the selected columns
+            st.session_state.df.drop(
+                columns=st.session_state.columns_to_remove, inplace=True
             )
+            # Reset the columns_to_remove list after update
+            st.session_state.columns_to_remove = []
+            st.write("Finalised DataFrame:")
+            st.dataframe(st.session_state.df)
+            # if not os.path.exists("../data"):
+            #     os.mkdir("../data")
+            # st.session_state.df.to_csv(f"""../data/{domain}.csv""", index=False, mode='w')
+            configuration = st.session_state.data_type
+            final_columns = st.session_state.df.columns.tolist()
+            example_data = st.session_state.example_data
+            if not os.path.exists("../../config"):
+                os.mkdir("../../config")
+            # Save data type and example_data against the columns in a JSON format to a single configuration to a file
+            with open(f"../../config/{domain}_config.json", "w") as f:
+                f.write("{")
+                for column in final_columns:
+                    # Split the example data by comma and strip whitespaces
+                    examples = (
+                        [
+                            example.strip()
+                            for example in example_data[column].split(",")
+                            if example
+                        ]
+                        if example_data[column]
+                        else []
+                    )
+                    f.write(
+                        f'"{column}": {{"data_type": "{configuration[column]}", "example_data": "{examples}"}}'
+                    )
+                    if column != final_columns[-1]:
+                        f.write(", ")
+                f.write("}")
+            f.close()
+
+            st.success(f"Data saved as {domain}_config.json")
+
+            # Add a download button for the JSON file
+            with open(f"../../config/{domain}_config.json", "r") as file:
+                st.download_button(
+                    label="Download Configuration",
+                    data=file,
+                    file_name=f"{domain}_config.json",
+                    mime="application/json"
+                )
