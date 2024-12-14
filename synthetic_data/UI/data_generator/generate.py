@@ -13,6 +13,10 @@ from synthetic_data.order_line_item_generation.main import (
     generate_order_line_items_data,
 )
 
+
+# Set page configuration
+st.set_page_config(page_title="Data Generator", page_icon="📊", layout="centered")
+
 st.title("Data Generator")
 
 domain = st.selectbox(

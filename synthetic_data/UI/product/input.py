@@ -7,7 +7,7 @@ import pandas as pd
 load_dotenv()
 
 # Set page configuration
-st.set_page_config(page_title="Data Generator", page_icon="📊", layout="centered")
+st.set_page_config(page_title="Template Generator", page_icon="📊", layout="centered")
 
 # Streamlit UI
 st.title("Generate Records Configuration")
@@ -19,6 +19,8 @@ if "data_type" not in st.session_state:
     st.session_state.data_type = {}
 if "example_data" not in st.session_state:
     st.session_state.example_data = {}
+if "new_column" not in st.session_state:
+    st.session_state.new_column = {}
 if "df" not in st.session_state:
     st.session_state.df = pd.DataFrame()  # Initialize empty DataFrame
 
@@ -81,6 +83,33 @@ if st.session_state.df.empty:
             placeholder="Enter comma delimited example values",
         )
         st.session_state.example_data[column] = example_data
+
+
+def add_column():
+    # Create a form to take input for column name, datatype from dropdown and example data
+    if st.checkbox("Add Columns"):
+        with st.form(key="add_columns"):
+            new_column = st.text_input("Column Name")
+            st.session_state.new_column["name"] = new_column
+            new_column_type = st.selectbox("Data Type", ["string", "int"])
+            st.session_state.new_column["type"] = new_column_type
+            new_column_example = st.text_input(
+                "Example data", placeholder="Enter comma delimited example values"
+            )
+            st.session_state.new_column["example"] = new_column_example
+            submit = st.form_submit_button("Add Column")
+            if submit:
+                if new_column:
+                    st.session_state.df[new_column] = new_column_type
+                    st.session_state.data_type[new_column] = new_column_type
+                    st.session_state.example_data[new_column] = new_column_example
+                    st.success(f"{new_column} added successfully.")
+                    st.rerun()
+
+if st.session_state.df.columns.tolist():
+    # Create a form to take input for column name, datatype from dropdown and example data
+    add_column()
+
 
 # Button to apply modifications and update the DataFrame
 if st.session_state.df.columns.tolist():
