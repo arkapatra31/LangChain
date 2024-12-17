@@ -1,0 +1,175 @@
+/* styles.css */
+body {
+    background: linear-gradient(270deg, #0d0d0d, #1a1a1a);
+    background-size: 400% 400%;
+    animation: background-animation 15s ease infinite;
+    color: #ffffff;
+    font-family: 'system-ui', Courier, monospace;
+}
+
+@keyframes background-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00ffff;
+    animation: neon-flicker 1.5s infinite alternate;
+}
+
+@keyframes neon-flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        opacity: 0.4;
+    }
+}
+
+.stButton>button {
+    background-color: #00ffff;
+    color: #0d0d0d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 5px #00ffff; }
+    50% { box-shadow: 0 0 20px #00ffff; }
+    100% { box-shadow: 0 0 5px #00ffff; }
+}
+
+.stButton>button:hover {
+    background-color: #6198a2;
+    color: #ffffff;
+    box-shadow: 0 0 10px #75ff60, 0 0 20px #75ff60, 0 0 30px #75ff60;
+}
+
+.stButton>button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.5s;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.stButton>button:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.stTextInput>div>input {
+    background-color: #1a1a1a;
+    color: #00ffff;
+    border: 1px solid #00ffff;
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    animation: glow 1.5s infinite alternate, neon-border 2s infinite;
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 0 10px #00ffff; }
+    50% { box-shadow: 0 0 15px #00ffff; }
+    100% { box-shadow: 0 0 20px #00ffff; }
+}
+
+@keyframes neon-border {
+    0% { border-color: #00ffff; }
+    50% { border-color: #ff00ff; }
+    100% { border-color: #00ffff; }
+}
+
+.stTextInput>div>input:focus {
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+}
+
+.stSelectbox>div>div>div {
+    background-color: #1a1a1a;
+    color: #00ffff;
+    border: 1px solid #00ffff;
+    padding: 10px;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.stSelectbox>div>div>div:hover {
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+}
+
+.stDataFrame {
+    background-color: #1a1a1a;
+    color: #00ffff;
+    border: 1px solid #00ffff;
+}
+
+.stDataFrame table {
+    color: #00ffff;
+}
+
+.stDataFrame th {
+    background-color: #0d0d0d;
+    color: #ff00ff;
+}
+
+.stDataFrame td {
+    background-color: #1a1a1a;
+    color: #00ffff;
+}
+
+.spinner {
+    animation: rotateSpinner 1s linear infinite;
+}
+
+@keyframes rotateSpinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Glowing dots and lines effect for title */
+.glowing-title {
+    position: relative;
+    display: inline-block;
+    color: #00ffff;
+    font-size: 2em;
+    overflow: hidden;
+}
+
+.glowing-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 255, 255, 0.5) 1px, transparent 1px);
+    background-size: 10px 10px;
+    animation: connect-dots 5s linear infinite;
+}
+
+@keyframes connect-dots {
+    0% {
+        background-size: 10px 10px;
+        opacity: 0;
+    }
+    50% {
+        background-size: 20px 20px;
+        opacity: 0.5;
+    }
+    100% {
+        background-size: 10px 10px;
+        opacity: 1;
+    }
+}
