@@ -1,10 +1,2 @@
 automobile_id  ,make  ,model  ,year  ,price  ,description  ,owner_id  ,engine_type  ,fuel_type  ,transmission_type  
-2, Hyundai, Creta, 2021, 1500000, A premium SUV with spacious interiors and advanced features, 102, Diesel, Diesel, Automatic
-3, Tata Motors, Nexon, 2022, 800000, A compact SUV that offers great safety features and a powerful engine, 103, Petrol, Petrol, Manual
-4, Honda, City, 2020, 1200000, A sedan known for its comfort reliability and performance, 104, Petrol, Petrol, Automatic
-5, Kia, Seltos, 2021, 1400000, A stylish SUV with cutting-edge technology and spacious interiors, 105, Diesel, Diesel, Manual
-6, Ford, EcoSport, 2019, 900000, A compact SUV with a powerful engine and great off-road capabilities, 106, Petrol, Petrol, Manual
-7, Mahindra, Thar, 2022, 2000000, An iconic off-roader with modern features and rugged design, 107, Diesel, Diesel, Manual
-8, Toyota, Innova Crysta, 2021, 2500000, A premium MPV that offers comfort and space for large families, 108, Diesel, Diesel, Automatic
-9, Renault, Kwid, 2020, 400000, A budget-friendly hatchback with a modern design and efficient engine, 109, Petrol, Petrol, Manual
-10, Skoda, Octavia, 2021, 1800000, A luxury sedan that combines performance with elegance and advanced technology, 110, Petrol, Petrol, Automatic
+1 ,Honda ,Civic ,2020 ,22000 ,A sleek and reliable compact car perfect for city driving and long commutes with excellent fuel efficiency and a comfortable interior ,101 ,Inline-4 ,Gasoline ,Automatic  

@@ -1,0 +1,18 @@
+/* styles.css */
+
+.sidebar .sidebar-content {
+        background-color: #f0f2f6;
+        padding: 20px;
+}
+.sidebar .sidebar-content h2 {
+    color: #4b4b4b;
+}
+.sidebar .sidebar-content .stRadio > label {
+    font-size: 18px;
+    color: #4b4b4b;
+}
+.sidebar .sidebar-content .stRadio > div {
+    padding: 10px 0;
+}
+
+/* styles.css */
