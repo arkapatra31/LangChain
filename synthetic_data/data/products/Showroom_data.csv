@@ -1,0 +1,6 @@
+showroom_id  ,showroom_name  ,location  ,manager_id  ,contact_number  ,opening_hours  ,capacity  ,description  ,brand_id  ,city_id  
+SR001,Elite Motors,1234 Elm St,MG001,1234567890,9 AM - 7 PM,50,Elite Motors is a premier car showroom offering a wide range of luxury and sports cars designed to cater to the most discerning customers in the city,BR001,C001
+SR002,City Auto Mall,5678 Oak Ave,MG002,0987654321,10 AM - 8 PM,75,City Auto Mall showcases the latest models from various manufacturers providing a one-stop solution for all automotive needs in a spacious and modern environment,BR002,C002
+SR003,Driveway Showroom,9101 Pine Rd,MG003,1122334455,8 AM - 6 PM,40,Driveway Showroom specializes in family-friendly vehicles and eco-friendly options ensuring that every customer finds the perfect fit for their lifestyle and values,BR003,C003
+SR004,Prestige Cars,1213 Maple Blvd,MG004,2233445566,9 AM - 5 PM,60,Prestige Cars is dedicated to providing exceptional customer service and a curated selection of high-end vehicles that stand out for their quality and performance,BR004,C004
+SR005,Auto Hub,1415 Birch Ct,MG005,3344556677,10 AM - 7 PM,80,Auto Hub offers an extensive inventory of both new and pre-owned vehicles along with financing options making it a popular choice for car buyers in the region,BR005,C005

@@ -15,6 +15,6 @@ def generate_order_line_items_data(num_records, dataframes):
     if not os.path.exists(directory):
         os.makedirs(directory)
     order_line_items.to_csv(
-        path_or_buf=f"{directory}/order_line_items.csv", index=False
+        path_or_buf=f"{directory}/orderDetails.csv", index=False
     )
     return order_line_items

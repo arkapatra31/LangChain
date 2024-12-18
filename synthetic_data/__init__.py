@@ -17,6 +17,10 @@ from synthetic_data.services.order_line_items.generate_order_line_items import (
     generate_order_line_items_details,
 )
 
+# Fetch generator components
+from synthetic_data.UI.template_generator.generate_template import load_template_generation_component
+from synthetic_data.UI.data_generator.generate_data import load_data_generation_component
+
 __all__ = [
     llm,
     get_dataframe_columns,
@@ -26,4 +30,6 @@ __all__ = [
     generate_customers_data,
     generate_orders,
     generate_order_line_items_details,
+    load_template_generation_component,
+    load_data_generation_component
 ]
