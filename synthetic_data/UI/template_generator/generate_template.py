@@ -13,7 +13,7 @@ def load_template_generation_component(st):
     st.write("Create a realtime template or schema for your data and customise it as per your requirements.")
 
     # Input fields
-    domain = st.text_input("Enter domain of data you are looking for")
+    domain: str = st.text_input("Enter domain of data you are looking for")
     number_of = st.number_input(
         "Enter the number of columns:", min_value=5, max_value=15, step=1
     )
@@ -23,7 +23,7 @@ def load_template_generation_component(st):
         with st.spinner("Generating columns..."):
             if domain and number_of:
                 # Generate columns based on user input
-                columns = get_dataframe_columns(domain, number_of)
+                columns = get_dataframe_columns(domain.replace(" ", "_"), number_of)
                 st.session_state.df = pd.DataFrame(
                     columns=columns
                 )  # Store DataFrame in session state
