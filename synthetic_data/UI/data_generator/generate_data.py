@@ -24,7 +24,7 @@ def load_data_generation_component(st):
     if st.session_state.domain is not None and st.session_state.domain != []:
         domain_to_be_populated.extend(st.session_state.domain)
     else:
-        domain_to_be_populated.extend(["Customer", "Order", "OrderDetails"])
+        domain_to_be_populated.extend(["Showroom", "Dealer", "Cars", "Customer", "Order", "OrderDetails"])
 
     # Create a select box for domain along with the unique key.
     col1, col2 = st.columns([3, 1])
@@ -33,14 +33,13 @@ def load_data_generation_component(st):
     with col2:
         st.info("Click on the refresh button to refresh the domains")
         refresh_button = st.button("🔃")
+
         if refresh_button:
             st.rerun()
 
+    # domain = st.selectbox("Select domain of data you are looking for", domain_to_be_populated)
 
-    #domain = st.selectbox("Select domain of data you are looking for", domain_to_be_populated)
-
-
-    #st.session_state.domain = domain
+    # st.session_state.domain = domain
 
     if domain == "Customer":
         customer_address = st.selectbox(
@@ -124,7 +123,7 @@ def load_data_generation_component(st):
                         st.success("Order Line Items data generated successfully")
                         st.dataframe(order_line_df)
 
-    elif domain :
+    elif domain:
 
         # Accept the number of records to generate
         number_of_records = st.number_input(
@@ -144,10 +143,10 @@ def load_data_generation_component(st):
             if file_name != domain:
                 return st.error(f"Template configuration file name should start with {domain}")
 
-
             # Checkbox for uploading dependent CSV files. Also while clicking on the checkbox it will display a notice message
             external_csv_usage = st.checkbox(
-                "Use any dependent CSV for records creation ?", value=False, key="external_csv_usage", help="Only upload the dependent CSV files if required"
+                "Use any dependent CSV for records creation ?", value=False, key="external_csv_usage",
+                help="Only upload the dependent CSV files if required"
             )
 
             # Initialize the reference DataFrame
@@ -161,7 +160,8 @@ def load_data_generation_component(st):
                 # Load the CSV files and merge into a single DataFrame for further processing
                 if related_csv is not None:
                     df_list = [pd.read_csv(file) for file in related_csv]
-                    reference_df = pd.concat(df_list, axis=1)
+                    if df_list and len(df_list) > 0:
+                        reference_df = pd.concat(df_list, axis=1)
                 else:
                     reference_df = None
 
@@ -171,7 +171,7 @@ def load_data_generation_component(st):
             # Generate the data based on the configuration
             if st.button("Generate Product Data"):
                 response = read_dataframe_and_generate_data(
-                    config, number_of_records, flavor, reference_df
+                    domain, config, number_of_records, flavor, reference_df
                 )
                 content = response.content
                 data = [row.split(",") for row in content.split("\n") if row]
@@ -187,7 +187,15 @@ def load_data_generation_component(st):
                 csv_file_path = f"../../data/products/{file_name}_data.csv"
                 df.to_csv(csv_file_path, index=False)
                 st.success(f"Data saved as {csv_file_path}")
+                # Display the generated data
+                csv = df.to_csv(index=False).encode('utf-8')
                 st.dataframe(df)
+                st.download_button(
+                    label="Download data as CSV",
+                    data=csv,
+                    file_name=f"{domain}_data.csv",
+                    mime='text/csv',
+                )
 
 
 __all__ = [load_data_generation_component]

@@ -1,0 +1,17 @@
+car_id  ,make  ,model  ,year  ,color  ,price  ,description  ,owner_id  ,dealer_id  ,showroom_id
+C001,BMW,X5,2020,Black,50000,This BMW X5 is a luxury SUV that combines performance and comfort with a spacious interior and advanced technology features,O001,D001,SR001
+C003,BMW,M3,2021,Blue,70000,The BMW M3 is a high-performance sports sedan that delivers exhilarating speed and precision handling while maintaining everyday usability,O003,D003,SR003
+C005,BMW,5 Series,2020,Red,60000,The BMW 5 Series is a mid-size luxury sedan that provides a smooth ride and numerous technological advancements for a superior driving experience,O005,D005,SR005
+C006,BMW,Z4,2021,Yellow,65000,The BMW Z4 is a sleek convertible sports car that offers thrilling performance and an engaging driving experience with its powerful engine and sharp handling,O006,D001,SR001
+C007,BMW,7 Series,2019,Silver,90000,The BMW 7 Series is the flagship luxury sedan that epitomizes elegance and sophistication while providing cutting-edge technology and comfort,O007,D002,SR002
+C008,BMW,X1,2020,Green,40000,The BMW X1 is a compact crossover that offers versatility and practicality without compromising on the sporty driving dynamics that BMW is known for,O008,D003,SR003
+C009,BMW,M4,2021,Orange,75000,The BMW M4 is a high-performance coupe that combines aggressive styling with powerful performance and advanced technology for an exhilarating drive,O009,D004,SR004
+C011,BMW,X6,2019,Brown,80000,The BMW X6 is a unique sports activity coupe that blends the performance of a sports car with the practicality of an SUV,O011,D001,SR001
+C012,BMW,4 Series,2021,Teal,72000,The BMW 4 Series is a stylish and sporty coupe that delivers an engaging driving experience and luxurious interior features,O012,D002,SR002
+C013,BMW,i3,2020,White,35000,The BMW i3 is an innovative electric vehicle that combines sustainability with premium features and a unique design,O013,D003,SR003
+C014,BMW,X7,2021,Black,90000,The BMW X7 is a full-size luxury SUV that offers three rows of seating and a plethora of high-end features for ultimate comfort,O014,D004,SR004
+C019,BMW,5 Series,2022,Silver,65000,The latest BMW 5 Series offers a refined driving experience with advanced technology and luxurious amenities for the discerning driver,O019,D004,SR004
+C022,BMW,7 Series,2020,Purple,95000,The BMW 7 Series is the ultimate luxury sedan that provides a serene driving experience with an array of high-tech features and plush interiors,O022,D002,SR002
+C023,BMW,X1,2021,Black,48000,The BMW X1 is a compact SUV that delivers a sporty driving experience along with ample space and comfort for passengers,O023,D003,SR003
+C026,BMW,2 Series,2020,Red,33000,The BMW 2 Series is a compact car that provides an exhilarating driving experience with its nimble handling and sporty design,O026,D001,SR001
+C028,BMW,M4,2020,Silver,78000,The BMW M4 is a high-performance coupe that combines aggressive styling with cutting-edge technology for an unparalleled driving experience,O028,D003,SR003
