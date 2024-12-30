@@ -142,7 +142,7 @@ Note:-
 <img src="/assets/LangSmith_Tracing.png" width="500" title="LangSmith Tracing">
 <br><br>
 <font color="#bde356"><b>Agent Workflow</b></font><br>
-![](https://github.com/arkapatra31/LangChain/blob/main/assets/ReACT_Agent_Workflow.gif)
+<img src="/assets/ReACT_Agent_Workflow.gif" width="500" title="ReACT AGENT WORKFLOW">      
 <br><br>
 <br><br>
 </div>
