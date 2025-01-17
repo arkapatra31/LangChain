@@ -32,7 +32,7 @@ def load_template_generation_component(st):
     # Show the generated DataFrame
     if st.session_state.df.empty:
         for column in st.session_state.df.columns:
-            col1, col2, col3, col4 = st.columns([1, 1, 1, 2.5])
+            col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 2.5, 1])
 
             # Show column name
             col1.write(column)
@@ -72,6 +72,14 @@ def load_template_generation_component(st):
                 placeholder="Enter comma delimited example values",
             )
             st.session_state.example_data[column] = example_data
+
+            # Mark where the field can be used as foreign key
+            is_foreign_key = col5.checkbox("Foreign Key", key=f"foreign_key_{column}")
+            if is_foreign_key:
+                st.session_state.foreign_key[column] = 1
+            else:
+                st.session_state.foreign_key[column] = 0
+
 
     def add_column():
         # Create a form to take input for column name, datatype from dropdown and example data
@@ -118,6 +126,7 @@ def load_template_generation_component(st):
                 #     os.mkdir("../data")
                 # st.session_state.df.to_csv(f"""../data/{domain}.csv""", index=False, mode='w')
                 configuration = st.session_state.data_type
+                foreign_key_config = st.session_state.foreign_key
                 final_columns = st.session_state.df.columns.tolist()
                 example_data = st.session_state.example_data
                 if not os.path.exists("../../config"):
@@ -137,7 +146,7 @@ def load_template_generation_component(st):
                             else []
                         )
                         f.write(
-                            f'"{column}": {{"data_type": "{configuration[column]}", "example_data": "{examples}"}}'
+                            f'"{column}": {{"data_type": "{configuration[column]}", "example_data": "{examples}", "foreign_key": {foreign_key_config[column]}}}'
                         )
                         if column != final_columns[-1]:
                             f.write(", ")

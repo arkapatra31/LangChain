@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 import os
+import random
 
 from pandas import DataFrame
 from synthetic_data import (
@@ -24,7 +25,7 @@ def load_data_generation_component(st):
     if st.session_state.domain is not None and st.session_state.domain != []:
         domain_to_be_populated.extend(st.session_state.domain)
     else:
-        domain_to_be_populated.extend(["Showroom", "Dealer", "Cars", "Customer", "Order", "OrderDetails"])
+        domain_to_be_populated.extend(["Banks", "Customers", "Medical Insurance", "Customer", "Order", "OrderDetails"])
 
     # Create a select box for domain along with the unique key.
     col1, col2 = st.columns([3, 1])
@@ -166,21 +167,18 @@ def load_data_generation_component(st):
                     reference_df = None
 
             # Load the JSON configuration file
-            config = json.loads(uploaded_file.getvalue().decode("utf-8"))
+            try:
+                config = json.loads(uploaded_file.getvalue().decode("utf-8"))
+            except json.JSONDecodeError:
+                st.error("The uploaded file is not a valid JSON file. Please upload a valid JSON configuration file.")
+            except Exception as e:
+                st.error(f"An error occurred while processing the file: {e}")
 
             # Generate the data based on the configuration
             if st.button("Generate Product Data"):
-                response = read_dataframe_and_generate_data(
+                df = read_dataframe_and_generate_data(
                     domain, config, number_of_records, flavor, reference_df
                 )
-                content = response.content
-                data = [row.split(",") for row in content.split("\n") if row]
-                columns = list(config.keys())
-                sanitized_data = [idv_data for idv_data in data if len(idv_data) == len(columns)]
-                df = pd.DataFrame(sanitized_data, columns=columns)
-                df.dropna(inplace=True)
-                df.drop(df.index[[0]], inplace=True)
-                df.reset_index(drop=True, inplace=True)
 
                 if not os.path.exists("../../data/products"):
                     os.makedirs("../../data/products")

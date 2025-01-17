@@ -22,6 +22,8 @@ if "data_type" not in st.session_state:
     st.session_state.data_type = {}
 if "example_data" not in st.session_state:
     st.session_state.example_data = {}
+if "foreign_key" not in st.session_state:
+    st.session_state.foreign_key = {}
 if "new_column" not in st.session_state:
     st.session_state.new_column = {}
 # Initialize empty DataFrame
