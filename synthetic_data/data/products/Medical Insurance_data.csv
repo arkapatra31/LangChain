@@ -1,0 +1,26 @@
+medical_insurance_id,policy_number,coverage_start_date,coverage_end_date,premium_amount,deductible_amount,description,status,bank_id
+MINS001,PN123456,2023-01-01,2024-01-01,500,100,Comprehensive medical insurance covering hospitalization and outpatient services,Active,IB003
+MINS002,PN123457,2023-02-01,2024-02-01,600,150,Insurance policy providing coverage for major medical expenses and preventive care,Active,IB008
+MINS003,PN123458,2023-03-01,2024-03-01,550,120,Health insurance plan that includes family coverage with additional wellness benefits,Active,IB005
+MINS004,PN123459,2023-04-01,2024-04-01,700,200,Policy designed to cover surgical procedures and emergency medical services,Active,IB008
+MINS005,PN123460,2023-05-01,2024-05-01,650,175,Insurance plan focusing on chronic illness management and specialist consultations,Active,IB008
+MINS006,PN123461,2023-06-01,2024-06-01,720,250,Comprehensive coverage for maternity care and pediatric services,Active,IB005
+MINS007,PN123462,2023-07-01,2024-07-01,580,130,Coverage for mental health services and substance abuse treatment,Active,IB006
+MINS008,PN123463,2023-08-01,2024-08-01,640,180,Health insurance that includes dental and vision coverage,Active,IB008
+MINS009,PN123464,2023-09-01,2024-09-01,590,160,Policy offering telemedicine services and preventive health screenings,Active,IB008
+MINS010,PN123465,2023-10-01,2024-10-01,500,100,Insurance policy with nationwide provider access and 24/7 support,Active,IB005
+MINS011,PN123466,2023-11-01,2024-11-01,650,150,Plan providing coverage for alternative therapies such as acupuncture and chiropractic,Active,IB008
+MINS012,PN123467,2023-12-01,2024-12-01,700,200,Comprehensive plan including international travel coverage for medical emergencies,Active,IB003
+MINS013,PN123468,2024-01-01,2025-01-01,620,140,Insurance policy designed for seniors with additional home healthcare benefits,Active,IB001
+MINS014,PN123469,2024-02-01,2025-02-01,540,110,Health insurance plan focused on preventive care and wellness programs,Active,IB003
+MINS015,PN123470,2024-03-01,2025-03-01,680,190,Policy providing extensive coverage for outpatient procedures and diagnostics,Active,IB006
+MINS016,PN123471,2024-04-01,2025-04-01,590,160,Insurance plan that covers emergency room visits and urgent care,Active,IB008
+MINS017,PN123472,2024-05-01,2025-05-01,500,100,Comprehensive coverage for prescription medications and annual check-ups,Active,IB010
+MINS018,PN123473,2024-06-01,2025-06-01,640,180,Health insurance that includes coverage for rehabilitation services and therapy,Active,IB007
+MINS019,PN123474,2024-07-01,2025-07-01,700,200,Insurance policy with a focus on holistic health and wellness initiatives,Active,IB008
+MINS020,PN123475,2024-08-01,2025-08-01,650,175,Plan providing coverage for both in-network and out-of-network providers,Active,IB005
+MINS021,PN123476,2024-09-01,2025-09-01,580,130,Policy designed for young adults with flexibility and affordable premiums,Active,IB006
+MINS022,PN123477,2024-10-01,2025-10-01,720,250,Insurance that covers routine screenings and vaccinations as part of preventive care,Active,IB010
+MINS023,PN123478,2024-11-01,2025-11-01,590,160,Comprehensive health plan that includes access to wellness coaches and nutritionists,Active,IB004
+MINS024,PN123479,2024-12-01,2025-12-01,640,180,Insurance policy offering benefits for physical therapy and rehabilitation programs,Active,IB007
+MINS025,PN123480,2025-01-01,2026-01-01,500,100,Health insurance providing extensive support for chronic disease management,Active,IB007

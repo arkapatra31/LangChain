@@ -1,0 +1,62 @@
+{
+  "customer_id  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "first_name  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "last_name  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "email  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "phone_number  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "address  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "city  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "state  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "country  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "description  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "bank_id": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 1
+  },
+  "medical_insurance_id": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 1
+  }
+}
