@@ -7,7 +7,7 @@ from synthetic_data import (
     generate_address_for_US,
     read_dataframe_and_generate_data,
 )
-from synthetic_data import load_data_generation_component, load_template_generation_component
+from synthetic_data import load_data_generation_component, load_template_generation_component, load_data_generation_component_with_faker
 from synthetic_data.customer_generation.main import generate_customers
 from synthetic_data.order_generation.main import generate_order_data
 from synthetic_data.order_line_item_generation.main import (
@@ -32,6 +32,9 @@ if "df" not in st.session_state:
 # Capture the domains for which the user is generating the template
 if "domain" not in st.session_state:
     st.session_state.domain = []
+# Capture the OpenAI API key
+if "openai_api_key" not in st.session_state:
+    st.session_state.openai_api_key = ""
 
 # Set page configuration
 st.set_page_config(page_title="Synthetic Data Generator", page_icon="📊", layout="centered")
@@ -53,4 +56,13 @@ options = st.sidebar.radio("Select an option", ["Template Generator", "Data Gene
 if options == "Template Generator":
     load_template_generation_component(st)
 else:
-    load_data_generation_component(st)
+    # Ask if data needs to be generated using Faker or LLM using a radio button
+    data_generation_option = st.radio("Select Data Generation Option", ["Faker", "LLM"])
+    if data_generation_option == "LLM":
+        # Accept a field for OpenAI API key and the field should be masked
+        openai_api_key = st.text_input("Enter OpenAI API Key", type="password")
+        if openai_api_key:
+            st.session_state.openai_api_key = openai_api_key
+            load_data_generation_component(st)
+    else:
+        load_data_generation_component_with_faker(st)
