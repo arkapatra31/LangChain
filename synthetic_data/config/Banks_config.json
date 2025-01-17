@@ -1,7 +1,7 @@
 {
   "bank_id  ": {
     "data_type": "string",
-    "example_data": "[]",
+    "example_data": "['BANK8898', 'BANK2568', 'BANK5900', 'BANK6901', 'BANK8902']",
     "foreign_key": 0
   },
   "bank_name  ": {
@@ -14,7 +14,7 @@
     "example_data": "[]",
     "foreign_key": 0
   },
-  "establishment_year  ": {
+  "established_year  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
@@ -34,12 +34,17 @@
     "example_data": "[]",
     "foreign_key": 0
   },
+  "country_id  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
   "branch_count  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "customer_service_rating  ": {
+  "customer_service_contact  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0

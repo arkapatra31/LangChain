@@ -77,32 +77,20 @@ def read_dataframe_and_generate_data(domain, config, number_of_records, flavour,
         return pd.DataFrame()
 
 
-def read_dataframe_and_generate_data_with_faker(domain, config, number_of_records, reference_dataframe: DataFrame):
-    # try:
-    # Strip all spaces from config keys
-    config = {key.strip(): value for key, value in config.items()}
+def read_dataframe_and_generate_data_with_faker(domain, config, number_of_records, reference_dataframe: DataFrame) -> DataFrame | str:
+    try:
+        # Strip all spaces from config keys
+        config = {key.strip(): value for key, value in config.items()}
 
-    # Extract the input details from the configuration
-    updated_config = prepare_config_map(config)
+        # Extract the input details from the configuration
+        updated_config = prepare_config_map(config)
 
-    return read_config_and_generate_data_with_faker(number_of_records, updated_config, reference_dataframe)
+        return read_config_and_generate_data_with_faker(number_of_records, updated_config, reference_dataframe)
 
-    # data = [row.split(",") for row in content.split("\n") if row]
-    # sanitized_data = [idv_data for idv_data in data if len(idv_data) == len(columns)]
-    # df = pd.DataFrame(sanitized_data, columns=columns)
-    # df.dropna(inplace=True)
-    # df.drop(df.index[[0]], inplace=True)
-    # df.reset_index(drop=True, inplace=True)
-    # df.to_csv("data.csv", index=False)
-
-    # if reference_dataframe.empty:
-    #     return df
-    # else:
-    #     return manage_foreign_key_data(df, config, reference_dataframe)
-
-    # except Exception as e:
-    #     print(f"An error occurred while generating the data: {e}")
-    #     return pd.DataFrame()
+    except Exception as e:
+        print(f"An error occurred while generating the data: {e}")
+        # Return a graceful error urging user to try again in a string format
+        return "An error occurred while generating the data. Please try again."
 
 
 def read_config_and_generate_data_with_faker(number_of_records, config, reference_df):
@@ -129,6 +117,7 @@ def read_config_and_generate_data_with_faker(number_of_records, config, referenc
 
 
 def manage_foreign_key_data(df, config, reference_dataframe):
+
     # Fetch the columns along with the datatype from the config where foreign_key == 1
     foreign_key_columns = [col for col in config.keys() if config[col]["foreign_key"] == 1]
 

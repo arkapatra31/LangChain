@@ -2,6 +2,7 @@ from synthetic_data import llm
 from langchain_core.prompts import PromptTemplate
 from pandas import DataFrame
 import json
+from langchain import  hub
 
 def prepare_config_map(config):
 
@@ -28,7 +29,7 @@ def prepare_config_map(config):
 
 def populate_faker_methods(config):
 
-    template = """
+    template1 = """
         TASK
         You are a Python expert dealing with faker data generation.
         I want you to generate the perfect faker equivalent methods for the following {config}
@@ -36,12 +37,13 @@ def populate_faker_methods(config):
         IMPORTANT
         Always check faker documentation for the correct method before generating the faker method
         
-        NEVER USE fake.unique METHOD FOR ANY COLUMN INSTEAD
+        NEVER USE fake.unique METHOD FOR ANY COLUMN instead use methods like fake.unique.bothify
         
         NOTE
         Always check the data_type and example_data for each column and use them to generate the faker methods
-        If example_data is not available, generate the faker method based on the data_type but if example_data is available use the format of the example_data to generate the faker method so that the faker method will generate data in a similar pattern but not the same data
-        Always use unique values for the ID columns using supported faker methods
+        If example_data is not available, generate the faker method based on the data_type 
+        but if example_data is available use the format of the example_data to generate the faker method so that the faker method will generate data in a similar pattern but not the same data
+        Always use unique values for the ID columns using supported faker methods and make sure to eliminate the possibility of getting uniquesness errors like Got duplicated values after 9999999 iterations
         
         
         OUTPUT
@@ -49,10 +51,16 @@ def populate_faker_methods(config):
         Also return the response in a JSON format and do not enclose the response in quotes
         
     """
+    template = hub.pull("arkapatra31/faker_mapping")
+    # prompt_template = PromptTemplate(
+    #     template=template,
+    #     input_variables=[format],
+    # )
 
+    # Initialise the prompt template
     prompt_template = PromptTemplate(
-        template=template,
-        input_variables=[format],
+        input_variables=template.input_variables,  # Variables required by the prompt
+        template=template.template  # Template for the prompt
     )
 
     chain = prompt_template | llm

@@ -1,45 +1,35 @@
 {
   "customer_id  ": {
     "data_type": "string",
-    "example_data": "[]",
+    "example_data": "['CUST1258', 'CUST1259', 'CUST1260', 'CUST1261', 'CUST1262']",
     "foreign_key": 0
   },
-  "first_name  ": {
+  "customer_name  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "last_name  ": {
+  "customer_email  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "email  ": {
+  "customer_phone  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "phone_number  ": {
+  "customer_address  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "address  ": {
+  "customer_since  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "city  ": {
-    "data_type": "string",
-    "example_data": "[]",
-    "foreign_key": 0
-  },
-  "state  ": {
-    "data_type": "string",
-    "example_data": "[]",
-    "foreign_key": 0
-  },
-  "country  ": {
+  "customer_type  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0

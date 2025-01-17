@@ -1,7 +1,7 @@
 {
   "medical_insurance_id  ": {
     "data_type": "string",
-    "example_data": "[]",
+    "example_data": "['MIS1125', 'MIS1126', 'MIS1127', 'MIS1128', 'MIS1129']",
     "foreign_key": 0
   },
   "policy_number  ": {
@@ -9,12 +9,12 @@
     "example_data": "[]",
     "foreign_key": 0
   },
-  "coverage_start_date  ": {
+  "insured_person_name  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "coverage_end_date  ": {
+  "coverage_amount  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
@@ -24,17 +24,22 @@
     "example_data": "[]",
     "foreign_key": 0
   },
-  "deductible_amount  ": {
+  "start_date  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "end_date  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "provider_id  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
   "description  ": {
-    "data_type": "string",
-    "example_data": "[]",
-    "foreign_key": 0
-  },
-  "status  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0

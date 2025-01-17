@@ -214,6 +214,7 @@ def remove_circular_references(obj, seen=None):
         return {remove_circular_references(i, seen) for i in obj}
     return obj
 
+
 def load_data_generation_component_with_faker(st):
     st.title("Data Generator")
     domain_to_be_populated = []
@@ -222,7 +223,7 @@ def load_data_generation_component_with_faker(st):
     if st.session_state.domain is not None and st.session_state.domain != []:
         domain_to_be_populated.extend(st.session_state.domain)
     else:
-        domain_to_be_populated.extend([ "Customer", "Order", "OrderDetails"])
+        domain_to_be_populated.extend(["Banks", "Medical Insurance", "Customers", "Customer", "Order", "OrderDetails"])
 
     # Create a select box for domain along with the unique key.
     col1, col2 = st.columns([3, 1])
@@ -283,22 +284,24 @@ def load_data_generation_component_with_faker(st):
             # Generate the data based on the configuration
             if st.button("Generate Product Data"):
                 df = read_dataframe_and_generate_data_with_faker(domain, config, number_of_records, reference_df)
-                st.dataframe(df)
-
-                # if not os.path.exists("../../data/products"):
-                #     os.makedirs("../../data/products")
-                # csv_file_path = f"../../data/products/{file_name}_data.csv"
-                # df.to_csv(csv_file_path, index=False)
-                # st.success(f"Data saved as {csv_file_path}")
-                # # Display the generated data
-                # csv = df.to_csv(index=False).encode('utf-8')
-                # st.dataframe(df)
-                # st.download_button(
-                #     label="Download data as CSV",
-                #     data=csv,
-                #     file_name=f"{domain}_data.csv",
-                #     mime='text/csv',
-                # )
+                # Check if df is DataFrame
+                if isinstance(df, DataFrame):
+                    if not os.path.exists("../../data/products"):
+                        os.makedirs("../../data/products")
+                    csv_file_path = f"../../data/products/{file_name}_data.csv"
+                    df.to_csv(csv_file_path, index=False)
+                    st.success(f"Data saved as {csv_file_path}")
+                    # Display the generated data
+                    csv = df.to_csv(index=False).encode('utf-8')
+                    st.dataframe(df)
+                    st.download_button(
+                        label="Download data as CSV",
+                        data=csv,
+                        file_name=f"{domain}_data.csv",
+                        mime='text/csv',
+                    )
+                else:
+                    st.error(df)
 
 
 __all__ = [load_data_generation_component, load_data_generation_component_with_faker]
