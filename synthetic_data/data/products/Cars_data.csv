@@ -1,17 +1,501 @@
-car_id  ,make  ,model  ,year  ,color  ,price  ,description  ,owner_id  ,dealer_id  ,showroom_id
-C001,BMW,X5,2020,Black,50000,This BMW X5 is a luxury SUV that combines performance and comfort with a spacious interior and advanced technology features,O001,D001,SR001
-C003,BMW,M3,2021,Blue,70000,The BMW M3 is a high-performance sports sedan that delivers exhilarating speed and precision handling while maintaining everyday usability,O003,D003,SR003
-C005,BMW,5 Series,2020,Red,60000,The BMW 5 Series is a mid-size luxury sedan that provides a smooth ride and numerous technological advancements for a superior driving experience,O005,D005,SR005
-C006,BMW,Z4,2021,Yellow,65000,The BMW Z4 is a sleek convertible sports car that offers thrilling performance and an engaging driving experience with its powerful engine and sharp handling,O006,D001,SR001
-C007,BMW,7 Series,2019,Silver,90000,The BMW 7 Series is the flagship luxury sedan that epitomizes elegance and sophistication while providing cutting-edge technology and comfort,O007,D002,SR002
-C008,BMW,X1,2020,Green,40000,The BMW X1 is a compact crossover that offers versatility and practicality without compromising on the sporty driving dynamics that BMW is known for,O008,D003,SR003
-C009,BMW,M4,2021,Orange,75000,The BMW M4 is a high-performance coupe that combines aggressive styling with powerful performance and advanced technology for an exhilarating drive,O009,D004,SR004
-C011,BMW,X6,2019,Brown,80000,The BMW X6 is a unique sports activity coupe that blends the performance of a sports car with the practicality of an SUV,O011,D001,SR001
-C012,BMW,4 Series,2021,Teal,72000,The BMW 4 Series is a stylish and sporty coupe that delivers an engaging driving experience and luxurious interior features,O012,D002,SR002
-C013,BMW,i3,2020,White,35000,The BMW i3 is an innovative electric vehicle that combines sustainability with premium features and a unique design,O013,D003,SR003
-C014,BMW,X7,2021,Black,90000,The BMW X7 is a full-size luxury SUV that offers three rows of seating and a plethora of high-end features for ultimate comfort,O014,D004,SR004
-C019,BMW,5 Series,2022,Silver,65000,The latest BMW 5 Series offers a refined driving experience with advanced technology and luxurious amenities for the discerning driver,O019,D004,SR004
-C022,BMW,7 Series,2020,Purple,95000,The BMW 7 Series is the ultimate luxury sedan that provides a serene driving experience with an array of high-tech features and plush interiors,O022,D002,SR002
-C023,BMW,X1,2021,Black,48000,The BMW X1 is a compact SUV that delivers a sporty driving experience along with ample space and comfort for passengers,O023,D003,SR003
-C026,BMW,2 Series,2020,Red,33000,The BMW 2 Series is a compact car that provides an exhilarating driving experience with its nimble handling and sporty design,O026,D001,SR001
-C028,BMW,M4,2020,Silver,78000,The BMW M4 is a high-performance coupe that combines aggressive styling with cutting-edge technology for an unparalleled driving experience,O028,D003,SR003
+car_id,make,model,year,color,engine_type,price,owner_id,description,dealer_id
+cy59922,Honda,X1,1977,Coral,Petrol,"$73,203.68",owner_38059,Blood now tonight gas interesting political.,dealer_94206
+Kt24904,BMW,X1,1994,DarkCyan,Petrol,$5.12,owner_25412,Western every decade much program imagine.,dealer_07267
+rx47343,Hyundai,i20,1978,Khaki,Hybrid,"$1,142.09",owner_49658,Here up middle remain.,dealer_95199
+aO90783,Hyundai,i20,1972,DarkRed,Diesel,"$25,508.84",owner_25466,Final way race them drive.,dealer_18956
+RR16133,Honda,X1,1979,SkyBlue,Hybrid,$487.08,owner_10624,Man president thousand expert land issue account.,dealer_10542
+Pe16617,BMW,X1,1989,LemonChiffon,Diesel,$57.62,owner_71130,Party smile challenge claim.,dealer_86522
+UQ24864,Honda,X1,2002,SlateGray,Hybrid,$3.17,owner_22208,Owner treat quickly shoulder reality increase staff you.,dealer_03583
+Qy35344,Honda,i20,2000,DimGray,Electric,"$9,500.03",owner_24818,Bank skin grow note store like whatever.,dealer_89273
+Dh52303,Hyundai,X1,1980,Fuchsia,Hybrid,$236.85,owner_09808,Seven of war like Republican.,dealer_73447
+Zg90518,Hyundai,X1,2013,GoldenRod,Hybrid,$44.31,owner_47267,Eat individual like away yeah owner hour.,dealer_08761
+GG08672,Honda,i20,2003,SaddleBrown,Petrol,"$65,907.83",owner_76616,Body really effect the budget.,dealer_85393
+eH81949,BMW,X1,1999,OldLace,Electric,"$5,163.76",owner_91197,Prevent as later letter successful some.,dealer_48041
+zm12051,Honda,X1,1983,BurlyWood,Diesel,$5.12,owner_44295,Data people contain relate decide director rule know.,dealer_42596
+Pm06174,Honda,City,1995,SeaGreen,Petrol,$7.27,owner_49823,Test character special ask approach magazine see.,dealer_98121
+AX05548,BMW,i20,2013,RosyBrown,Hybrid,$52.65,owner_52460,Throw mind car pressure collection.,dealer_67243
+Ko80956,BMW,X1,2017,RosyBrown,Electric,"$70,537.37",owner_65528,Type much affect blood seek number leader.,dealer_80265
+Cy11254,Hyundai,X1,2005,DimGray,Petrol,"$7,107.26",owner_91934,Machine guy town must later compare.,dealer_94501
+Oq48873,Hyundai,X1,1973,BlanchedAlmond,Petrol,$3.02,owner_85785,Cell strong team these voice national your.,dealer_67077
+eQ52554,Honda,X1,2015,SeaShell,Petrol,$149.00,owner_80691,Trade girl board street better community strong.,dealer_40557
+KT79795,Hyundai,X1,2019,Blue,Diesel,"$3,148.28",owner_87865,Model central when save former.,dealer_28110
+QR59253,Honda,i20,1978,LightSeaGreen,Petrol,$6.62,owner_08897,Reality image fill whose position interesting.,dealer_47169
+Fv16422,Hyundai,X1,1995,Khaki,Hybrid,"$6,333.35",owner_21919,According answer general probably.,dealer_53882
+JQ15363,Hyundai,City,1976,SeaGreen,Electric,"$7,142.20",owner_34382,She politics upon finish rather.,dealer_15839
+Qg15796,Honda,i20,1995,LightGreen,Petrol,$6.91,owner_57578,Since apply hot lead law charge whether administration.,dealer_94339
+pW89261,BMW,City,1981,DarkOrchid,Diesel,$80.35,owner_95474,Live like crime together.,dealer_95948
+wO25322,Honda,X1,2013,Magenta,Petrol,"$6,404.26",owner_24175,While cup surface run put sort project.,dealer_87398
+vH64356,Honda,i20,1993,BlanchedAlmond,Petrol,$0.92,owner_28410,Continue third provide him.,dealer_37355
+MZ78343,Hyundai,City,1984,Peru,Electric,"$2,187.21",owner_69303,Rule despite hotel heart western low war join.,dealer_24145
+ju62182,BMW,i20,2009,FloralWhite,Petrol,$602.84,owner_90421,Throw end group drive and analysis entire.,dealer_74243
+ha64218,Honda,X1,1972,Chartreuse,Petrol,"$97,707.17",owner_25013,Gas already could.,dealer_92203
+Lf91352,BMW,i20,2003,DarkOrange,Electric,$29.64,owner_69558,Might respond indeed.,dealer_88787
+Uw08455,Hyundai,City,1996,OrangeRed,Hybrid,$3.10,owner_19997,Site defense picture eight tax.,dealer_74729
+Sk52982,BMW,X1,1991,Violet,Petrol,$162.80,owner_56176,End share this defense sell feel.,dealer_86246
+me07745,Honda,i20,2020,IndianRed,Petrol,$8.48,owner_02890,Something while pull.,dealer_83184
+iD25454,Hyundai,i20,1974,Crimson,Petrol,$8.12,owner_63104,Seven break toward she market.,dealer_22771
+qJ85438,Hyundai,i20,2013,Peru,Electric,"$9,013.65",owner_83465,Kid between probably whom full.,dealer_42626
+bs95360,BMW,X1,2006,SaddleBrown,Diesel,"$17,981.46",owner_40646,How within hit born two model animal.,dealer_62497
+Pj94389,BMW,City,2009,Green,Hybrid,$991.04,owner_68961,Quality wonder specific where.,dealer_59397
+eg76118,Honda,X1,1996,Orchid,Diesel,"$9,201.75",owner_76585,Camera front detail realize final over.,dealer_28712
+tk29803,Hyundai,City,2011,HotPink,Petrol,$406.54,owner_05574,Create yard society.,dealer_79743
+Yc29664,Honda,City,1971,Pink,Electric,$8.00,owner_78187,What possible month college southern here.,dealer_82017
+cF66321,Hyundai,i20,1974,MediumAquaMarine,Petrol,$44.19,owner_04820,Forward student scientist accept task character.,dealer_25211
+ra20032,Hyundai,City,1980,Bisque,Hybrid,$9.13,owner_48110,Run remember about forward church conference.,dealer_66800
+Ca42224,Hyundai,X1,1993,HoneyDew,Electric,$545.20,owner_40692,Language side ask.,dealer_08528
+MW98172,Honda,i20,1986,MediumBlue,Electric,"$3,521.84",owner_52650,Field any success television.,dealer_52046
+UO49142,BMW,X1,1994,Orange,Hybrid,$1.29,owner_01200,Carry yard leave open.,dealer_67633
+Ya52368,BMW,X1,1976,SlateGray,Diesel,$4.59,owner_98897,Everyone shoulder chance yeah.,dealer_84900
+Db37233,Hyundai,X1,1976,Khaki,Hybrid,$286.06,owner_20653,Already beyond couple total take painting clearly community.,dealer_60011
+CE21780,BMW,City,2011,Orchid,Diesel,$97.80,owner_01852,Like Mr her appear institution.,dealer_10805
+iA17070,BMW,City,1975,Wheat,Electric,$92.88,owner_38658,Him fund by movie.,dealer_04545
+EJ89106,Hyundai,X1,1989,LightGray,Electric,"$2,551.73",owner_12857,Show financial late boy most quite.,dealer_06629
+Ws66649,BMW,i20,1979,Crimson,Electric,$78.50,owner_37581,Before let author admit instead message.,dealer_03271
+tP28012,Honda,i20,2006,Silver,Hybrid,$96.14,owner_96178,Interest war keep run young.,dealer_10272
+Qd52693,Honda,City,2007,PeachPuff,Electric,"$5,216.96",owner_06100,Authority couple almost series discuss candidate know.,dealer_78077
+RS14581,BMW,X1,2007,SeaGreen,Hybrid,$838.37,owner_67033,Color enter may.,dealer_61313
+Ht96204,Hyundai,i20,1988,ForestGreen,Hybrid,$414.75,owner_46642,Agent lot discussion away culture close thus.,dealer_34025
+OY50655,Honda,X1,2011,Khaki,Diesel,"$75,054.06",owner_86724,Loss own forward work enjoy quite.,dealer_57669
+Mj60340,BMW,X1,2013,Sienna,Petrol,"$8,939.53",owner_58140,Capital court college.,dealer_56715
+Ey05061,BMW,i20,2007,DarkSlateGray,Hybrid,"$7,574.49",owner_01097,Realize organization without community.,dealer_57029
+AL10278,BMW,City,1998,Gainsboro,Electric,$6.61,owner_42251,You building reveal add item term morning.,dealer_36300
+lk23341,BMW,City,1982,FireBrick,Electric,$592.89,owner_64524,Baby or week leader reason later ago good.,dealer_94905
+fA14821,BMW,X1,2015,Beige,Electric,$668.99,owner_73849,Physical rich particular.,dealer_21379
+ev11141,BMW,City,2006,Magenta,Diesel,"$62,464.97",owner_95684,Military billion though worker as science.,dealer_14851
+GQ15957,Hyundai,i20,1990,Bisque,Hybrid,$732.85,owner_58705,Figure identify street because time.,dealer_49125
+sa72870,Honda,i20,1995,Indigo,Electric,$187.60,owner_06705,Teacher what relationship.,dealer_91598
+wI57113,Hyundai,X1,1976,Aqua,Diesel,$76.24,owner_20202,Economy him guess decide spring.,dealer_80988
+Wx27350,BMW,X1,2022,LightSkyBlue,Hybrid,$88.69,owner_82223,Yard necessary father color game anything president.,dealer_73029
+XW86159,BMW,X1,1985,Chocolate,Petrol,$554.48,owner_64649,Maintain stuff seek break.,dealer_95468
+OS60114,Hyundai,X1,1998,Silver,Petrol,"$96,734.93",owner_59327,Character third own toward think.,dealer_01813
+Tk32930,BMW,i20,1993,Thistle,Electric,$35.97,owner_98666,Nearly whatever money president.,dealer_96063
+sp78567,BMW,City,1997,OliveDrab,Hybrid,$62.65,owner_05092,Quality look court brother drop because.,dealer_09065
+Ww44472,Honda,i20,2024,ForestGreen,Petrol,$2.80,owner_55375,Challenge beyond look understand recognize tell.,dealer_64860
+nA21913,Hyundai,X1,2007,Aquamarine,Petrol,$9.46,owner_18463,Start young when travel seek.,dealer_62302
+Rr10504,Honda,City,1984,Lime,Hybrid,$52.88,owner_94803,Relationship teacher however stay sort force including.,dealer_30151
+Sa27890,Hyundai,i20,1982,Violet,Diesel,$303.30,owner_32836,Red rock effect student analysis.,dealer_99967
+gU30493,Honda,City,2008,Thistle,Hybrid,"$46,408.62",owner_33797,Peace product certain per good.,dealer_26251
+nj81156,BMW,i20,1993,Aquamarine,Hybrid,$9.41,owner_58943,Town country respond exist third newspaper bank.,dealer_13852
+rq28309,Honda,City,1981,BlanchedAlmond,Hybrid,"$3,458.95",owner_81204,Party question bad space.,dealer_69001
+xY67420,Hyundai,X1,1973,SlateBlue,Electric,$960.26,owner_94568,Play mother catch man growth sense recently.,dealer_25135
+lX81500,BMW,City,1995,DarkMagenta,Petrol,$6.19,owner_85132,Anything animal language time every on.,dealer_13848
+TR65255,Honda,X1,1979,Salmon,Hybrid,$20.49,owner_13888,Clear attack instead establish.,dealer_81907
+kP94327,Hyundai,i20,1971,WhiteSmoke,Electric,"$84,516.38",owner_20223,Car fund summer manager something exist.,dealer_48351
+RO23720,BMW,City,1972,Lavender,Hybrid,$7.14,owner_42049,Bring real computer control.,dealer_44838
+yy13521,BMW,X1,1990,DodgerBlue,Petrol,$7.05,owner_59914,Everyone author third gas central.,dealer_72885
+Pw79932,BMW,X1,2009,Cyan,Petrol,$795.21,owner_73022,Hospital safe new.,dealer_26398
+nt85197,BMW,X1,1998,LightSalmon,Diesel,"$96,150.93",owner_08592,Your wrong run agree stand bed.,dealer_81939
+tH17379,BMW,X1,1987,Wheat,Hybrid,"$37,331.64",owner_81545,They enter ok develop story peace experience.,dealer_74219
+JH39585,Honda,i20,1978,SeaShell,Hybrid,"$4,329.94",owner_28717,Without will clear light.,dealer_81660
+Oh45831,Honda,i20,1976,DarkGreen,Petrol,$9.15,owner_40643,Action miss window create country.,dealer_02793
+uW08251,Hyundai,City,2020,Sienna,Hybrid,$161.78,owner_80598,Region water figure white.,dealer_92147
+lg71874,Honda,X1,1989,Sienna,Hybrid,$77.72,owner_81315,My eight would.,dealer_84950
+jy95444,Honda,City,2021,DarkRed,Diesel,$18.14,owner_91564,Themselves notice window toward suggest to.,dealer_62294
+pJ93005,Hyundai,X1,1994,SandyBrown,Diesel,"$28,031.80",owner_04831,Teacher same plan great or office fast size.,dealer_11196
+fT36201,Hyundai,X1,2013,DarkOrchid,Diesel,"$99,257.15",owner_97753,Main sell success through stage program member.,dealer_86406
+bK29028,BMW,X1,1984,PaleTurquoise,Petrol,$534.73,owner_65578,Way feel news page.,dealer_94907
+Lc99100,Hyundai,i20,1995,OrangeRed,Petrol,"$6,753.02",owner_91339,Keep past seat box.,dealer_88297
+Uc10948,Honda,X1,1991,BlueViolet,Electric,$0.46,owner_51875,Article range apply civil look wall important.,dealer_38214
+eP28562,BMW,i20,2002,PapayaWhip,Petrol,$4.25,owner_39846,Catch speak describe article top.,dealer_42759
+Fo28280,BMW,X1,2016,Orchid,Diesel,"$7,060.54",owner_53030,Certain similar environmental assume.,dealer_46207
+NM95398,Honda,i20,2007,LightGreen,Petrol,$7.28,owner_83014,Discover cost account bill image PM east standard.,dealer_29372
+Aq16839,Hyundai,X1,1991,Salmon,Hybrid,$983.21,owner_13261,Perform often movement quite affect cell.,dealer_62115
+Fw00397,Honda,X1,1990,RosyBrown,Hybrid,$407.14,owner_50190,Free door common case better yet style.,dealer_49745
+Ef80009,BMW,i20,1981,Peru,Diesel,$61.81,owner_14463,Company from design ask not.,dealer_52765
+Kx15490,Honda,City,1982,MediumBlue,Diesel,$14.30,owner_21480,Into life third memory never.,dealer_19879
+Yn85065,Honda,X1,2023,Chocolate,Diesel,$2.91,owner_54846,Off cause Democrat probably series for.,dealer_83128
+sM58523,BMW,City,2008,Gold,Electric,$30.79,owner_15928,National doctor performance hour material.,dealer_59931
+Ki20261,BMW,X1,1976,LightYellow,Electric,"$75,292.49",owner_35488,Begin reveal necessary rule population some southern political.,dealer_61359
+sx35249,Honda,X1,1970,MediumAquaMarine,Electric,$45.88,owner_85273,Boy remain large community.,dealer_64103
+HO42416,Honda,i20,1978,Salmon,Petrol,$27.29,owner_36337,Possible involve nor building challenge put fact.,dealer_02374
+ob49904,Honda,X1,2000,Sienna,Diesel,$67.86,owner_66754,Step most allow court rise everybody.,dealer_25408
+eJ08517,BMW,X1,2010,LightYellow,Petrol,"$12,501.81",owner_03303,Country out positive almost occur price fund chair.,dealer_58846
+qx79828,BMW,X1,2011,Ivory,Electric,"$98,390.88",owner_22000,Leader view prove interesting do perhaps page play.,dealer_11550
+mD06938,Honda,i20,2019,HoneyDew,Petrol,$1.98,owner_56570,Add group remain.,dealer_43680
+af98498,Hyundai,i20,1994,DarkGreen,Hybrid,"$44,042.98",owner_43628,Him left nor since statement film professional.,dealer_47173
+Dc87844,Hyundai,i20,1995,PaleGreen,Diesel,$9.37,owner_57080,About pattern mission task low thought turn.,dealer_63485
+CU95916,Hyundai,City,1989,CornflowerBlue,Hybrid,$2.98,owner_82050,Particularly particular tree environment station spend design.,dealer_03918
+fJ41239,Honda,City,2000,MidnightBlue,Electric,$3.89,owner_91821,Often play sea skin decide baby.,dealer_10109
+RQ18398,BMW,i20,2008,LightGreen,Electric,$73.42,owner_39748,Near arm second camera yard five.,dealer_13559
+Vl05397,BMW,X1,2014,Purple,Electric,$832.63,owner_72898,Interest team than.,dealer_41631
+Xk21251,Honda,X1,1971,GreenYellow,Hybrid,$91.69,owner_88056,Board eye threat.,dealer_37700
+gV71817,Honda,i20,1997,LightSteelBlue,Diesel,$678.73,owner_14000,Bring manage defense big couple.,dealer_55444
+eT51032,Hyundai,X1,1980,GreenYellow,Electric,$0.26,owner_20023,Describe idea six discuss west news.,dealer_44621
+BR80666,Hyundai,City,1971,MediumVioletRed,Hybrid,$41.18,owner_65273,Model company happen gas ahead herself.,dealer_13590
+bb15932,BMW,City,2005,Green,Hybrid,$67.96,owner_27426,Success believe perform end discover.,dealer_11017
+qG80899,Hyundai,City,1981,Aquamarine,Petrol,"$79,707.87",owner_34203,Night believe position sport.,dealer_52274
+Pl20131,Hyundai,i20,2002,Wheat,Petrol,$72.34,owner_04057,Scene until source small environmental travel.,dealer_38883
+Tr81294,Hyundai,i20,1982,SaddleBrown,Hybrid,$3.54,owner_96333,Name hundred staff near of.,dealer_36812
+zA60775,Honda,City,2023,DarkSlateGray,Diesel,$624.51,owner_88533,More tell student a situation.,dealer_21872
+ic27261,Hyundai,i20,2021,Silver,Diesel,$877.72,owner_23380,Decision some realize.,dealer_94555
+lv87334,BMW,i20,2001,LemonChiffon,Electric,"$5,070.42",owner_37718,Issue best job one.,dealer_83298
+bK21425,BMW,City,2015,Tan,Hybrid,$50.54,owner_79753,Film certainly throughout last system also oil.,dealer_79504
+qe71098,BMW,X1,2016,Turquoise,Petrol,"$7,619.28",owner_84283,Practice attorney college cost lot.,dealer_00373
+SC55058,Honda,i20,1994,FloralWhite,Petrol,"$53,466.99",owner_65574,Party hand thousand us writer community continue current.,dealer_98531
+ki83437,Honda,i20,2012,SpringGreen,Electric,$96.27,owner_26705,Team create develop reflect cup should floor.,dealer_69415
+SV08129,BMW,City,1996,Sienna,Electric,"$3,470.37",owner_07134,Enter speak position night law remain.,dealer_92408
+lf90620,BMW,City,1999,LightSlateGray,Hybrid,"$57,504.72",owner_61062,Commercial decision floor trip remain offer growth choose.,dealer_09982
+tp19323,Honda,City,1981,SteelBlue,Hybrid,$9.77,owner_35332,Beyond glass kind laugh wall she.,dealer_15960
+HD64988,BMW,City,2000,MintCream,Hybrid,"$2,784.91",owner_69539,Blue according although size perform public simple.,dealer_52294
+NB99942,BMW,City,1995,ForestGreen,Petrol,$464.70,owner_34352,Check model member economy push raise.,dealer_25558
+gB57854,Hyundai,City,1991,Olive,Diesel,$2.61,owner_60752,Media age hundred long for.,dealer_84059
+xI98148,Hyundai,X1,2013,DarkSeaGreen,Hybrid,$2.56,owner_15521,Late provide style put.,dealer_20402
+UU73834,BMW,X1,2022,LightYellow,Diesel,$186.71,owner_98914,Rather name else design whom together.,dealer_93515
+uv81721,BMW,City,2003,LightSeaGreen,Diesel,"$28,438.38",owner_40941,Reduce goal ever meeting watch figure research.,dealer_06409
+dC13333,Hyundai,City,1995,Indigo,Electric,"$80,593.14",owner_72347,Hotel even practice such dog.,dealer_91037
+uG11972,BMW,i20,1994,Salmon,Hybrid,$26.76,owner_66134,Indeed hard would them when example answer.,dealer_59116
+nX77116,Hyundai,X1,2003,Lavender,Electric,$222.27,owner_55585,By guy Mr difficult western.,dealer_83596
+vf91351,Honda,i20,2005,MediumSpringGreen,Petrol,$776.68,owner_82911,Himself main size nice where test simply.,dealer_93187
+vz07551,Hyundai,X1,2012,OrangeRed,Petrol,$1.68,owner_52254,Star need admit direction mind series.,dealer_57958
+ya18625,BMW,City,2007,PaleTurquoise,Diesel,$892.18,owner_32481,Develop onto tax challenge different remember authority.,dealer_27594
+lT59233,BMW,i20,1975,RoyalBlue,Diesel,"$3,517.11",owner_03622,Collection improve play.,dealer_20830
+Uy43963,Honda,City,1994,Orange,Petrol,$6.44,owner_81753,Tough my develop hospital.,dealer_19391
+kk46550,BMW,i20,1970,BlanchedAlmond,Petrol,"$18,482.59",owner_12011,Charge argue word clearly number skill course offer.,dealer_84984
+Vp00926,Hyundai,i20,1983,White,Petrol,$7.44,owner_03469,North table final large issue.,dealer_10926
+Je37482,BMW,i20,1984,GoldenRod,Petrol,$92.31,owner_27986,People feel who time soldier itself.,dealer_49678
+De48742,Honda,City,1993,DarkCyan,Electric,$781.09,owner_29010,Should your body.,dealer_27690
+pT88299,Hyundai,City,1991,Orange,Diesel,$6.61,owner_83915,Less bring use for trip memory establish.,dealer_49513
+aq53930,Hyundai,City,1976,CadetBlue,Electric,$4.77,owner_67352,Case partner him dark per.,dealer_27379
+sB77418,BMW,i20,2000,LimeGreen,Petrol,"$96,677.33",owner_77602,Foreign side group prevent after.,dealer_92164
+lH01392,Honda,City,1977,SaddleBrown,Electric,$778.35,owner_44067,Today manager sell foreign loss.,dealer_10399
+Wq43757,Hyundai,i20,1975,Violet,Electric,"$3,347.57",owner_32049,Mr oil partner raise radio positive pattern.,dealer_41815
+VL49742,BMW,X1,1995,AntiqueWhite,Hybrid,$28.94,owner_79934,Much exactly home rate media must similar hospital.,dealer_72913
+Fb09172,BMW,i20,1993,DarkSeaGreen,Petrol,$56.52,owner_93464,National travel marriage move.,dealer_91295
+Gq32811,Hyundai,City,1996,DarkMagenta,Petrol,"$1,648.57",owner_67772,Watch standard case other.,dealer_36033
+NJ46904,Hyundai,i20,2023,MidnightBlue,Petrol,"$56,874.56",owner_79876,Certainly good everything production age.,dealer_67398
+aR92865,Hyundai,X1,2007,LavenderBlush,Petrol,"$8,753.18",owner_85858,Provide compare else beyond professional month.,dealer_57992
+UC53048,BMW,X1,1990,Gray,Hybrid,"$22,668.59",owner_14760,Party interesting cover same.,dealer_89994
+sk66016,Hyundai,X1,2021,Peru,Electric,$2.25,owner_60517,Yeah theory trade raise bar music.,dealer_07937
+sF81450,Honda,X1,1999,Indigo,Electric,$89.76,owner_72509,My member message.,dealer_45271
+tk82788,Honda,X1,1977,CornflowerBlue,Petrol,"$8,613.93",owner_08949,Decade civil woman none community court culture.,dealer_64897
+Cq51717,Honda,City,1972,PapayaWhip,Petrol,$34.45,owner_83821,Popular character attack certainly window work.,dealer_39957
+Ip18928,BMW,City,1992,Coral,Diesel,$9.75,owner_61198,End ok trade toward turn assume both.,dealer_47876
+Gy63803,BMW,City,2015,Yellow,Hybrid,"$48,927.42",owner_60483,Might need finally man explain force.,dealer_61571
+Sr40543,Honda,i20,2007,SlateBlue,Diesel,$571.87,owner_07637,Arrive bag lay.,dealer_68656
+WI43488,BMW,i20,1993,Salmon,Hybrid,"$3,183.97",owner_38004,We suffer sister who natural from enough.,dealer_31908
+jk00791,Hyundai,X1,2011,Magenta,Diesel,$7.98,owner_42621,Project here social make store raise game fill.,dealer_33155
+zR76005,Honda,X1,2022,MediumSpringGreen,Hybrid,"$7,265.70",owner_54248,Big local as.,dealer_24600
+aM30388,Honda,i20,1971,Chocolate,Petrol,$6.60,owner_88574,Foot work purpose happen girl go.,dealer_67177
+YT82370,Hyundai,X1,1992,SlateGray,Petrol,"$22,976.38",owner_51132,Daughter hard ability role.,dealer_89912
+mt66203,Honda,City,1998,RoyalBlue,Diesel,"$4,642.11",owner_44574,Between PM society sometimes.,dealer_15187
+bR11211,BMW,City,2003,MintCream,Electric,"$3,898.80",owner_81877,Yard ground door fund try establish along.,dealer_50117
+zJ45488,BMW,i20,2011,White,Hybrid,"$7,274.20",owner_29311,North guy hold student color.,dealer_20588
+vZ64214,BMW,City,2016,SandyBrown,Diesel,"$6,037.15",owner_19398,Discussion identify above white former deal.,dealer_24910
+MT78898,Honda,i20,2010,SlateBlue,Electric,$7.09,owner_63337,Growth born discuss line receive speech recently.,dealer_56370
+yD26688,Honda,City,1990,Ivory,Hybrid,"$62,711.96",owner_68553,Claim write end central in series various cultural.,dealer_37325
+lg53376,Hyundai,i20,1996,Plum,Hybrid,"$6,588.84",owner_20297,Mother drive street establish final.,dealer_15259
+Ti98144,Honda,City,2010,DarkViolet,Hybrid,"$20,086.40",owner_81147,Minute high research can adult science treat world.,dealer_23138
+qC43107,Honda,City,2020,Silver,Petrol,"$6,444.23",owner_60092,Rise hard treat visit.,dealer_97919
+wY47453,Honda,X1,2016,Moccasin,Petrol,"$82,257.17",owner_74087,Describe eat size measure.,dealer_50293
+cq61173,Hyundai,i20,1978,DarkCyan,Petrol,$19.74,owner_43527,Single sing laugh amount good.,dealer_60864
+EC03788,BMW,City,2006,Ivory,Petrol,$867.04,owner_24554,Person would well movie.,dealer_64304
+iL22704,Hyundai,City,1990,MediumVioletRed,Electric,"$7,659.51",owner_15376,Organization power finish forward picture.,dealer_13725
+Em99487,Hyundai,i20,1984,Aquamarine,Hybrid,$96.79,owner_39510,Poor what need leader position she skin coach.,dealer_50663
+El27833,Hyundai,X1,2000,HoneyDew,Petrol,$951.26,owner_37702,Action shoulder debate talk.,dealer_46951
+PW88781,Hyundai,X1,2001,MediumSlateBlue,Electric,$354.72,owner_13231,Go increase during choose.,dealer_12167
+Yg90879,Hyundai,i20,1979,Pink,Hybrid,$35.22,owner_57337,Four as into natural trouble how product.,dealer_12204
+qY58714,Hyundai,City,1984,Pink,Diesel,$29.13,owner_04124,Strategy this each page toward.,dealer_28545
+KG40758,Honda,City,1989,Plum,Electric,$212.64,owner_97183,World over approach by various back list.,dealer_58121
+pg97256,BMW,X1,1987,MistyRose,Hybrid,"$1,549.76",owner_04653,Father current just rather voice happy.,dealer_66727
+Fn63927,Hyundai,i20,2014,OldLace,Petrol,$238.72,owner_23830,Give outside over compare doctor.,dealer_00243
+Cg27081,Honda,X1,1984,LimeGreen,Electric,"$8,016.76",owner_82654,Produce relate including all sing sea people remain.,dealer_65112
+ba05385,BMW,City,1990,LightSlateGray,Diesel,$9.73,owner_98518,Add draw rule ball site.,dealer_42102
+uk51775,Honda,i20,2017,DarkTurquoise,Petrol,"$6,264.62",owner_09654,Difficult nation catch popular.,dealer_75374
+Gj63989,BMW,City,2022,Lime,Petrol,"$8,352.63",owner_01783,Usually society concern time guess.,dealer_71459
+xc62855,BMW,X1,1978,SandyBrown,Electric,$159.48,owner_13026,Then east those old possible large.,dealer_06913
+Iy45606,BMW,City,2006,Orange,Petrol,$533.78,owner_78579,Them school able past wonder from I which.,dealer_77416
+zN55525,Hyundai,City,2001,Aqua,Petrol,"$90,569.26",owner_34619,Yes break discover goal dinner us.,dealer_25347
+ED74683,Hyundai,City,2023,Pink,Petrol,$487.19,owner_20339,Realize within enjoy would.,dealer_61342
+CH22007,Hyundai,X1,1979,Plum,Diesel,$988.98,owner_52807,Federal lead her author out computer summer.,dealer_08380
+ca35984,Honda,X1,1998,BlanchedAlmond,Petrol,$7.77,owner_80606,Morning my member conference keep factor.,dealer_22154
+xD89297,Hyundai,i20,1972,DarkTurquoise,Petrol,$68.09,owner_76806,Everybody new else loss difficult on.,dealer_31745
+Bt45761,BMW,City,1999,MediumVioletRed,Petrol,"$5,801.81",owner_45935,Produce box remember market.,dealer_49620
+Np25200,Hyundai,i20,1991,Snow,Diesel,"$5,739.20",owner_68598,Nothing ahead threat yeah everyone sound.,dealer_50070
+rI86953,Honda,X1,1975,DarkViolet,Hybrid,"$3,047.72",owner_65483,Purpose than which from bag.,dealer_96623
+Jy89445,Hyundai,X1,2000,SandyBrown,Hybrid,"$1,262.96",owner_21817,Military for relate late peace.,dealer_63288
+Dc92952,Hyundai,i20,2011,DarkOrange,Hybrid,"$7,836.06",owner_36672,Season quickly social unit maintain focus.,dealer_52419
+Rn80812,Hyundai,X1,2012,Cornsilk,Diesel,"$3,241.79",owner_88188,Major particularly believe price two father.,dealer_93161
+gu85564,Honda,City,2008,MediumVioletRed,Petrol,"$4,042.88",owner_78646,Sign at father east Mr risk.,dealer_77156
+ow30585,Honda,i20,2013,DarkMagenta,Hybrid,$9.06,owner_98031,Ready step alone full step bill.,dealer_45073
+nG72265,BMW,City,1976,FloralWhite,Hybrid,"$1,167.12",owner_03686,Card alone moment trouble allow stand.,dealer_76573
+jl78133,Honda,X1,2023,SeaGreen,Petrol,"$10,804.73",owner_17681,Follow red yeah can ability specific former.,dealer_24888
+Sy84437,Honda,i20,2012,Gold,Diesel,"$16,171.51",owner_86460,Team play mission there citizen.,dealer_50484
+qr14787,BMW,City,1997,LemonChiffon,Hybrid,"$93,813.19",owner_91932,Let stand social degree red discover.,dealer_00964
+nL29092,BMW,City,2013,DarkGray,Diesel,"$25,451.93",owner_74107,Author office night.,dealer_29307
+Fg28880,Hyundai,City,1976,DarkOliveGreen,Diesel,$62.28,owner_72122,Move development safe maybe believe present others.,dealer_06961
+ep77432,Honda,City,1973,LightSkyBlue,Petrol,"$6,097.92",owner_55932,Big side ago floor agent.,dealer_38976
+es64020,Hyundai,X1,1997,DeepPink,Electric,"$37,846.89",owner_07646,Nice else executive international in stop building.,dealer_06537
+TS08161,BMW,X1,1980,IndianRed,Diesel,"$75,578.65",owner_17044,Cell open moment population street.,dealer_98442
+GG75194,BMW,City,1990,Yellow,Petrol,"$34,502.47",owner_44176,Only know third plan laugh son.,dealer_14718
+Eu53021,Honda,X1,1981,DarkRed,Diesel,"$84,204.45",owner_10313,Each fund owner others dinner middle.,dealer_39712
+Dy80684,BMW,City,2018,Cyan,Petrol,$27.56,owner_91730,Commercial affect reason behavior push establish.,dealer_36818
+gQ08544,Hyundai,City,2017,BlueViolet,Diesel,"$4,153.30",owner_43144,Education light avoid follow five evidence.,dealer_82706
+ua07301,Hyundai,i20,2005,SkyBlue,Petrol,"$1,869.69",owner_29529,Of small least food girl top stand.,dealer_34030
+Cr25792,Hyundai,City,1990,GoldenRod,Electric,"$91,764.20",owner_53270,Growth another black hold six pay day.,dealer_49324
+nE38659,BMW,X1,2023,DarkSlateGray,Hybrid,$506.75,owner_16223,Memory friend name reason face strategy go.,dealer_11791
+TP20162,BMW,City,1997,DeepSkyBlue,Hybrid,$3.57,owner_45145,Above guess man notice meet travel.,dealer_45032
+JK45731,Hyundai,City,1988,DarkSlateGray,Petrol,"$7,843.67",owner_95380,Form long unit factor situation.,dealer_48497
+sR77182,Honda,City,1988,AntiqueWhite,Electric,$777.78,owner_39304,Friend bad do simple.,dealer_84850
+ZW00207,BMW,X1,2023,Khaki,Diesel,$196.80,owner_61389,Three that include reflect little open.,dealer_90851
+Ft42030,BMW,City,2000,FloralWhite,Diesel,$997.05,owner_38040,Argue mother way end.,dealer_49147
+Ig05323,Hyundai,X1,2006,DarkOrange,Electric,"$37,115.42",owner_49017,Past capital even off area country.,dealer_16510
+uy49205,BMW,X1,2006,DeepPink,Diesel,"$9,176.64",owner_72930,Less we some international source.,dealer_67267
+KN88097,Honda,City,2012,LightSlateGray,Petrol,$53.21,owner_01735,Actually artist however alone rest just.,dealer_84797
+nt42840,BMW,X1,1970,Magenta,Petrol,$60.49,owner_81066,Get beat worry activity fall create.,dealer_55769
+Ku47151,BMW,X1,2022,LightPink,Electric,$42.62,owner_93547,Mean senior stop air door.,dealer_88375
+sy36097,Hyundai,i20,1998,DarkOrange,Electric,$594.05,owner_11187,Money letter language property.,dealer_24772
+KV99326,Hyundai,City,2018,LightSeaGreen,Diesel,$697.47,owner_48209,Charge claim six later represent.,dealer_98337
+KF79933,Honda,City,2011,DarkGreen,Electric,$656.42,owner_14310,Seat through third student answer sometimes follow.,dealer_54699
+iB58645,BMW,i20,2010,FireBrick,Petrol,"$5,580.69",owner_50086,Focus might catch method professional.,dealer_32624
+QP26069,BMW,City,2009,MediumBlue,Hybrid,$69.74,owner_55262,Present interest money would collection.,dealer_29104
+qr72493,Honda,i20,2022,NavajoWhite,Hybrid,"$47,136.68",owner_64519,Indeed art sport section help event.,dealer_99551
+qE07746,Honda,City,1982,LightPink,Hybrid,$6.67,owner_61754,Movement change war stock bag.,dealer_38535
+OC66094,Hyundai,City,1978,LightPink,Petrol,$32.45,owner_75139,Against toward ok floor white kind country.,dealer_27803
+ts28217,Honda,City,2007,ForestGreen,Petrol,$460.84,owner_95271,Country mouth these million something nothing though knowledge.,dealer_69838
+Fm27915,Hyundai,City,1979,OrangeRed,Petrol,"$1,028.90",owner_69761,Fear throw nearly something leg good option.,dealer_16216
+qU76158,Honda,i20,2024,LightPink,Hybrid,$2.01,owner_99355,Mother Democrat voice real set whatever garden shake.,dealer_80075
+Cc49063,Honda,i20,1972,MistyRose,Hybrid,$1.94,owner_99505,Worker cold hold full area floor open.,dealer_66792
+Di25032,Honda,City,2009,Brown,Electric,"$5,721.11",owner_88498,Either response so want report whatever.,dealer_37782
+uE97686,BMW,City,2003,MediumSpringGreen,Diesel,$859.47,owner_83176,The along help such most moment clear he.,dealer_34195
+lf16663,Hyundai,i20,2008,DarkRed,Petrol,$3.55,owner_69062,Central office inside teach yourself deal.,dealer_44549
+ex21752,Hyundai,X1,2010,LightGray,Petrol,$301.47,owner_68303,Front turn produce Republican two bring.,dealer_99444
+XC81812,Hyundai,i20,1970,Maroon,Electric,"$31,606.92",owner_39480,Address bed help nice.,dealer_72490
+vs48637,Honda,i20,1971,LightGray,Petrol,"$13,005.21",owner_17247,Song section they letter.,dealer_64014
+tW84327,Honda,i20,1976,Ivory,Diesel,$8.22,owner_25297,Yes guy place system.,dealer_31179
+Ly16891,Honda,X1,2016,LavenderBlush,Petrol,$1.57,owner_97289,Begin education foreign job choose.,dealer_76267
+of84630,Hyundai,i20,2021,SeaShell,Hybrid,"$60,708.24",owner_14143,Source cut everyone approach hundred value leave his.,dealer_95712
+Qa20636,Honda,City,1975,SteelBlue,Diesel,$7.55,owner_39670,Society have wife nice office special.,dealer_92732
+XT82848,BMW,City,1974,HoneyDew,Diesel,"$74,705.70",owner_08606,Candidate let would base time lay other hear.,dealer_98447
+zK86092,Honda,i20,2022,Teal,Petrol,"$5,623.30",owner_10945,Store she eight challenge baby.,dealer_09816
+SS73424,Hyundai,City,1990,Linen,Electric,$57.26,owner_66583,Since national together discuss.,dealer_95612
+DH84086,Hyundai,City,2014,Moccasin,Diesel,$520.46,owner_45153,Remain when actually read drop.,dealer_51494
+pY82537,Honda,X1,2018,HotPink,Hybrid,"$30,416.34",owner_23014,Bag with technology include action occur material.,dealer_86455
+Cf49963,Honda,City,2005,DarkGray,Electric,$88.28,owner_28061,West indicate administration fight sit management keep participant.,dealer_19582
+Wu54111,BMW,X1,2018,White,Electric,$0.10,owner_57459,With protect scientist ahead rate.,dealer_50749
+oX69161,Honda,X1,2011,SteelBlue,Diesel,"$2,300.43",owner_26150,Among step agency top.,dealer_48417
+NJ21744,Honda,City,2000,LightGray,Electric,"$3,720.72",owner_87684,Tend science his yard miss never.,dealer_54058
+IC85541,Honda,X1,1998,Sienna,Diesel,$467.72,owner_56994,Space senior nor day lawyer statement history.,dealer_24705
+Tb17825,Hyundai,X1,1988,BurlyWood,Petrol,$9.46,owner_99881,Light onto authority present.,dealer_94228
+wZ49896,BMW,X1,1981,FloralWhite,Diesel,"$6,819.11",owner_31932,Edge chair stuff different.,dealer_59297
+df83423,Honda,X1,1976,HoneyDew,Diesel,$78.81,owner_07641,Sure find sport east very instead smile conference.,dealer_44144
+dI83417,BMW,City,2007,Azure,Petrol,$78.60,owner_96710,Return employee little six me.,dealer_10000
+oN47355,BMW,City,1992,Violet,Diesel,$22.38,owner_79718,Do realize meet camera.,dealer_44879
+Xh00127,BMW,X1,2011,YellowGreen,Hybrid,$82.62,owner_37819,Thing machine type yet mother claim.,dealer_41075
+bN45068,Honda,X1,1980,Green,Electric,$3.25,owner_39889,Mention benefit building local whose final partner.,dealer_17600
+Ck51231,Honda,i20,1980,Linen,Diesel,$96.99,owner_95734,Community country national save send senior standard.,dealer_73001
+fb82755,BMW,X1,2010,Silver,Diesel,"$36,062.21",owner_67695,Trial middle stand land worker.,dealer_83835
+io01711,BMW,X1,2007,MediumSeaGreen,Petrol,$807.17,owner_70386,Wait meet generation job statement board.,dealer_11443
+kl28316,Honda,X1,1987,LightSteelBlue,Diesel,"$4,753.11",owner_16596,Finally ever happen center majority anyone also.,dealer_00323
+UH04514,Hyundai,City,2019,Thistle,Petrol,$7.05,owner_93835,Actually attorney each turn degree color item.,dealer_33856
+yr96400,BMW,i20,1999,Silver,Electric,"$2,114.56",owner_25189,Example weight painting the.,dealer_17315
+Fo02136,BMW,X1,2011,SeaShell,Petrol,$68.58,owner_34310,Whole along certain explain ever prove color.,dealer_55280
+EQ20658,Hyundai,X1,1999,MidnightBlue,Hybrid,$972.50,owner_97810,Really figure site these down return.,dealer_05178
+cs23804,Hyundai,X1,1984,LimeGreen,Hybrid,"$78,320.21",owner_25516,Tell road plan fill grow local now increase.,dealer_08648
+jy28361,Hyundai,X1,1975,Plum,Hybrid,$605.08,owner_08430,Production herself growth number.,dealer_77155
+QZ78163,Hyundai,i20,1981,PaleGoldenRod,Diesel,$601.01,owner_21655,Bed bar town common artist black.,dealer_36548
+ZX47908,BMW,X1,1996,Peru,Diesel,$525.36,owner_03280,Feeling meeting order send.,dealer_71176
+Ti95867,Hyundai,City,1973,LightPink,Hybrid,"$5,458.73",owner_14600,Office long continue possible run oil summer.,dealer_12484
+OJ55007,Honda,City,1970,MediumTurquoise,Hybrid,"$82,312.52",owner_90858,Although close floor current parent.,dealer_64076
+Tk87124,Hyundai,X1,2010,Yellow,Electric,$0.91,owner_70000,Growth cup growth team.,dealer_66550
+BW14674,BMW,i20,1973,DarkGreen,Hybrid,"$3,317.31",owner_61301,Analysis Congress seven follow game radio.,dealer_61455
+Ck35659,Hyundai,City,1983,SeaGreen,Electric,$9.95,owner_60883,Wall kind member nothing memory serious.,dealer_64433
+Lu37661,Hyundai,City,1976,Turquoise,Electric,"$8,687.38",owner_86674,Huge process major prove seem.,dealer_19528
+US54988,Honda,City,2004,Moccasin,Petrol,$8.78,owner_08390,Treatment goal new nothing realize long foreign.,dealer_61439
+pD49674,Hyundai,i20,2018,DarkSalmon,Hybrid,$731.85,owner_88736,Anyone once grow pressure avoid.,dealer_80374
+pj91331,Honda,i20,1992,DarkSlateGray,Electric,$65.99,owner_16766,Shake wonder six tonight.,dealer_75469
+wn22066,Honda,X1,2018,Black,Electric,"$2,804.23",owner_56651,Visit size because provide.,dealer_39180
+Iz01734,BMW,City,1995,Magenta,Electric,"$12,436.70",owner_26200,Civil live tonight factor tree half order.,dealer_36806
+nm52811,BMW,X1,1987,Tan,Electric,"$1,018.66",owner_75041,None audience head recent lot tree sell generation.,dealer_70626
+hG96444,Hyundai,City,2014,DarkSeaGreen,Electric,"$9,519.41",owner_43541,Office sort how radio bad.,dealer_82954
+hv61860,BMW,City,2012,HoneyDew,Hybrid,$2.77,owner_56771,Fine type give according class sort.,dealer_65138
+Jv85091,Honda,X1,1976,LavenderBlush,Petrol,$265.94,owner_30963,Official really opportunity still word natural consider.,dealer_68674
+vu19415,Honda,X1,2014,SaddleBrown,Hybrid,$140.97,owner_66038,Picture keep pass police bit.,dealer_36547
+Uw33666,BMW,X1,1979,SlateBlue,Hybrid,"$77,474.77",owner_19376,Seem thank door news plant exactly.,dealer_78685
+Gt56015,Honda,i20,1973,LemonChiffon,Diesel,"$48,485.71",owner_98839,Bill left keep way each.,dealer_49917
+RP60409,Hyundai,X1,1972,Magenta,Electric,$504.42,owner_62846,Letter under resource want heavy option.,dealer_62911
+CP49369,Hyundai,X1,1979,Thistle,Diesel,"$2,365.89",owner_45900,Camera traditional some seem.,dealer_62861
+Zi90640,Hyundai,X1,2021,AliceBlue,Petrol,$8.58,owner_46252,Trade pattern guy sort down day push and.,dealer_96609
+bG38766,Hyundai,i20,2013,MediumBlue,Diesel,$507.62,owner_40334,Agreement model employee most hand near.,dealer_15678
+fz13340,BMW,X1,1988,SlateBlue,Diesel,"$13,632.34",owner_06424,Heavy white control beat stop campaign recently read.,dealer_60537
+JL03288,Honda,City,1991,Red,Petrol,$878.22,owner_58886,Enough news fine break thus face low.,dealer_84692
+sU08003,Hyundai,i20,2003,Khaki,Petrol,$14.33,owner_55592,Action smile them style toward director.,dealer_37239
+ZQ20805,Hyundai,City,2023,FireBrick,Electric,"$41,081.99",owner_83642,Yard price recent sell type water arm.,dealer_06203
+Fh87571,Honda,City,2004,Cornsilk,Hybrid,$99.85,owner_80975,Page model control effort people central.,dealer_96493
+wP59541,Hyundai,X1,1992,Plum,Petrol,"$5,425.85",owner_43226,Somebody need wall take window.,dealer_81817
+di86789,Hyundai,City,1996,AntiqueWhite,Petrol,"$41,667.90",owner_89999,Spend despite one maintain computer.,dealer_00950
+Ah32383,BMW,X1,1993,Pink,Hybrid,"$74,804.01",owner_68516,Computer see song American hard day to.,dealer_14839
+Dl35187,Hyundai,i20,2006,Purple,Electric,"$67,745.34",owner_71900,Experience she much sport.,dealer_46338
+oS95849,Honda,X1,1975,Maroon,Electric,"$61,059.30",owner_17165,Suddenly moment rest or character network single.,dealer_05883
+tx65887,Honda,City,2015,Green,Diesel,$302.31,owner_05789,Better thus area Congress.,dealer_75806
+Ye06903,Honda,i20,1988,Gainsboro,Hybrid,$9.91,owner_10266,Behind culture arm subject free position spring view.,dealer_35951
+PI19594,Hyundai,City,1998,Sienna,Petrol,"$41,032.60",owner_16999,Eight home keep movement.,dealer_37442
+Ie95540,Hyundai,i20,1974,Tomato,Hybrid,$7.50,owner_75543,Reveal very my scene commercial green.,dealer_02057
+eT69460,Hyundai,i20,1984,Bisque,Electric,"$25,777.74",owner_52864,Public society spend we hard for.,dealer_83419
+mJ26733,Hyundai,i20,2013,SandyBrown,Petrol,"$3,105.28",owner_68631,Field us look protect focus all someone money.,dealer_26582
+Po09728,Hyundai,i20,1995,PaleGoldenRod,Hybrid,$718.66,owner_23038,Along there less share respond.,dealer_00434
+Nh88730,Honda,X1,1990,Azure,Electric,"$52,531.61",owner_46376,Statement billion suggest different east state.,dealer_79268
+Hd84673,Hyundai,i20,2019,ForestGreen,Petrol,"$77,595.14",owner_99525,Growth before thing serve spring seek hold.,dealer_48994
+qo57325,BMW,X1,2020,Gray,Electric,$391.62,owner_17983,Culture relate hit quite letter.,dealer_17004
+Rn45767,Hyundai,City,2023,Indigo,Petrol,"$20,520.77",owner_83186,After name generation guy indeed example authority.,dealer_16429
+VE91387,Honda,City,1976,NavajoWhite,Petrol,$97.84,owner_20145,Yeah short and big.,dealer_92396
+Tw47874,Hyundai,City,1972,Aquamarine,Hybrid,$729.34,owner_73475,Black today school process key particularly thousand room.,dealer_67151
+Np08234,Hyundai,X1,1978,Gray,Electric,"$98,823.91",owner_97237,Particular spend push try available reason to manager.,dealer_95912
+Xf98012,BMW,X1,2022,Fuchsia,Petrol,$1.42,owner_04523,Only trip idea wonder picture area military.,dealer_36153
+hX29331,BMW,X1,1992,Sienna,Diesel,"$9,191.88",owner_07465,Between democratic certain both.,dealer_25186
+Jo85097,Hyundai,City,1986,LightSkyBlue,Petrol,$3.67,owner_08918,None lot direction man job none edge blood.,dealer_43887
+pi57551,BMW,City,1998,Coral,Electric,$1.27,owner_39361,Base accept sort fast.,dealer_71820
+Mk30364,Hyundai,i20,2003,SteelBlue,Hybrid,$0.02,owner_39026,Consider member quite expert mind.,dealer_47059
+mL72863,Hyundai,i20,1999,SlateBlue,Petrol,$358.02,owner_59710,Western process no measure such.,dealer_75290
+qZ80657,Honda,City,1994,Pink,Petrol,$9.06,owner_96245,Bag shake yet PM.,dealer_18135
+Rh28280,BMW,i20,1983,BurlyWood,Petrol,"$25,509.42",owner_26609,Shake language ago citizen affect.,dealer_10144
+qw86241,Honda,City,1984,OrangeRed,Hybrid,$5.51,owner_21279,Tend allow hold do everybody power.,dealer_32597
+QM07352,Honda,City,1971,Gray,Electric,"$9,577.62",owner_81531,Today site send total.,dealer_20899
+IC74332,Honda,X1,1998,Sienna,Petrol,$4.07,owner_52919,Forget heart only possible quite though.,dealer_67321
+ew19919,Hyundai,i20,1996,SlateBlue,Petrol,"$74,360.60",owner_84128,Simple its different catch budget finish by.,dealer_77840
+LA84333,Hyundai,X1,1970,LightYellow,Petrol,$1.91,owner_16717,Subject if what eat when.,dealer_45592
+xf29019,BMW,i20,1983,Orchid,Diesel,$49.10,owner_40498,Law message moment ok them pressure hear.,dealer_09155
+wT12825,Hyundai,X1,2003,SeaShell,Diesel,$94.60,owner_29146,Garden center child build operation.,dealer_29367
+ZR86690,Hyundai,City,1996,MintCream,Diesel,"$86,539.41",owner_04503,State animal low mind process.,dealer_59698
+sO40858,Hyundai,X1,2005,MediumSeaGreen,Diesel,$62.92,owner_25424,Still hair now scientist fine size.,dealer_46404
+FK49490,Hyundai,X1,1986,Orange,Petrol,$54.90,owner_08328,East animal charge network break join process toward.,dealer_59485
+ir00434,Honda,X1,1971,DimGray,Electric,"$2,961.82",owner_44070,Agree give special return yes between develop.,dealer_11140
+VI43880,Honda,X1,2022,MistyRose,Petrol,"$8,007.45",owner_69218,South without pass expect.,dealer_81032
+NA51143,Honda,X1,1979,PaleGoldenRod,Electric,$3.01,owner_37854,Event consumer miss.,dealer_93801
+aO96987,Hyundai,City,1986,Magenta,Petrol,$81.33,owner_50075,Usually any build idea should carry.,dealer_92508
+np54047,Honda,City,2014,Bisque,Hybrid,$99.04,owner_64876,Imagine smile great capital forward.,dealer_55593
+eY71966,BMW,City,1998,DarkGray,Diesel,$110.81,owner_55195,Interest center say fact.,dealer_75243
+DZ83339,Honda,X1,1992,HoneyDew,Hybrid,"$29,155.60",owner_97983,Recently finally full mean grow.,dealer_81283
+Qq75322,Hyundai,City,2004,IndianRed,Electric,"$82,426.46",owner_02835,Far until expert eat.,dealer_14790
+AM08745,Hyundai,City,1972,LightSteelBlue,Electric,"$6,680.54",owner_18791,But first movement occur.,dealer_33571
+ci84698,BMW,X1,2022,YellowGreen,Petrol,"$87,563.16",owner_04044,Occur across sound offer well example dog group.,dealer_70108
+XX97747,BMW,City,1994,LightSlateGray,Petrol,$165.29,owner_81471,Boy street strategy community.,dealer_68052
+wW07299,Honda,City,1977,DeepPink,Petrol,$273.97,owner_68569,Practice find keep wrong give.,dealer_13409
+ZQ16265,BMW,i20,2022,Linen,Petrol,"$48,940.54",owner_09509,Training this production east leave.,dealer_51726
+Gn61678,Hyundai,City,1972,Teal,Diesel,"$98,760.51",owner_61058,Report her long much.,dealer_04376
+ri18384,BMW,X1,1988,Crimson,Petrol,"$34,436.07",owner_70586,Music base trip religious him throw site.,dealer_56869
+fB28264,Hyundai,City,1991,PapayaWhip,Hybrid,$967.23,owner_18831,Baby organization step human miss green week democratic.,dealer_38303
+Om21180,BMW,X1,1980,LightSlateGray,Hybrid,"$82,095.19",owner_55705,Contain local recent owner rather.,dealer_64778
+FV15894,Honda,City,1983,DarkSeaGreen,Hybrid,$30.53,owner_13822,Strategy decision raise no trip particular later.,dealer_68165
+cF49640,Hyundai,i20,2018,Moccasin,Diesel,"$14,897.59",owner_96628,Cover ask city nothing go.,dealer_56868
+eP68219,Hyundai,i20,1981,Crimson,Hybrid,$745.70,owner_76077,Bag vote community toward.,dealer_86177
+kl63883,Hyundai,X1,1985,DodgerBlue,Diesel,"$42,772.26",owner_03753,Ten study again their lead.,dealer_68682
+Nf16301,BMW,X1,1978,LightSalmon,Petrol,"$9,391.75",owner_62839,Draw watch want free.,dealer_81255
+gD68555,Hyundai,i20,2022,DodgerBlue,Diesel,$80.05,owner_21436,They seem city base local situation.,dealer_62696
+eU42379,BMW,i20,2022,Azure,Diesel,$64.71,owner_10653,Art simply place real several important.,dealer_11852
+cD76363,BMW,i20,1990,Chocolate,Petrol,$595.59,owner_79850,Top spend decade.,dealer_07376
+my85722,Honda,i20,2019,RosyBrown,Hybrid,"$3,084.71",owner_31494,Wish into consider daughter throw third.,dealer_71795
+qY58108,Honda,X1,1975,DimGray,Electric,$571.97,owner_25292,Assume could heavy here similar.,dealer_91457
+sW86310,BMW,City,1997,DarkOrange,Diesel,"$4,031.26",owner_80134,Weight address that hear institution.,dealer_86049
+hO04271,Honda,i20,1999,BurlyWood,Diesel,$5.81,owner_58861,Team financial situation ask.,dealer_79878
+DJ55623,Honda,i20,2012,Tomato,Electric,$5.31,owner_26822,Organization teacher production training.,dealer_09330
+Ez45489,Honda,i20,2007,DarkViolet,Petrol,$6.63,owner_91168,Watch system word dream lawyer.,dealer_20217
+vo00190,Hyundai,X1,2011,Tomato,Diesel,$382.68,owner_89723,Program new more draw edge.,dealer_01135
+eR42593,BMW,City,1974,Pink,Electric,$854.28,owner_50279,Loss fight show history break list.,dealer_16092
+Hc18462,Honda,City,1976,Khaki,Electric,"$3,099.46",owner_64441,Trouble claim visit standard strategy.,dealer_45397
+KA27827,Honda,City,2018,Orchid,Petrol,$278.08,owner_63576,Table including moment defense.,dealer_95416
+Zu68373,BMW,i20,1993,DarkBlue,Electric,"$97,661.49",owner_28439,Positive campaign figure for it.,dealer_09689
+OM61239,BMW,i20,2022,NavajoWhite,Diesel,$58.92,owner_75673,Without read ask involve behind place he beautiful.,dealer_61310
+Aq04045,Honda,X1,2017,Cornsilk,Hybrid,$69.43,owner_17430,Machine she everyone nor reveal peace.,dealer_22165
+UJ62709,BMW,X1,1975,Wheat,Petrol,$49.42,owner_26251,Benefit full term blood knowledge than before edge.,dealer_87444
+dU19237,Hyundai,X1,1990,OldLace,Electric,$61.40,owner_58196,Laugh area approach material tax.,dealer_96117
+NH15168,Hyundai,i20,1993,Tan,Hybrid,$763.62,owner_04310,Mean instead language wide wide support.,dealer_63857
+lt84987,Honda,City,1985,AntiqueWhite,Diesel,$774.21,owner_31224,Among experience future head section get both.,dealer_40583
+rm13453,BMW,City,2014,Purple,Petrol,$280.07,owner_47923,Accept about sound window add national crime.,dealer_05832
+uE20324,Honda,City,1981,CornflowerBlue,Hybrid,"$9,861.14",owner_82240,Ask person conference stage.,dealer_09204
+kL92532,Honda,City,1993,Lavender,Hybrid,$80.58,owner_82759,Floor kind spend.,dealer_38155
+RW25127,Honda,City,2012,OrangeRed,Hybrid,$43.57,owner_07979,Beat source foot which use situation.,dealer_47433
+ME50121,BMW,i20,1990,Teal,Electric,$14.10,owner_53004,Maybe generation prevent suggest.,dealer_59509
+Dc86354,Honda,i20,1984,FireBrick,Hybrid,"$3,096.94",owner_55434,Rate word magazine character me risk.,dealer_01203
+Jz05498,Honda,i20,2020,FloralWhite,Diesel,"$13,285.15",owner_46542,Experience seat option bed tell.,dealer_41085
+ey10203,Honda,i20,2021,BurlyWood,Hybrid,"$8,834.78",owner_66967,Truth degree relationship.,dealer_37471
+gq55041,BMW,X1,1985,Salmon,Hybrid,"$3,073.45",owner_54128,Hold computer difference able could.,dealer_54964
+jn45632,Honda,i20,2005,White,Petrol,"$9,120.27",owner_09482,Sometimes plant floor relationship writer final writer.,dealer_55683
+JF85020,BMW,City,2011,Lime,Petrol,"$88,988.48",owner_36268,Pass most purpose man.,dealer_85662
+Cb20147,BMW,City,1982,Khaki,Diesel,"$9,076.29",owner_30526,Record computer collection very.,dealer_98285
+ah65447,Hyundai,i20,1995,Moccasin,Electric,$4.16,owner_95387,Off seem land receive east stand rock.,dealer_23700
+AC49600,BMW,X1,2010,Gainsboro,Diesel,$201.73,owner_04463,Stand always improve grow everybody you.,dealer_63252
+Li46446,Hyundai,City,1988,LightGray,Diesel,$9.96,owner_47618,Factor sea remember time loss.,dealer_26181
+Xe63938,Honda,City,1992,OrangeRed,Electric,$668.80,owner_65416,Sometimes relationship development best.,dealer_50994
+DU05605,Hyundai,X1,1975,DarkSlateGray,Hybrid,$4.77,owner_57570,Worker order nice still involve.,dealer_01434
+TX02697,Honda,City,1980,Fuchsia,Diesel,"$3,477.55",owner_80298,Explain network or ask carry.,dealer_66335
+ux63032,BMW,X1,2021,CadetBlue,Petrol,"$8,986.53",owner_52338,Leg house station by nor rest have audience.,dealer_96501
+vY31104,BMW,i20,1987,DeepPink,Petrol,"$18,897.47",owner_55930,Down best property billion.,dealer_67919
+bz98557,BMW,X1,1989,LightCyan,Electric,"$62,137.87",owner_36695,Minute rise leader court race teach relationship wonder.,dealer_97672
+ft62073,BMW,X1,2009,CadetBlue,Electric,"$3,368.05",owner_97413,Suffer military another will speak every sort.,dealer_76472
+op83202,Hyundai,i20,1989,RosyBrown,Hybrid,$54.01,owner_26809,Former body music.,dealer_51915
+Hp55422,Hyundai,City,1976,Beige,Diesel,"$29,466.95",owner_24540,Mind measure way fish.,dealer_42585
+fq32739,BMW,i20,1989,Bisque,Petrol,"$35,380.09",owner_57976,Century soon glass third address management site.,dealer_55037
+yH58712,BMW,i20,1998,Chocolate,Hybrid,$189.24,owner_24488,Of see doctor nature break set until.,dealer_65491
+Xz50261,Honda,i20,1996,DarkOliveGreen,Petrol,"$7,077.99",owner_08639,Research early author far wear.,dealer_46807
+HE87227,Hyundai,X1,1977,DeepPink,Electric,"$29,613.33",owner_51274,Maybe different through almost century couple style.,dealer_77109
+Ex09630,Hyundai,i20,2008,AliceBlue,Electric,"$88,405.07",owner_77464,Law first that sell him around mouth.,dealer_42894
+Lb70832,BMW,City,1973,LightGoldenRodYellow,Electric,$85.43,owner_18997,Onto security such body other travel everything.,dealer_40393
+bx01033,BMW,City,2011,Crimson,Diesel,$8.07,owner_77988,Design speech public wish thing Mr.,dealer_43516
+nE72149,Honda,i20,2003,GreenYellow,Electric,$8.19,owner_24133,Red bag public get lose here.,dealer_18636
+tU87762,Hyundai,X1,1975,DarkViolet,Petrol,$13.02,owner_94942,Reduce number half identify.,dealer_49210
+vy64038,Honda,i20,1980,Cyan,Petrol,"$36,222.41",owner_95357,Yeah relationship meet win hair south.,dealer_78256
+bg38613,BMW,i20,2000,Chocolate,Petrol,$184.97,owner_65710,Spend take team generation sister or organization.,dealer_90194
+uN33611,BMW,i20,2016,LightGray,Electric,"$1,082.58",owner_03069,Happen turn leave seem market city.,dealer_12254
+Eb70630,BMW,i20,1989,Peru,Hybrid,$6.46,owner_10451,Fine reveal nothing his green structure.,dealer_84710
+SU59415,BMW,City,2011,OldLace,Electric,$695.26,owner_04314,Hotel visit practice guess step send relationship maintain.,dealer_26993
+cH51701,Honda,City,1978,Chartreuse,Electric,$340.06,owner_12637,Identify former police away another part.,dealer_26170
+Ro99394,Hyundai,City,1975,DarkKhaki,Electric,$490.11,owner_04756,Heavy appear various stop.,dealer_71378
+Rd70867,Hyundai,City,2015,MidnightBlue,Petrol,"$22,817.16",owner_85919,Development even assume development mouth full glass.,dealer_92604
+Zk09167,Hyundai,i20,1989,Aquamarine,Hybrid,$86.44,owner_08020,Phone environment small fund agreement instead ground.,dealer_87805
+MU75789,Hyundai,City,1972,Wheat,Diesel,$332.91,owner_21237,No fall next none floor.,dealer_01019
+Vm50802,BMW,i20,2004,Orchid,Electric,$53.31,owner_16140,Mission role type increase agent woman establish.,dealer_69145
+Vh52626,BMW,X1,2016,DarkTurquoise,Petrol,$67.90,owner_29459,Rise pick nice.,dealer_09624
+tt77961,Hyundai,i20,1971,DarkOliveGreen,Electric,$442.09,owner_07804,Significant factor people.,dealer_24714
+UC98444,BMW,X1,2009,PapayaWhip,Electric,$300.86,owner_02093,Best use number.,dealer_31248
+dv78716,Honda,City,2015,FireBrick,Electric,"$7,618.34",owner_85404,When improve range next next letter day.,dealer_20769
+bZ98537,Hyundai,i20,1988,Aqua,Hybrid,"$9,326.57",owner_25957,Phone term down how either loss.,dealer_83749
+no53642,Hyundai,X1,1982,DarkOliveGreen,Diesel,$59.87,owner_16505,Ok see knowledge should what.,dealer_82817
+bj70064,BMW,X1,2024,Violet,Hybrid,$684.48,owner_67733,Training cause its hair can make story.,dealer_63817
+vt84755,Hyundai,City,1972,HoneyDew,Hybrid,$231.05,owner_00285,Safe age religious moment allow painting too respond.,dealer_05311
+ed42151,BMW,i20,2009,LightCoral,Electric,"$83,105.71",owner_36566,Popular teach carry.,dealer_75076
+tB77927,BMW,City,1999,Teal,Diesel,"$9,570.34",owner_35046,Program high manage manage service watch.,dealer_92419
+FB70607,Honda,X1,2004,PeachPuff,Diesel,$85.18,owner_24006,Pretty reality piece southern another.,dealer_93431
+Xj82004,BMW,X1,2001,PaleGoldenRod,Diesel,$7.98,owner_82745,War himself share left.,dealer_64467
+kh91331,Honda,City,1983,LawnGreen,Diesel,"$95,006.84",owner_04098,Huge decade nor yes.,dealer_71965
+uF88945,Honda,i20,2018,Azure,Electric,$73.66,owner_10740,Contain window his reduce fact.,dealer_49048
+dc45476,BMW,i20,1970,LightSeaGreen,Hybrid,"$91,876.10",owner_97976,Know gas read moment.,dealer_46555
+zX99111,Honda,X1,1981,DarkKhaki,Electric,$814.17,owner_37476,Coach model management ground family way cost.,dealer_29703
+fs77100,BMW,i20,2017,RoyalBlue,Hybrid,$6.59,owner_79601,Amount marriage until direction pull successful tend.,dealer_26996
+aq55541,Honda,i20,2024,Bisque,Diesel,$2.92,owner_60233,Pretty painting individual though.,dealer_73654
+qz85619,Hyundai,i20,2020,Aquamarine,Hybrid,$521.05,owner_48603,Follow himself decade increase modern current view.,dealer_25502
+eI08395,BMW,X1,2009,WhiteSmoke,Electric,"$1,278.42",owner_88976,Special want walk really eat.,dealer_96790
+XW34113,Honda,City,2012,Indigo,Petrol,$7.30,owner_61673,True life any war should view point.,dealer_47105
+Zf18362,Honda,i20,1994,SlateBlue,Diesel,$97.29,owner_13725,Nature add contain break provide throughout.,dealer_65215
+TY12635,BMW,X1,1983,Lavender,Diesel,$3.48,owner_07048,Phone power air range understand green trial.,dealer_97910
+hl09152,Honda,i20,1993,DarkCyan,Electric,$38.00,owner_37268,Eight argue just forget remain develop suddenly.,dealer_66548
+Jh34810,Hyundai,X1,2014,Indigo,Diesel,"$23,087.26",owner_03372,Need present term war no step away.,dealer_06597
+jj19759,BMW,i20,1976,FloralWhite,Hybrid,"$3,306.93",owner_11572,Experience PM coach especially.,dealer_40664
+OB74530,Honda,City,1984,SkyBlue,Electric,$323.43,owner_15470,Yard attack partner plant four travel.,dealer_07117
+BA31247,BMW,X1,1971,MediumSlateBlue,Electric,"$4,419.61",owner_20720,Yourself well say add strategy safe.,dealer_18215
+zw76292,BMW,i20,1977,MediumSlateBlue,Diesel,$770.68,owner_39633,Pick pay part despite soldier.,dealer_00448
+Cl78478,BMW,X1,1993,LightCoral,Diesel,$4.65,owner_09626,Pull sign cultural front use near.,dealer_50011
+wu55333,BMW,City,1978,GreenYellow,Hybrid,$477.51,owner_66110,Body pick war.,dealer_07409
+rL24855,Honda,City,2004,SkyBlue,Electric,$0.50,owner_33653,Debate professor music argue would Democrat you.,dealer_12761
+lf70028,Hyundai,X1,2002,DarkCyan,Petrol,$458.60,owner_99817,Hundred require skin across candidate condition nice.,dealer_22267
+ma84727,Hyundai,X1,1980,DarkOliveGreen,Diesel,$36.92,owner_10146,Keep watch glass form as positive.,dealer_83425
+ye15884,BMW,City,1993,White,Petrol,"$46,460.89",owner_23334,Marriage threat something place time.,dealer_21615
+Ua67739,Honda,i20,1981,Orchid,Electric,$814.15,owner_85580,Six enough meeting chance.,dealer_10481
+kY29766,Hyundai,i20,1996,Orange,Electric,"$8,823.53",owner_32111,Too present current especially.,dealer_31186
+AG50415,Hyundai,i20,2023,DarkMagenta,Electric,$12.84,owner_86151,Stage discuss audience point strategy thus term.,dealer_96222
+aC29645,Hyundai,X1,1995,HotPink,Diesel,$5.39,owner_82667,Argue just ever trial.,dealer_43060
+US51311,BMW,i20,2008,OliveDrab,Electric,"$8,699.33",owner_24260,Onto government head church.,dealer_34821
+xJ13353,BMW,i20,1993,Chartreuse,Petrol,$40.29,owner_55794,Create mean group Mrs there.,dealer_16138
+xR22609,Honda,i20,1978,MediumSlateBlue,Hybrid,"$25,149.67",owner_13837,Age food possible ready cup unit.,dealer_70941
+EL13016,Honda,City,1989,Snow,Hybrid,"$9,016.50",owner_04788,Home group letter join media question life.,dealer_85427
+lj31003,Hyundai,City,1978,LightSlateGray,Diesel,$30.82,owner_67977,Policy partner lead without exactly five general.,dealer_25746
+FP07191,Hyundai,X1,2020,Chocolate,Hybrid,"$74,134.42",owner_18512,Factor beat debate book at any.,dealer_39417
+Ap38333,Hyundai,i20,2019,AliceBlue,Diesel,$0.74,owner_20171,Argue society truth today example we.,dealer_87373
+if01645,BMW,X1,1979,DarkKhaki,Petrol,$1.40,owner_70484,Direction case response might clear performance special.,dealer_00898
+kT87419,Hyundai,i20,2006,SlateGray,Hybrid,"$55,752.00",owner_66307,Region half civil send standard have.,dealer_76142
+hc28628,BMW,i20,1972,RoyalBlue,Hybrid,$900.91,owner_60786,Deep player Republican.,dealer_91546
+Ow70788,Hyundai,City,1998,LawnGreen,Petrol,$9.27,owner_67190,Most opportunity analysis usually from find it world.,dealer_15414
+cG50594,Honda,X1,1984,LightGreen,Hybrid,$13.75,owner_23996,College positive training window cause play.,dealer_42591
+jg16767,Hyundai,i20,2012,LemonChiffon,Electric,$497.27,owner_50971,Clear enjoy deal key.,dealer_09977
+hX20692,Hyundai,i20,1979,Maroon,Petrol,$712.01,owner_93279,Health answer fire college anyone.,dealer_45581
+ID23520,BMW,City,1998,Olive,Hybrid,"$86,987.59",owner_58345,Which trial affect.,dealer_75019
+Gw13885,BMW,i20,1973,MediumPurple,Electric,$402.82,owner_29995,Young third hot growth thus.,dealer_73511

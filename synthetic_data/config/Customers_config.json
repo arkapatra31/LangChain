@@ -1,40 +1,35 @@
 {
-  "car_id  ": {
+  "customer_id  ": {
+    "data_type": "string",
+    "example_data": "['CUST1258', 'CUST1259', 'CUST1260', 'CUST1261', 'CUST1262']",
+    "foreign_key": 0
+  },
+  "customer_name  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "make  ": {
-    "data_type": "string",
-    "example_data": "['Honda', 'Hyundai', 'BMW']",
-    "foreign_key": 0
-  },
-  "model  ": {
-    "data_type": "string",
-    "example_data": "['City', 'i20', 'X1']",
-    "foreign_key": 0
-  },
-  "year  ": {
+  "customer_email  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "color  ": {
+  "customer_phone  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "engine_type  ": {
+  "customer_address  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "price  ": {
+  "customer_since  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "owner_id  ": {
+  "customer_type  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
@@ -44,9 +39,14 @@
     "example_data": "[]",
     "foreign_key": 0
   },
-  "dealer_id  ": {
+  "bank_id": {
     "data_type": "string",
     "example_data": "[]",
-    "foreign_key": 0
+    "foreign_key": 1
+  },
+  "medical_insurance_id": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 1
   }
 }
