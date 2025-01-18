@@ -223,7 +223,8 @@ def load_data_generation_component_with_faker(st):
     if st.session_state.domain is not None and st.session_state.domain != []:
         domain_to_be_populated.extend(st.session_state.domain)
     else:
-        domain_to_be_populated.extend(["Banks", "Medical Insurance", "Customers", "Customer", "Order", "OrderDetails"])
+        # domain_to_be_populated.extend(["Customer", "Order", "OrderDetails"])
+        st.info("Please generate the template first to generate the data")
 
     # Create a select box for domain along with the unique key.
     col1, col2 = st.columns([3, 1])
