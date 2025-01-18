@@ -1,40 +1,25 @@
 {
-  "car_id  ": {
+  "salesman_id  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "make  ": {
-    "data_type": "string",
-    "example_data": "['Honda', 'Hyundai', 'BMW']",
-    "foreign_key": 0
-  },
-  "model  ": {
-    "data_type": "string",
-    "example_data": "['City', 'i20', 'X1']",
-    "foreign_key": 0
-  },
-  "year  ": {
+  "name  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "color  ": {
+  "region  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "engine_type  ": {
+  "sales_target  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
   },
-  "price  ": {
-    "data_type": "string",
-    "example_data": "[]",
-    "foreign_key": 0
-  },
-  "owner_id  ": {
+  "sales_achieved  ": {
     "data_type": "string",
     "example_data": "[]",
     "foreign_key": 0
@@ -44,8 +29,28 @@
     "example_data": "[]",
     "foreign_key": 0
   },
-  "dealer_id  ": {
+  "customer_id  ": {
     "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "commission_rate  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "hire_date  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "manager_id  ": {
+    "data_type": "string",
+    "example_data": "[]",
+    "foreign_key": 0
+  },
+  "phone": {
+    "data_type": "int",
     "example_data": "[]",
     "foreign_key": 0
   }
