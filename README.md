@@ -136,6 +136,19 @@ Note:-
                 <li>Adding option for the service with added validation of each columns</li>
             </th>
         </tr>
+        <tr>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.1.1">1.1.1</a></th>
+            <th>
+                <li>Synthetic Data Generator Prototype Completion</li>
+                <li>Leveraging LLMs to create template and generate the related faker methods</li>
+                <li>Eliminating LLM scope to generate data to save bunch of tokens</li>
+                <li>Custom service evaluating faker methods to generate dataset</li>
+                <li>Custom service validating foreign keys and associating with dataset</li>
+                <li>Prompt published to LangSmith Hub</li>
+                <li>Merging different UI into one consolidated UI</li>
+                <li>Error Handling introduction</li>
+            </th>
+        </tr>
     </table>
 <br>
 <font color="#bde356"><b>LangSmith Tracing</b></font><br>
