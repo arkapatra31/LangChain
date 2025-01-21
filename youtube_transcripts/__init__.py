@@ -1,4 +1,7 @@
 from youtube_transcripts.openai_llm import llm
+from youtube_transcripts.retrieve_transcripts.retriever import retrieval_chain
 from youtube_transcripts.transcripts_loaders.video_transcripts_loaders import load_youtube_transcripts
+from youtube_transcripts.summarizer.export_transcript import export_transcript_text
+from youtube_transcripts.langfuse.callbackHandler import langfuseHandler
 
-__all__ = [llm, load_youtube_transcripts]
+__all__ = [llm, load_youtube_transcripts, export_transcript_text, retrieval_chain]
