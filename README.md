@@ -149,6 +149,17 @@ Note:-
                 <li>Error Handling introduction</li>
             </th>
         </tr>
+        <tr>
+            <th><a href="https://github.com/arkapatra31/langchain/releases/tag/v1.1.2">1.1.2</a></th>
+            <th>
+                <li>Setup LLM for Youtube transcript reader</li>
+                <li>Using Summarizer and Map_Reduce chain to summarise a long video transcript</li>
+                <li>Retreiving the Youtube Transcripts</li>
+                <li>Successful ingestion of Transcripts into Pinecone</li>
+                <li>Updated requirements.txt</li>
+                <li>Langfuse Integration</li>
+            </th>
+        </tr>
     </table>
 <br>
 <font color="#bde356"><b>LangSmith Tracing</b></font><br>
