@@ -1,6 +1,101 @@
-showroom_id  ,showroom_name  ,location  ,manager_id  ,contact_number  ,opening_hours  ,capacity  ,description  ,brand_id  ,city_id  
-SR001,Elite Motors,1234 Elm St,MG001,1234567890,9 AM - 7 PM,50,Elite Motors is a premier car showroom offering a wide range of luxury and sports cars designed to cater to the most discerning customers in the city,BR001,C001
-SR002,City Auto Mall,5678 Oak Ave,MG002,0987654321,10 AM - 8 PM,75,City Auto Mall showcases the latest models from various manufacturers providing a one-stop solution for all automotive needs in a spacious and modern environment,BR002,C002
-SR003,Driveway Showroom,9101 Pine Rd,MG003,1122334455,8 AM - 6 PM,40,Driveway Showroom specializes in family-friendly vehicles and eco-friendly options ensuring that every customer finds the perfect fit for their lifestyle and values,BR003,C003
-SR004,Prestige Cars,1213 Maple Blvd,MG004,2233445566,9 AM - 5 PM,60,Prestige Cars is dedicated to providing exceptional customer service and a curated selection of high-end vehicles that stand out for their quality and performance,BR004,C004
-SR005,Auto Hub,1415 Birch Ct,MG005,3344556677,10 AM - 7 PM,80,Auto Hub offers an extensive inventory of both new and pre-owned vehicles along with financing options making it a popular choice for car buyers in the region,BR005,C005
+showroom_id,showroom_name,location,manager_id,contact_number,opening_hours,capacity,description,brand_id,created_at
+SHRM56795,Morales-Harris,Port Sara,MGR02475,288.281.4896x6809,21:50:31,166,Their who benefit culture.,BRND08671,2021-12-06 07:23:58
+SHRM55232,Carr-Ramirez,Port Mark,MGR13459,930.346.1584x40286,05:38:19,334,Yard sing reality sport relationship page.,BRND37038,2020-02-10 19:11:24
+SHRM61195,"Rodriguez, Clarke and Black",Meadowsfurt,MGR30914,+1-371-266-1301x33914,19:33:47,346,Down avoid manager discuss group nor.,BRND54331,2021-09-09 22:52:28
+SHRM42852,"Torres, Sosa and Esparza",Dorseyberg,MGR95335,905.630.5614x91980,15:59:41,289,Within itself without protect.,BRND85417,2021-01-09 09:57:32
+SHRM14642,"Hutchinson, Jones and Merritt",Alyssashire,MGR86850,(296)765-1835x46021,07:55:18,41,Fill leg pressure born around.,BRND65179,2024-12-14 17:59:06
+SHRM44307,Hill-Roy,West Amberchester,MGR66151,3756683605,21:21:11,110,To thank while.,BRND18589,2023-03-30 01:04:03
+SHRM76509,Fields and Sons,West Ashleyton,MGR41432,9139176134,00:10:57,23,When always all statement.,BRND42041,2020-09-01 02:10:36
+SHRM32903,Lewis-Young,West Emilyhaven,MGR75228,(518)847-9911x7626,09:55:07,272,Lot later perhaps happen tend campaign either.,BRND77836,2020-03-06 20:23:35
+SHRM58052,Esparza-Cooper,North Denise,MGR87339,839-353-6082x51950,15:10:27,128,Ask since rather particularly.,BRND17771,2024-01-21 08:26:17
+SHRM06633,Potts-Scott,Lake Cassidy,MGR69051,001-260-326-5114,05:38:52,122,Tell station standard might.,BRND24460,2021-08-11 10:26:32
+SHRM07326,"Watson, Brooks and Watts",Jonesbury,MGR90164,886.520.1985,18:08:09,57,Respond recognize process along party.,BRND65405,2021-10-19 06:18:03
+SHRM97501,Howe-Anderson,Scottmouth,MGR82906,2929774415,10:28:49,487,Song among these interesting stuff.,BRND63089,2020-09-12 01:34:00
+SHRM96423,Powers-Elliott,Veronicastad,MGR48488,909-220-7929,13:46:51,176,Analysis shake high data week education bring.,BRND38416,2023-01-06 08:03:57
+SHRM45822,"Johnson, Gilbert and Parker",Port Erikastad,MGR52661,001-606-553-4244x6924,15:29:33,350,Ask easy father medical consumer small.,BRND69852,2023-07-28 18:45:10
+SHRM36719,"Gonzales, Sanders and Ballard",Alvarezville,MGR93640,(401)715-5634x94610,09:19:00,84,Husband artist old at black.,BRND76579,2023-05-19 03:24:07
+SHRM72061,Mcclain PLC,North Sara,MGR34417,001-921-540-6185,16:11:15,150,Increase project late reality put.,BRND57253,2021-11-12 13:26:28
+SHRM85338,"Hernandez, Wright and Hill",Thomasview,MGR10524,+1-926-296-1353x764,01:03:32,253,Clearly low find international.,BRND06314,2021-04-15 15:01:20
+SHRM31233,Kelly-Williamson,Justinton,MGR78222,(229)457-5871,07:38:40,49,Heart ground wind investment player.,BRND35687,2020-04-11 15:37:43
+SHRM01151,Conrad-York,Anneside,MGR75594,+1-749-733-7989x40320,15:32:48,179,Article later control house collection black force.,BRND72547,2022-04-13 17:47:38
+SHRM78528,"Fisher, Higgins and Williams",Tiffanybury,MGR09278,(278)843-4035,21:55:39,161,There minute however successful bring particularly.,BRND41418,2025-01-06 01:13:12
+SHRM91035,Hill LLC,East Michaelburgh,MGR44131,001-492-276-1434x11524,06:26:44,130,My not peace specific citizen beautiful.,BRND34749,2024-10-31 19:58:22
+SHRM82317,Miller-Weiss,Alvarezport,MGR23980,216.840.8942x121,18:13:46,95,Rock wind physical special task.,BRND87596,2023-05-08 16:19:41
+SHRM81940,"Graham, Abbott and Stephens",Hayesville,MGR78347,001-975-459-3495x6091,02:25:23,47,Indicate western whole matter response partner.,BRND11479,2024-05-24 14:44:01
+SHRM60762,Clark Ltd,South Williamland,MGR95535,001-831-243-3262,18:04:46,15,Sea school fear wear onto per behavior.,BRND10897,2024-08-08 06:50:51
+SHRM51457,May PLC,South Mitchell,MGR56000,(407)865-9559x56914,20:07:15,273,Building hair situation there guy.,BRND94303,2023-08-05 19:49:12
+SHRM30726,"Maldonado, Flores and Moreno",West Alexfort,MGR85027,(846)697-6412,11:05:08,171,Choose risk very contain team.,BRND15294,2024-12-20 21:53:18
+SHRM19000,Keith Group,East Roy,MGR69459,519.222.6874x06344,03:42:13,30,Attorney often state material act another.,BRND36554,2024-12-15 18:28:25
+SHRM74494,Holmes LLC,Aguilarville,MGR07539,885.469.1215x9662,06:44:38,100,Buy rest treatment whole wear life quality key.,BRND71247,2021-09-07 04:30:51
+SHRM77296,"Haley, Miller and Sutton",New Jerrymouth,MGR34052,599.550.6097,20:08:19,372,Coach feeling behind capital low standard national design.,BRND87755,2023-01-30 03:29:55
+SHRM40043,Wilson-Mahoney,East Robertmouth,MGR18437,9299575274,07:55:37,74,Almost turn land thus stuff.,BRND76273,2022-05-31 22:07:17
+SHRM81459,Sosa-Lewis,North Thomasmouth,MGR99455,(693)487-6509x528,06:42:11,475,Many affect run western quite first.,BRND81331,2020-11-20 04:37:11
+SHRM96927,Cain Inc,Port Megan,MGR10646,(556)858-9338x3587,13:19:42,413,Enough you appear prevent blood allow poor.,BRND53657,2022-05-27 10:19:52
+SHRM05095,"Kim, Bradford and Cain",Ryanmouth,MGR10187,895.560.1976,07:29:28,321,Shoulder do mind.,BRND84951,2020-07-12 13:16:20
+SHRM68542,"Harris, Hartman and Becker",Davismouth,MGR23558,(324)520-5367,17:47:19,214,Power size follow truth thank necessary.,BRND39866,2020-09-03 18:44:42
+SHRM21115,Webb Ltd,North Johnmouth,MGR12921,001-927-648-7804x5593,12:22:22,286,Owner including type central letter pull.,BRND70983,2023-07-06 04:34:21
+SHRM32006,Hart Group,Heatherberg,MGR25558,+1-644-872-4875x7979,07:21:00,1,Of meet water collection stand.,BRND66429,2020-05-05 18:20:56
+SHRM33068,"Wagner, Lindsey and Walker",Jameshaven,MGR53967,669.226.4602x1466,12:25:29,400,Check concern character heart.,BRND92709,2024-09-24 11:44:56
+SHRM12392,Daniels-Taylor,North Stevenstad,MGR86282,702-818-3027,02:13:25,340,Forward TV outside during mouth feeling character radio.,BRND24748,2020-02-05 23:09:08
+SHRM68831,"Roberts, Pollard and Jones",New Howard,MGR89162,2393007856,08:30:06,330,Seem radio young those risk quite college.,BRND41662,2022-11-19 19:24:13
+SHRM36403,"Clark, Gonzalez and Wolfe",North Erinland,MGR62099,867-800-5326,15:12:16,359,Feel they start her class public commercial success.,BRND12186,2022-08-28 18:48:43
+SHRM59973,Archer Inc,South Michael,MGR91317,540.608.3758,21:50:25,317,Address class impact road the rule fill.,BRND16188,2024-10-07 14:31:09
+SHRM69497,Miller-Pugh,Emmaville,MGR09395,(297)363-9649x21165,13:30:22,207,Station white number single take least.,BRND17135,2020-10-29 04:14:43
+SHRM82965,Boone-Thompson,Danielmouth,MGR20741,232-717-0271x0057,12:20:25,223,General various once.,BRND86349,2021-08-24 01:47:24
+SHRM40245,"Thomas, Castillo and Gutierrez",Parkerport,MGR65646,001-245-276-7996,18:45:09,492,Eye billion hand build do back.,BRND81157,2021-02-05 09:52:54
+SHRM84636,"Price, Wiggins and Combs",Cynthiastad,MGR50778,727.452.6658,07:14:37,137,Store back statement choose position.,BRND15154,2023-05-16 20:46:29
+SHRM79015,"Munoz, Rodgers and Hanna",New Amy,MGR73405,249.923.9262,05:48:57,20,Let still computer environmental produce.,BRND04144,2022-02-06 08:44:54
+SHRM53675,Williams-Hutchinson,Lake Jenniferside,MGR26390,(823)365-6859x324,04:00:39,132,North subject real their.,BRND07428,2024-12-24 02:05:36
+SHRM32713,"Perez, Duke and Moore",East Nicholas,MGR80430,656.793.0662x3290,00:30:00,229,Low nor summer fast matter bring.,BRND81589,2021-09-13 09:12:11
+SHRM20203,"Best, Cortez and Coleman",North Kimberlychester,MGR95314,690-299-5913,13:40:09,133,Listen surface economic often trip produce subject.,BRND03105,2020-10-18 10:54:55
+SHRM70777,Baker-Ortiz,Warrenhaven,MGR76023,914.976.1492x9591,02:01:15,353,Time education similar north common life whether.,BRND94892,2021-11-01 00:23:20
+SHRM80648,Estrada Group,New Lisaton,MGR12976,001-368-835-0913x186,07:38:45,464,Least item eye.,BRND98905,2023-03-11 11:31:26
+SHRM79043,Torres-Howard,Melissaton,MGR80991,(661)468-0273x19165,12:59:32,177,Generation fear contain scientist without show realize task.,BRND02394,2023-01-04 04:49:56
+SHRM78570,"Griffin, Torres and Cruz",East Gina,MGR17557,782.652.7982x737,18:03:23,58,Class case clear why always center end.,BRND26705,2022-11-07 09:42:22
+SHRM63916,"Clark, Jordan and Bowers",Frenchmouth,MGR41240,495-332-6824,23:29:51,302,Defense draw evening increase much.,BRND42804,2023-02-01 15:13:08
+SHRM98132,"Mckinney, Richardson and Green",East Lisa,MGR65077,711-225-5194,14:25:58,291,Hold right security me language item.,BRND29430,2023-10-15 18:30:48
+SHRM48672,"Wilson, Thornton and Howard",North Jefferyberg,MGR33625,580-720-0874x949,20:34:03,472,Black real suggest year poor particular.,BRND47809,2023-06-22 16:54:43
+SHRM57464,Fox-Turner,Romanfort,MGR57888,(348)862-0677x085,04:19:38,385,Feel news skin reach go mission yeah.,BRND46662,2023-06-14 09:44:04
+SHRM66167,Mason and Sons,West Meghan,MGR16812,001-332-242-8503x048,02:44:33,347,Soon whatever standard window lot interest nothing already.,BRND97175,2021-04-14 23:33:46
+SHRM46991,"Huff, Walsh and West",Douglasfort,MGR29850,699-847-2391,21:47:12,485,Treatment week newspaper and.,BRND46066,2024-11-14 21:36:59
+SHRM32173,"Campbell, Harris and Hudson",Nobleview,MGR18854,531-712-4786x101,19:23:17,13,Peace view yeah tell.,BRND17043,2020-05-30 14:55:59
+SHRM09690,Allen Group,Brendaville,MGR98708,386-454-5804,14:23:50,89,Hospital present success yes white control.,BRND90318,2024-10-09 12:21:15
+SHRM48989,Tucker-Weeks,Markborough,MGR84323,(766)965-5132x24631,08:19:48,338,Result add country none.,BRND99129,2024-12-07 11:18:10
+SHRM10507,"Taylor, Kennedy and Miller",Lake Dawnville,MGR12347,789.308.7454x7527,00:10:13,48,Ever politics opportunity her.,BRND54103,2020-07-14 13:25:41
+SHRM59804,Williams Inc,East Jenniferborough,MGR42836,216-410-3874,04:12:54,424,Role wait manager.,BRND62374,2020-02-27 13:48:15
+SHRM94558,Novak Inc,Lopezborough,MGR12015,001-936-697-6797,20:55:04,406,Doctor here expert back image.,BRND37090,2021-11-06 07:38:46
+SHRM40639,"Ingram, Yu and Cobb",Lake Samanthafurt,MGR08953,+1-516-710-3624x96459,07:52:57,12,Attorney part the or traditional others score.,BRND20168,2021-12-05 04:11:53
+SHRM80656,Johnson Ltd,East Kathleen,MGR49902,(809)602-4788,18:10:55,92,Sort political social young small subject.,BRND72142,2022-02-21 02:37:18
+SHRM33669,Jacobson Inc,Whiteborough,MGR22491,(357)376-7124,17:12:59,235,Place former space yes either need picture.,BRND41454,2020-06-05 11:55:21
+SHRM85786,"Burton, Jones and Bowman",Johnsonfurt,MGR49331,(824)344-4406,07:48:06,326,Letter involve sister sure local response.,BRND65207,2021-05-25 19:32:33
+SHRM61538,"Shelton, Pollard and Pierce",East Aliciaport,MGR07685,542.743.4091,17:31:58,99,Do soon tend of institution senior play.,BRND38960,2020-07-03 19:13:08
+SHRM27464,Horn-Wilkins,Foxborough,MGR59826,001-262-823-3377x7123,02:41:29,231,Today pick impact people.,BRND66843,2025-01-05 22:28:10
+SHRM64680,"Gaines, Williams and Snyder",Lake Jasonchester,MGR37358,(935)538-3606,14:11:49,305,Computer if painting.,BRND45785,2020-12-28 09:55:43
+SHRM84204,Harrison Ltd,Barnesfurt,MGR24772,511.713.4725x0012,12:37:10,92,Modern bit career ago cup law step.,BRND27285,2021-02-07 20:16:16
+SHRM86483,Dunn and Sons,Martinville,MGR36634,001-872-950-1331x4839,20:35:23,276,Source half assume view cup show authority.,BRND13681,2023-09-07 18:47:50
+SHRM42433,Rowland Inc,Alexandraview,MGR69944,001-469-413-0912x12549,12:30:55,436,Page gas strong different experience.,BRND54754,2020-09-09 17:01:31
+SHRM65147,Welch-Fritz,Danielview,MGR35481,252.855.1156x70482,07:38:16,28,Leg talk return ball bank population drop.,BRND64809,2024-03-24 08:17:25
+SHRM97744,Winters Group,South Jacquelinechester,MGR73863,(498)480-5450x993,10:43:16,34,Mother world instead still themselves current final through.,BRND76063,2021-10-13 02:27:25
+SHRM75661,Rhodes-Bird,East Ryanmouth,MGR00697,(743)400-8199x815,10:08:08,351,Leg vote pass argue deal serious.,BRND64310,2024-01-03 00:55:42
+SHRM18797,Stout-Clark,Autumnmouth,MGR63371,217-237-8728x4406,23:42:36,300,Head room vote artist stop great fill answer.,BRND66438,2020-05-12 19:14:33
+SHRM97309,Collins Ltd,Carrieland,MGR54703,001-257-829-0010,18:27:37,378,Happen check green total describe top.,BRND00089,2021-01-22 15:39:59
+SHRM57073,Rich-Mason,Port Brandontown,MGR22838,315.354.2770,03:52:27,438,Half away stop century.,BRND53445,2020-08-31 08:33:03
+SHRM27380,"Green, Rowe and Mcclain",Lake Stacyland,MGR77284,001-354-605-5094x9333,23:04:35,292,Institution ahead tend ok.,BRND62858,2024-06-21 21:18:00
+SHRM21696,"Lang, Stephens and Thompson",West Johnville,MGR63134,857.768.3205x060,09:30:25,100,Cause likely them.,BRND62937,2020-06-16 20:03:07
+SHRM65202,Gardner-Hayden,Susanchester,MGR02117,490-363-3773x20399,02:12:09,144,Defense authority certainly compare population.,BRND43629,2024-07-17 22:31:22
+SHRM96540,"Sanchez, Gordon and Perez",Port Ashley,MGR97184,703.611.2434x41175,04:28:51,192,Someone simply ten police bill use animal.,BRND98716,2020-11-16 03:11:02
+SHRM45252,Bates-Alvarez,South Beverlyton,MGR63234,471-336-1172x32232,07:04:29,267,Sense attorney program decade consider.,BRND07946,2023-12-30 13:39:42
+SHRM65874,Carter Group,Allenport,MGR18168,436.516.2895,10:21:51,394,Continue task save report.,BRND83942,2022-12-21 13:16:06
+SHRM10264,Graham Inc,Jenniferville,MGR77258,(255)858-8712x72275,22:45:50,173,Respond billion keep want fund authority cover tree.,BRND84475,2020-06-10 14:07:29
+SHRM62517,Mosley-Johnson,Johnmouth,MGR83074,711.978.1294x5019,21:32:15,205,Apply that beautiful music.,BRND41183,2024-06-15 01:11:19
+SHRM16616,"Carey, Harrison and Henderson",Williamsmouth,MGR56941,+1-331-508-6897x932,00:43:25,162,Television artist small skin few suffer less.,BRND63504,2021-04-24 04:29:56
+SHRM92013,"Hodge, Scott and Cook",East Courtneytown,MGR16578,(572)399-0702,13:09:11,242,Contain again crime we especially.,BRND07847,2020-08-13 09:29:35
+SHRM21921,Wong and Sons,Buckton,MGR24502,402.490.6098x661,07:46:04,399,Would view agree way clear serve hear.,BRND71863,2022-11-13 09:50:39
+SHRM45128,Burton-Castro,Villanuevaview,MGR93544,001-832-430-3965,10:52:45,451,Position all least like although rather.,BRND44743,2020-01-24 03:23:40
+SHRM72270,Garrett-Hayes,New Josephton,MGR87920,001-977-276-9395x41400,20:13:25,167,Democrat fine plant song site daughter.,BRND51551,2024-08-03 11:49:46
+SHRM76563,Williams-Thompson,Gallegosberg,MGR81458,(413)703-8258,08:47:31,129,Research this hundred bill quickly itself soon structure.,BRND21481,2024-04-10 21:31:35
+SHRM29303,"King, Gomez and Wright",Jefferyport,MGR24494,326-585-8867x946,16:33:40,410,Detail commercial thought still go after amount.,BRND66762,2024-10-18 01:11:24
+SHRM36032,"Hale, Jordan and Anderson",Acostachester,MGR02595,001-720-480-7846,00:36:05,297,Each relationship federal under adult future.,BRND67663,2022-05-25 10:19:34
+SHRM83284,Hayden-Rodriguez,Morrisfort,MGR67179,476.304.0217x595,15:16:04,442,Entire student majority to skill rich everybody reveal.,BRND74872,2020-01-17 05:40:03
+SHRM33387,Valdez-Diaz,Russellmouth,MGR99978,478.637.1081,06:05:09,151,Only despite wear make.,BRND26718,2022-04-14 01:03:02
+SHRM99149,"Brewer, Walsh and Williams",Conradbury,MGR42527,+1-491-621-6620x37667,12:59:09,6,Family town mention trouble executive political enter.,BRND00224,2020-07-25 03:41:19
