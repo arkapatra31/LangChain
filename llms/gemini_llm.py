@@ -15,7 +15,8 @@ class GeminiLLM():
     def returnLLMInstance(self):
         return self.llm
 
+gemini_llm = GeminiLLM().returnLLMInstance()
 
 __all__ = [
-    GeminiLLM
+    gemini_llm
 ]

@@ -1,8 +1,8 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
-from llms import GeminiLLM
+from llms import gemini_llm
 from langchain.prompts import PromptTemplate
 
-def fetchPrompt():
+def fetchPromptForJSONConfiguration():
     template = """
     
     LLM Role: Data Analyst 
@@ -14,11 +14,21 @@ def fetchPrompt():
     The {input_data} is a list of CSV files that contains data and are related to each other.
     
     TASK:
-        - As your job description, you are required to analyze the data, think carefully, find the nodes and relaitonships between the nodes and prepare a JSON configuration file that contains the nodes and relationships between the nodes.
+        - Analyze the data, find the nodes and relationships between the nodes
         
     TASK INSTRUCTIONS:
         - Analyze the data and find the nodes and relationships between the nodes.
-        - Prepare a JSON configuration file that contains the nodes and relationships between the nodes.
+        - Prepare a JSON configuration file that contains the nodes and relationships between the nodes which should include the following:
+            - Nodes: The nodes should contain the following information:
+                - id: The unique identifier of the node
+                - label: The label of the node
+                - properties: The properties of the node
+            - Relationships: The relationships between the nodes should contain the following information:
+                - id: The unique identifier of the relationship
+                - source: The source node of the relationship
+                - target: The target node of the relationship
+                - label: The label of the relationship
+                - properties: The properties of the relationship or  the key used to connect the nodes. 
         
     OUTPUT:
         - Only return the JSON configuration file that contains the nodes and relationships between the nodes
@@ -33,13 +43,13 @@ def fetchPrompt():
 
     return prompt_template
 
-def createGraph(input_data):
+def createGraphConfiguration(input_data):
 
     # Fetch the prompt template
-    prompt_template = fetchPrompt()
+    prompt_template = fetchPromptForJSONConfiguration()
 
     # fetch the llm instance
-    llm: ChatGoogleGenerativeAI = GeminiLLM().returnLLMInstance()
+    llm: ChatGoogleGenerativeAI = gemini_llm
 
     # LCEL for creating the chain
     chain = prompt_template | llm
@@ -54,5 +64,5 @@ def createGraph(input_data):
     return response.content
 
 __all__ = [
-    createGraph
+    createGraphConfiguration
 ]

@@ -1,4 +1,4 @@
-car_owner_id,name,address,phone_number,email,purchase_date,last_service_date,description,owner_since,car_id
+person_id,name,address,phone_number,email,purchase_date,last_service_date,description,owner_since,car_id
 NvXM-70483,Elizabeth Hall,"3229 Maxwell Viaduct Apt. 214
 West Stevechester, WV 87054",+1-919-522-0390x2362,dorothy38@example.com,2022-10-14,2025-01-20,Report far research color.,1972-03-08,CAR17168
 xwJi-24700,Nicole Norton,"USCGC Taylor

@@ -1,4 +1,4 @@
 from llms.openai_llm import llm
-from llms.gemini_llm import GeminiLLM
+from llms.gemini_llm import gemini_llm
 
-__all__ = [llm, GeminiLLM]
+__all__ = [llm, gemini_llm]
