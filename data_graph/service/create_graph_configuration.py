@@ -3,56 +3,67 @@ from llms import gemini_llm
 from langchain.prompts import PromptTemplate
 
 def fetchPromptForJSONConfiguration():
+    # template = """
+    #     DEFINE LLM ROLE:
+    #     - You are a Data Analyst and you are excellent in analyzing data and mapping them with 0 data loss
+    #
+    #     INPUT:
+    #     Here is your input data:
+    #     {input_data}
+    #
+    #     TASK DESCRIPTION:
+    #     You need to analyse the records and then return only the JSON content in JSON format. The JSON format details are as follows:
+    #     1. nodes: Dictionary of nodes with the following details:
+    #         - id: str = Unique identifier of the node
+    #         - label: str =  Label of the node
+    #         - properties: Optional[dict] = Properties of the node
+    #     2. relationships: List of relationships with the following details:
+    #         - sourceId: str = Unique identifier of the source node
+    #         - targetId: str = Unique identifier of the target node
+    #         - label: str = Label of the relationship
+    #         - properties: Optional[dict] = Properties of the relationship containing a foreign key and the value
+    #
+    #     IMPORTANT:
+    #     Make sure do not return any other information or metadata
+    # """
+
     template = """
-    
-    LLM Role: Data Analyst 
-    
-    LLM Job Description:
-        - You are a data analyst and you are excellent in analyzing data and finding potential links between data points.
-        
-    INPUT:
-    The {input_data} is a list of CSV files that contains data and are related to each other.
-    
-    TASK:
-        - Analyze the data, find the nodes and relationships between the nodes
-        
-    TASK INSTRUCTIONS:
-        - Analyze the data and find the nodes and relationships between the nodes.
-        - Prepare a JSON configuration file that contains the nodes and relationships between the nodes which should include the following:
-            - Nodes: The nodes should contain the following information:
-                - id: The unique identifier of the node
-                - label: The label of the node
-                - properties: The properties of the node
-            - Relationships: The relationships between the nodes should contain the following information:
-                - id: The unique identifier of the relationship
-                - source: The source node of the relationship
-                - target: The target node of the relationship
-                - label: The label of the relationship
-                - properties: The properties of the relationship or  the key used to connect the nodes. 
-        
-    OUTPUT:
-        - Only return the JSON configuration file that contains the nodes and relationships between the nodes
-        - DO NOT return any other information.
-        
-    """
+            DEFINE LLM ROLE:
+            - You are a Data Analyst and you are excellent in analyzing data and mapping them with 0 data loss
+
+            INPUT:
+            Here is your input data:
+            {input_data}
+
+            TASK DESCRIPTION:
+            You need to analyse the records and then return only the JSON content in JSON format. The JSON format details are as follows:
+            1. nodes: Dictionary of nodes with all the details of the rows in the input data
+                
+            2. relationships: List of relationships with all the links between the nodes in the input data
+
+            IMPORTANT:
+            Make sure do not return any other information or metadata
+        """
 
     prompt_template = PromptTemplate(
-        template = template,
-        input_variables = ['input_data'],
+        template=template,
+        input_variables=['input_data']
+        # partial_variables={
+        #     "format": output_parser.get_format_instructions()
+        # }
     )
 
     return prompt_template
 
-def createGraphConfiguration(input_data):
-
+def createGraphConfiguration(input_data) :
     # Fetch the prompt template
     prompt_template = fetchPromptForJSONConfiguration()
 
-    # fetch the llm instance
+    # Fetch the llm instance
     llm: ChatGoogleGenerativeAI = gemini_llm
 
     # LCEL for creating the chain
-    chain = prompt_template | llm
+    chain = prompt_template | llm #| output_parser
 
     # Execute the chain
     response = chain.invoke(

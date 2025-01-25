@@ -1,13 +1,12 @@
 import streamlit as st
 import pandas as pd
-from data_graph import createGraphConfiguration, create_cypher_query
+from data_graph import createGraphConfiguration, neo4j_graph
 from dotenv import load_dotenv
 import json
 
 from streamlit import session_state
 
 load_dotenv()
-
 
 st.title("Data Graph")
 
@@ -21,5 +20,10 @@ if uploaded_files:
             input_data.append(file.getvalue().decode("utf-8"))
         output = createGraphConfiguration(input_data)
         st.write(output)
-        cypher_query = create_cypher_query(uploaded_files, output)
-        st.write(cypher_query)
+
+        reponse = neo4j_graph(output)
+        st.write(reponse)
+
+        # st.write(output)
+        # cypher_query = create_cypher_query(uploaded_files, output)
+        # st.write(cypher_query)
