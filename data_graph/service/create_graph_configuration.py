@@ -12,19 +12,50 @@ def fetchPromptForJSONConfiguration():
         {input_data}
 
         TASK DESCRIPTION:
-        You need to analyse the records and then return only the JSON content in JSON format. The JSON format details are as follows:
-        1. nodes: Dictionary of nodes with the following details:
-            - id: str = Unique identifier of the node
-            - label: str =  Label of the node
-            - properties: Optional[dict] = Properties of the node
-        2. relationships: List of relationships with the following details:
-            - sourceId: str = Unique identifier of the source node
-            - targetId: str = Unique identifier of the target node
-            - label: str = Label of the relationship
-            - properties: Optional[dict] = Properties of the relationship containing a foreign key and the value
-
-        IMPORTANT:
-        Make sure do not return any other information or metadata
+        You need to analyse the records and then return only the JSON content in JSON format.
+        
+        OUTPUT FORMAT:
+        ```json
+        {{
+            "nodes": [
+                {{
+                    "id": "node id",
+                    "label": "node label",
+                    "type": "Node",
+                    "properties": {{
+                        "property1": "property1 value",
+                        "property2": "property2 value"
+                    }}
+                }}
+            ],
+            "relationships": [
+                {{
+                    "source": "source node id",
+                    "target": "target node id",
+                    "type": "Relationship Type",
+                    "properties": {{
+                        'source_id': 'source node id',
+                        'target_id': 'target node id'
+                }}
+            ]
+        }}
+        ```
+        
+        THOUGHT PROCESS to follow:
+        While transforming the data to JSON, follow the below steps:
+        1. *** Iterate through all the rows during creating nodes ***:
+                - From input data, iterate over every row in the input_data and create nodes
+                - Do not stop after processing first rows. Continue processing until all rows are included
+        2. *** Extract All related Entities during creating relationships ***:
+                - For every related entity, check all rows from the input_data to ensure no entity is missed out.
+                - Do not stop after extracting the first few related entities. Continue processing rows until all matches are included.
+                
+        IMPORTANT INSTRUCTIONS TO FOLLOW:
+                - Verify that every records from the input data are included in the nodes of the JSON, if not include them in the nodes
+                - Ensure no rows are missed out from output, if missed out, include them in the nodes
+                - Ensure the relationships are properly mapped with the nodes, if not validate and correct them
+                - Ensure all the above being considered, return the JSON output with zero data loss.
+        
     """
 
     # template = """

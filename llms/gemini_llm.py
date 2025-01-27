@@ -6,7 +6,7 @@ load_dotenv()
 class GeminiLLM():
     def __init__(self):
         self.llm = ChatGoogleGenerativeAI(
-            model="gemini-1.5-pro-002",
+            model="gemini-2.0-flash-exp", #"gemini-1.5-pro-002",
             temperature=0,
             verbose=True,
             transport="rest"
