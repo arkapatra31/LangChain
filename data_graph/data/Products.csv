@@ -1,0 +1,11 @@
+ProductID,ProductName,Category,Price
+1,Laptop,Electronics,1000
+2,Smartphone,Electronics,700
+3,Tablet,Electronics,500
+4,Headphones,Electronics,200
+5,Smartwatch,Electronics,300
+6,Keyboard,Electronics,50
+7,Mouse,Electronics,40
+8,Monitor,Electronics,150
+9,Printer,Electronics,120
+10,Webcam,Electronics,60
