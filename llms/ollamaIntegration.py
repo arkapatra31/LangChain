@@ -9,10 +9,13 @@ prompt = ChatPromptTemplate.from_template(template)
 
 llm = Ollama(
     base_url='http://localhost:11434',
-    model="llama3:latest"
+    model="deepseek-r1:latest"  # "llama3:latest"
 )
 
 chain = prompt | llm
 
-answer = chain.invoke({"question":"Who is Elon Musk"})
-print(answer)
+# answer = chain.invoke({"question": "Who is Elon Musk"})
+# print(answer)
+
+
+__all__ = [llm]
