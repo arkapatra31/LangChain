@@ -65,7 +65,6 @@ def read_dataframe_and_generate_data(domain, config, number_of_records, flavour,
         df.dropna(inplace=True)
         df.drop(df.index[[0]], inplace=True)
         df.reset_index(drop=True, inplace=True)
-        df.to_csv("data.csv", index=False)
 
         if reference_dataframe.empty:
             return df
