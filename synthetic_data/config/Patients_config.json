@@ -1,1 +1,62 @@
-{"patient_id  ": {"data_type": "string", "example_data": "[]"}, "first_name  ": {"data_type": "string", "example_data": "[]"}, "last_name  ": {"data_type": "string", "example_data": "[]"}, "date_of_birth  ": {"data_type": "string", "example_data": "[]"}, "gender  ": {"data_type": "string", "example_data": "[]"}, "contact_number  ": {"data_type": "string", "example_data": "[]"}, "email_address  ": {"data_type": "string", "example_data": "[]"}, "address  ": {"data_type": "string", "example_data": "[]"}, "medical_history  ": {"data_type": "string", "example_data": "[]"}, "allergies  ": {"data_type": "string", "example_data": "[]"}, "emergency_contact  ": {"data_type": "string", "example_data": "[]"}, "insurance_policy_number  ": {"data_type": "string", "example_data": "[]"}, "description  ": {"data_type": "string", "example_data": "[]"}, "doctor_id": {"data_type": "string", "example_data": "[]"}, "hospital_id": {"data_type": "string", "example_data": "[]"}}
+{
+  "patient_id  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "first_name  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "last_name  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "date_of_birth  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "gender  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "contact_number  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "email_address  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "address  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "medical_history  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "allergies  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "emergency_contact  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "insurance_policy_number  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "description  ": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "doctor_id": {
+    "data_type": "string",
+    "example_data": "[]"
+  },
+  "hospital_id": {
+    "data_type": "string",
+    "example_data": "[]"
+  }
+}

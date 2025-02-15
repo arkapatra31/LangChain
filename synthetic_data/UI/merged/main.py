@@ -7,7 +7,8 @@ from synthetic_data import (
     generate_address_for_US,
     read_dataframe_and_generate_data,
 )
-from synthetic_data import load_data_generation_component, load_template_generation_component, load_data_generation_component_with_faker
+from synthetic_data import load_data_generation_component, load_template_generation_component, \
+    load_data_generation_component_with_faker, extractSchema
 from synthetic_data.customer_generation.main import generate_customers
 from synthetic_data.order_generation.main import generate_order_data
 from synthetic_data.order_line_item_generation.main import (
@@ -35,27 +36,32 @@ if "domain" not in st.session_state:
 # Capture the OpenAI API key
 if "openai_api_key" not in st.session_state:
     st.session_state.openai_api_key = ""
+# Capture the schema extracted from the uploaded CSV
+if "schema" not in st.session_state:
+    st.session_state.schema = {}
 
 # Set page configuration
 st.set_page_config(page_title="Synthetic Data Generator", page_icon="📊", layout="centered")
+
 
 # Load styles.css for custom styling from assets folder
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("../assets/styles.css")
 
+local_css("../assets/styles.css")
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
 st.sidebar.header("Choose an option")
 
-options = st.sidebar.radio("Select an option", ["Template Generator", "Data Generator"])
+options = st.sidebar.radio("Select an option", ["Template Generator", "Data Generator", "Data Extractor"])
 
 if options == "Template Generator":
     load_template_generation_component(st)
-else:
+
+elif options == "Data Generator":
     # Ask if data needs to be generated using Faker or LLM using a radio button
     data_generation_option = st.radio("Select Data Generation Option", ["Faker", "LLM"])
     if data_generation_option == "LLM":
@@ -66,3 +72,7 @@ else:
             load_data_generation_component(st)
     else:
         load_data_generation_component_with_faker(st)
+
+else:
+    extractSchema(st)
+
