@@ -10,10 +10,12 @@ def prepare_template_schema(df: DataFrame, extract_data: str):
     # We need to pass all the records as example values to the column in the schema
     schema = {}
     for col in columns:
+        # Drop all empty rows, NaN, and None values from the column
+        df.dropna(subset=[col], inplace=True)
         # Prepare the schema for the column
         schema[col] = {
-            "data_type": str(df[col].dtype),
-            "example_data": df[col].head(1).tolist() if extract_data == "Yes" else []
+            "data_type": "string" if str(df[col].dtype) == "object" else str(df[col].dtype),
+            "example_data": str(df[col].head(10).tolist()) if extract_data == "Yes" else "[]"
         }
 
     return schema
