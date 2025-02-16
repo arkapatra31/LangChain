@@ -103,10 +103,12 @@ def read_config_and_generate_data_with_faker(number_of_records, config, referenc
     # Generate the DataFrame based on the config and number of records
     for key, value in config.items():
         if value["foreign_key"] == 0:
-            if value["data_type"] == "int":
+            if value["data_type"] == "int" or value["data_type"] == "float" or value["data_type"] == "int64" or value["data_type"] == "float64":
                 df[key] = [eval(value["faker_method"]) for i in range(number_of_records)]
+                #df[key] = [getattr(fake, value["faker_method"])() for i in range(number_of_records)]
             elif value["data_type"] == "string":
                 df[key] = [eval(value["faker_method"]) for i in range(number_of_records)]
+                #df[key] = [getattr(fake, value["faker_method"])() for i in range(number_of_records)]
 
     # Manage the foreign key data
     if not reference_df.empty:

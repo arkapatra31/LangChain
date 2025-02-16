@@ -15,7 +15,7 @@ def load_template_generation_component(st):
     # Input fields
     domain: str = st.text_input("Enter domain of data you are looking for")
     number_of = st.number_input(
-        "Enter the number of columns:", min_value=5, max_value=15, step=1
+        "Enter the number of columns:", min_value=5, max_value=40, step=1
     )
 
     # Button to generate columns

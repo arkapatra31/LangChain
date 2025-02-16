@@ -14,11 +14,23 @@ def prepare_template_schema(df: DataFrame, extract_data: str):
         df.dropna(subset=[col], inplace=True)
         # Prepare the schema for the column
         schema[col] = {
-            "data_type": "string" if str(df[col].dtype) == "object" else str(df[col].dtype),
-            "example_data": str(df[col].head(10).tolist()) if extract_data == "Yes" else "[]"
+            "data_type": associate_dataType(df, col),
+            "example_data": format_example_value(df, col, extract_data)
         }
 
     return schema
+
+def associate_dataType(df, col):
+    if str(df[col].dtype) == "int" or str(df[col].dtype) == "float" or str(df[col].dtype) == "int64" or str(df[col].dtype) == "float64":
+        return "int"
+    else:
+        return "string"
+
+def format_example_value(df,col, extract_data):
+    column_values = str(df[col].head(5).tolist()) if extract_data == "Yes" else "[]"
+    # Handle \ and ' characters in the string
+    column_values = column_values.replace("\\", "").replace("'", "")
+    return column_values
 
 
 __all__ = [

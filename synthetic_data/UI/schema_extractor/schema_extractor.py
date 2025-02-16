@@ -12,7 +12,7 @@ def extractSchema(st):
     extract_data = st.radio("Use Data as reference values ?", ["Yes", "No"])
 
     if uploaded_file is not None:
-        st.session_state.df = pd.read_csv(uploaded_file, encoding="utf-8")
+        st.session_state.df = pd.read_csv(uploaded_file)
 
     if st.button("Extract Schema"):
         with st.spinner("Extracting Schema..."):
@@ -48,7 +48,7 @@ def extractSchema(st):
                 if column in st.session_state.columns_to_remove:
                     st.session_state.columns_to_remove.remove(column)
 
-            col4.write("Dataset Referred" if  st.session_state.schema.get(column).get("example_data") else [])
+            col4.write("Dataset Referred" if  extract_data == "Yes" else [])
 
             is_foreign_key = col5.checkbox("Foreign Key", key=f"foreign_key_{column}")
             if is_foreign_key:
