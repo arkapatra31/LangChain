@@ -1,51 +1,40 @@
+from typing import List
+
 from langchain.tools import tool
 import os
-import fitz  # PyMuPDF
+from dotenv import load_dotenv
+from llama_cloud_services import LlamaParse
+from llama_index.core import SimpleDirectoryReader
+from llama_index.core import Document
 
+load_dotenv()
 
 @tool
-def extract_md_from_pdf(pdf_path):
+def extract_md_from_pdf(pdf_path: str) -> List[Document]:
     """
-    Convert PDF to Markdown
+    Extracts markdown content from a PDF file using the `pdf2md` CLI tool.
 
     Args:
-        pdf_path: The file path to the input PDF file.
+        pdf_path (str): The path to the PDF file to be converted.
+
+    Returns:
+        str: The extracted markdown content.
     """
-    if not os.path.exists(pdf_path):
-        return f"Error: PDF file not found at path {pdf_path}"
+    # set up parser
+    parser = LlamaParse(
+        api_key= os.getenv("LLAMA_PARSER_API_KEY"),
+        result_type="markdown"  # "markdown" and "text" are available
+    )
 
-    try:
-        # Open the PDF file
-        doc = fitz.open(pdf_path)
-        markdown_content = f"# {os.path.basename(pdf_path)}\n\n"
-
-        # Process each page
-        for page_num in range(len(doc)):
-            page = doc[page_num]
-
-            # Add page number as header
-            markdown_content += f"## Page {page_num + 1}\n\n"
-
-            # Extract text
-            text = page.get_text()
-
-            # Add the text to markdown content
-            markdown_content += text + "\n\n"
-
-        return markdown_content
-
-    except Exception as e:
-        return f"Error processing PDF: {str(e)}"
-
+    # use SimpleDirectoryReader to parse our file
+    documents = parser.load_data(file_path="SB1100_CD1_.pdf")
+    return documents
 
 if __name__ == "__main__":
-    pdf_path = "RBI.pdf"
-    # Now calling the tool using the invoke method
-    markdown_content = extract_md_from_pdf.invoke(pdf_path)
-
-    # Save the Markdown content to a file
-    with open("output.md", "w", encoding="utf-8") as md_file:
-        md_file.write(markdown_content)
-    print(f"PDF converted to Markdown and saved to output.md")
-
-__all__ = ["extract_md_from_pdf"]
+    # Example usage
+    pdf_path = "'SB1100_CD1_.pdf'"  # Replace with your PDF file path
+    documents: List[Document] = extract_md_from_pdf(pdf_path)
+    for doc in documents:
+        with open("SB1100_CD1_.md", "w") as f:
+            f.write(doc.text)
+        f.close()
