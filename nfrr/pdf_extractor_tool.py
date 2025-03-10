@@ -34,7 +34,6 @@ if __name__ == "__main__":
     # Example usage
     pdf_path = "'SB1100_CD1_.pdf'"  # Replace with your PDF file path
     documents: List[Document] = extract_md_from_pdf(pdf_path)
-    for doc in documents:
-        with open("SB1100_CD1_.md", "w") as f:
-            f.write(doc.text)
-        f.close()
+    with open("SB1100_CD1_.md", 'w', encoding="utf-8") as file:
+        for document in documents:
+            file.write(document.text_resource.text)
